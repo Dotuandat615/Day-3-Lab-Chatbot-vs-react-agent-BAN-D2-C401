@@ -1,0 +1,16 @@
+﻿file_name,description,primary_key,foreign_keys
+hospital_info.csv,Thông tin chung của một cơ sở bệnh viện demo.,hospital_id,
+specialties.csv,"Danh sách chuyên khoa, mô tả và triệu chứng thường gặp.",specialty_id,
+symptom_specialty_map.csv,Map từ khóa triệu chứng sang chuyên khoa gợi ý và mức độ khẩn cấp.,symptom_id,suggested_specialty_id -> specialties.specialty_id
+payment_coverage_types.csv,"Ba nhóm thanh toán thực tế: BHYT, bảo hiểm tư nhân, tự thanh toán.",coverage_type_id,
+doctors.csv,"Thông tin bác sĩ, chuyên khoa, phòng, ngôn ngữ, phí khám và hỗ trợ thanh toán.",doctor_id,specialty_id -> specialties.specialty_id
+services.csv,"Dịch vụ khám theo chuyên khoa, giá, thời lượng, chuẩn bị và hỗ trợ loại thanh toán.",service_id,specialty_id -> specialties.specialty_id
+doctor_schedule_templates.csv,Lịch làm việc mẫu của bác sĩ theo ngày trong tuần và ca.,schedule_id,doctor_id -> doctors.doctor_id
+appointment_slots.csv,"Slot khám cụ thể trong 2 tuần tiếp theo để agent tìm kiếm, lọc, xếp hạng và đặt lịch.",slot_id,doctor_id -> doctors.doctor_id; service_id -> services.service_id
+wait_time_history.csv,"Lịch sử thời gian chờ theo chuyên khoa, ngày trong tuần và khung giờ.",history_id,specialty_id -> specialties.specialty_id
+patients.csv,"Hồ sơ bệnh nhân giả lập, loại thanh toán và ngôn ngữ ưu tiên.",patient_id,coverage_type_id -> payment_coverage_types.coverage_type_id
+appointments.csv,Lịch hẹn đã đặt dựa trên các slot booked.,appointment_id,patient_id -> patients.patient_id; slot_id -> appointment_slots.slot_id
+reminder_logs.csv,Log nhắc lịch cho các appointment.,reminder_id,appointment_id -> appointments.appointment_id
+hospital_policies.csv,FAQ/chính sách để agent trả lời các câu hỏi ngoài đặt lịch.,policy_id,applies_to có thể là all hoặc specialty_id
+escalation_tickets.csv,Ticket fallback sang điều phối viên/con người.,ticket_id,
+feedback_reviews.csv,Phản hồi giả lập sau lịch hẹn.,review_id,appointment_id -> appointments.appointment_id

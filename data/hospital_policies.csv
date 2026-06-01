@@ -1,0 +1,25 @@
+﻿policy_id,category,question,answer,applies_to
+POL001,arrival,Tôi cần đến trước giờ khám bao lâu?,Bạn nên đến trước giờ hẹn khoảng 15–20 phút để làm thủ tục check-in.,all
+POL002,cancellation,Tôi có thể hủy lịch không?,"Bạn có thể hủy hoặc đổi lịch trước giờ khám. Nếu sát giờ khám, vui lòng liên hệ hotline.",all
+POL003,payment,Bệnh viện có thanh toán thẻ không?,"Bệnh viện hỗ trợ tiền mặt, thẻ và chuyển khoản.",all
+POL004,coverage,Tôi có thể dùng BHYT không?,"Một số dịch vụ có hỗ trợ BHYT. Mức hưởng phụ thuộc tuyến khám, giấy tờ hợp lệ và quy định hiện hành.",all
+POL005,coverage,Tôi có bảo hiểm tư nhân thì làm thế nào?,Bạn nên mang thẻ bảo hiểm tư nhân và CCCD. Quầy bảo hiểm sẽ kiểm tra quyền lợi bảo lãnh theo hợp đồng.,all
+POL006,documents,Cần mang giấy tờ gì khi đi khám?,"Bạn nên mang CCCD, thẻ BHYT nếu có, thẻ bảo hiểm tư nhân nếu có, đơn thuốc và kết quả khám cũ.",all
+POL007,preparation,Khám tổng quát có cần nhịn ăn không?,Một số gói khám tổng quát có thể cần nhịn ăn 6–8 giờ nếu có xét nghiệm máu.,S006
+POL008,telehealth,Bệnh viện có khám online không?,Một số bác sĩ và dịch vụ có hỗ trợ khám online. Agent sẽ lọc slot có is_telehealth = yes khi người dùng yêu cầu.,all
+POL009,children,Trẻ em đi khám cần chuẩn bị gì?,"Nên mang sổ tiêm chủng, đơn thuốc gần nhất và thông tin cân nặng/chiều cao của trẻ.",S003
+POL010,dermatology,Đi khám da liễu cần lưu ý gì?,"Nếu có thể, không bôi thuốc hoặc mỹ phẩm lên vùng da cần khám trước khi đến.",S002
+POL011,cardiology,Khám tim mạch cần mang gì?,"Nên mang kết quả điện tim, siêu âm tim, xét nghiệm và đơn thuốc tim mạch cũ nếu có.",S001
+POL012,emergency,Đau ngực dữ dội thì có nên đặt lịch thường không?,"Không nên chờ lịch thường nếu đau ngực dữ dội, khó thở nặng, ngất hoặc vã mồ hôi. Hãy gọi cấp cứu hoặc đến khoa Cấp cứu.",all
+POL013,working_hours,Bệnh viện làm việc mấy giờ?,Giờ làm việc demo là 07:30–17:30. Một số chuyên khoa có slot thứ Bảy.,all
+POL014,parking,Bệnh viện có chỗ gửi xe không?,Bệnh viện demo có khu vực gửi xe cho người bệnh.,all
+POL015,reschedule,Tôi muốn đổi lịch thì làm sao?,Bạn có thể cung cấp mã lịch hẹn và thời gian mong muốn mới để agent kiểm tra slot thay thế.,all
+POL016,late_arrival,Nếu tôi đến muộn thì sao?,"Nếu đến muộn, slot có thể bị thay đổi tùy tình trạng phòng khám. Bạn nên liên hệ hotline nếu biết trước sẽ đến muộn.",all
+POL017,price,Giá khám có cố định không?,Giá trong demo là giá ước tính/niêm yết cơ bản. Chi phí thực tế có thể thay đổi nếu phát sinh xét nghiệm hoặc thủ thuật.,all
+POL018,privacy,Thông tin bệnh nhân có được bảo mật không?,"Dữ liệu trong demo là dữ liệu giả lập. Trong hệ thống thật, thông tin bệnh nhân cần được bảo mật theo quy định.",all
+POL019,lab_result,Khi nào có kết quả xét nghiệm?,Thời gian có kết quả tùy loại xét nghiệm. Nhân viên bệnh viện sẽ hướng dẫn cụ thể sau khi chỉ định.,all
+POL020,fasting,Tôi có cần nhịn ăn trước khi khám không?,Chỉ một số dịch vụ/gói khám cần nhịn ăn. Agent sẽ kiểm tra preparation_required của dịch vụ.,all
+POL021,pregnancy,Khám thai cần mang gì?,"Nên mang sổ khám thai, kết quả siêu âm, xét nghiệm và đơn thuốc trước đó nếu có.",S007
+POL022,dental,Khám răng cần chuẩn bị gì?,Nên vệ sinh răng miệng trước khi đến khám và mang phim chụp răng cũ nếu có.,S012
+POL023,eye,Khám mắt cần mang gì?,Nên mang kính đang dùng và đơn kính cũ nếu có.,S011
+POL024,neurology,Đau đầu dữ dội có nên đặt lịch thường không?,"Nếu đau đầu đột ngột dữ dội, yếu liệt, nói khó hoặc méo miệng, hãy gọi cấp cứu hoặc đến cấp cứu.",S010

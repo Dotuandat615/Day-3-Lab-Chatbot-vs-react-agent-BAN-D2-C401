@@ -1,0 +1,13 @@
+﻿specialty_id,specialty_name,description,common_symptoms,min_age,max_age
+S001,Tim mạch,"Khám các vấn đề về tim, huyết áp, đau ngực, hồi hộp.",đau ngực; khó thở; hồi hộp; tăng huyết áp; mệt khi gắng sức,16,
+S002,Da liễu,"Khám bệnh về da, mụn, dị ứng, mẩn ngứa.",mụn; ngứa; nổi mẩn đỏ; phát ban; viêm da; rụng tóc,0,
+S003,Nhi khoa,Khám bệnh cho trẻ em.,sốt trẻ em; ho trẻ em; tiêu chảy trẻ em; phát ban trẻ em; bé bỏ bú,0,15
+S004,Tai Mũi Họng,"Khám tai, mũi, họng, xoang, ho kéo dài.",đau họng; nghẹt mũi; ù tai; viêm xoang; ho kéo dài,0,
+S005,Tiêu hóa,"Khám dạ dày, đại tràng, gan mật, rối loạn tiêu hóa.",đau bụng; đau dạ dày; buồn nôn; tiêu chảy; táo bón; ợ nóng,16,
+S006,Tổng quát,Khám tổng quát và các triệu chứng chưa rõ chuyên khoa.,mệt mỏi; sốt nhẹ; khám định kỳ; kiểm tra sức khỏe; đau đầu nhẹ,16,
+S007,Sản phụ khoa,"Khám sức khỏe phụ nữ, phụ khoa, thai kỳ.",đau bụng dưới; rối loạn kinh nguyệt; khám thai; viêm phụ khoa,16,
+S008,Cơ xương khớp,"Khám đau lưng, vai gáy, đau khớp, chấn thương nhẹ.",đau lưng; đau gối; đau vai gáy; tê tay chân; bong gân,16,
+S009,Nội tiết,"Khám tuyến giáp, đái tháo đường, rối loạn nội tiết.",khát nước nhiều; sụt cân; mệt mỏi kéo dài; bướu cổ; run tay,16,
+S010,Thần kinh,"Khám đau đầu, chóng mặt, tê bì, rối loạn giấc ngủ.",đau đầu; chóng mặt; tê bì; mất ngủ; run tay,16,
+S011,Mắt,"Khám mắt, giảm thị lực, đỏ mắt, khô mắt.",mờ mắt; đỏ mắt; đau mắt; khô mắt; chảy nước mắt,0,
+S012,Răng Hàm Mặt,"Khám răng miệng, đau răng, viêm lợi.",đau răng; chảy máu chân răng; sâu răng; viêm lợi; lệch khớp cắn,0,

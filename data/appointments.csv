@@ -1,0 +1,1142 @@
+﻿appointment_id,patient_id,slot_id,reason_for_visit,status,created_at,reminder_sent
+A00001,P0004,SL00011,Kiểm tra tim mạch định kỳ,no_show,2026-06-01 13:30:00,yes
+A00002,P0274,SL00012,Tăng huyết áp,rescheduled,2026-05-30 08:30:00,yes
+A00003,P0279,SL00016,Kiểm tra tim mạch định kỳ,no_show,2026-05-31 14:00:00,yes
+A00004,P0487,SL00017,Hồi hộp tim,confirmed,2026-05-25 05:45:00,yes
+A00005,P0277,SL00021,Tăng huyết áp,completed,2026-05-23 09:30:00,yes
+A00006,P0058,SL00025,Hồi hộp tim,completed,2026-05-22 09:30:00,yes
+A00007,P0438,SL00026,Kiểm tra tim mạch định kỳ,rescheduled,2026-05-31 04:30:00,yes
+A00008,P0443,SL00028,Đau ngực nhẹ,cancelled,2026-05-25 06:30:00,yes
+A00009,P0437,SL00029,Đau ngực nhẹ,confirmed,2026-05-26 11:00:00,yes
+A00010,P0128,SL00031,Hồi hộp tim,confirmed,2026-05-23 07:15:00,no
+A00011,P0079,SL00034,Đau ngực nhẹ,confirmed,2026-06-01 08:30:00,yes
+A00012,P0113,SL00038,Ngứa da,cancelled,2026-05-25 00:45:00,yes
+A00013,P0042,SL00041,Viêm da,confirmed,2026-05-24 10:30:00,no
+A00014,P0114,SL00042,Ngứa da,confirmed,2026-05-30 06:30:00,yes
+A00015,P0113,SL00050,Nổi mẩn đỏ,confirmed,2026-05-25 11:15:00,yes
+A00016,P0217,SL00053,Ngứa da,confirmed,2026-05-23 13:15:00,yes
+A00017,P0112,SL00056,Nổi mẩn đỏ,rescheduled,2026-05-21 11:30:00,yes
+A00018,P0084,SL00059,Nổi mẩn đỏ,confirmed,2026-05-22 11:45:00,yes
+A00019,P0101,SL00064,Tư vấn dinh dưỡng,confirmed,2026-05-21 08:45:00,yes
+A00020,P0061,SL00072,Tư vấn dinh dưỡng,rescheduled,2026-05-23 05:00:00,yes
+A00021,P0264,SL00075,Tư vấn dinh dưỡng,confirmed,2026-06-01 08:45:00,yes
+A00022,P0026,SL00078,Ho kéo dài ở trẻ,confirmed,2026-05-30 11:30:00,yes
+A00023,P0353,SL00081,Ho kéo dài ở trẻ,no_show,2026-05-22 13:00:00,no
+A00024,P0361,SL00089,Viêm xoang,confirmed,2026-05-30 08:00:00,no
+A00025,P0277,SL00090,Nghẹt mũi,completed,2026-06-01 04:15:00,no
+A00026,P0020,SL00095,Viêm xoang,rescheduled,2026-05-28 04:15:00,yes
+A00027,P0115,SL00097,Viêm xoang,confirmed,2026-05-30 08:00:00,yes
+A00028,P0478,SL00102,Viêm xoang,no_show,2026-05-29 07:45:00,yes
+A00029,P0122,SL00112,Đau dạ dày,confirmed,2026-05-31 03:45:00,no
+A00030,P0434,SL00115,Đầy bụng ợ nóng,confirmed,2026-05-23 08:45:00,no
+A00031,P0335,SL00118,Đau bụng,completed,2026-06-01 07:30:00,yes
+A00032,P0190,SL00119,Đầy bụng ợ nóng,confirmed,2026-05-26 12:45:00,yes
+A00033,P0458,SL00123,Rối loạn tiêu hóa,cancelled,2026-05-23 10:30:00,yes
+A00034,P0397,SL00132,Mệt mỏi,confirmed,2026-05-27 10:15:00,yes
+A00035,P0394,SL00136,Mệt mỏi,confirmed,2026-05-30 12:15:00,no
+A00036,P0418,SL00142,Sốt nhẹ,confirmed,2026-05-22 03:45:00,yes
+A00037,P0103,SL00143,Tư vấn tổng quát,rescheduled,2026-05-25 06:15:00,yes
+A00038,P0242,SL00149,Khám sức khỏe định kỳ,confirmed,2026-05-22 13:00:00,yes
+A00039,P0220,SL00150,Mệt mỏi,confirmed,2026-05-30 09:15:00,yes
+A00040,P0101,SL00152,Sốt nhẹ,confirmed,2026-05-23 08:15:00,yes
+A00041,P0487,SL00155,Sốt nhẹ,cancelled,2026-05-31 04:15:00,no
+A00042,P0350,SL00156,Mệt mỏi,completed,2026-05-29 09:45:00,yes
+A00043,P0278,SL00157,Tư vấn tổng quát,cancelled,2026-05-30 07:45:00,yes
+A00044,P0260,SL00159,Mệt mỏi,confirmed,2026-05-27 07:00:00,yes
+A00045,P0037,SL00160,Mệt mỏi,confirmed,2026-05-29 08:30:00,no
+A00046,P0247,SL00162,Khám sức khỏe định kỳ,completed,2026-05-22 11:30:00,yes
+A00047,P0296,SL00165,Khám thai định kỳ,no_show,2026-05-22 00:30:00,yes
+A00048,P0378,SL00167,Rối loạn kinh nguyệt,confirmed,2026-05-27 01:30:00,yes
+A00049,P0425,SL00169,Khám phụ khoa,cancelled,2026-05-27 13:45:00,no
+A00050,P0005,SL00170,Đau bụng dưới,no_show,2026-05-25 11:45:00,yes
+A00051,P0308,SL00172,Khám phụ khoa,completed,2026-05-21 09:15:00,no
+A00052,P0246,SL00175,Rối loạn kinh nguyệt,confirmed,2026-05-29 02:15:00,yes
+A00053,P0425,SL00176,Khám phụ khoa,confirmed,2026-05-28 02:30:00,yes
+A00054,P0217,SL00177,Khám thai định kỳ,completed,2026-05-23 04:15:00,yes
+A00055,P0459,SL00178,Khám phụ khoa,confirmed,2026-05-25 08:30:00,no
+A00056,P0410,SL00179,Đau bụng dưới,completed,2026-05-24 03:45:00,yes
+A00057,P0077,SL00186,Khám phụ khoa,confirmed,2026-05-25 09:45:00,yes
+A00058,P0400,SL00187,Rối loạn kinh nguyệt,confirmed,2026-05-25 03:15:00,yes
+A00059,P0367,SL00189,Đau bụng dưới,completed,2026-05-25 12:15:00,no
+A00060,P0455,SL00191,Đau bụng dưới,cancelled,2026-05-22 09:30:00,yes
+A00061,P0411,SL00193,Rối loạn kinh nguyệt,confirmed,2026-05-21 15:30:00,no
+A00062,P0158,SL00196,Đau bụng dưới,completed,2026-05-27 02:15:00,no
+A00063,P0428,SL00197,Khám thai định kỳ,cancelled,2026-05-31 01:45:00,yes
+A00064,P0244,SL00205,Đau gối,completed,2026-05-23 07:00:00,yes
+A00065,P0196,SL00207,Tê tay chân,confirmed,2026-05-21 08:15:00,yes
+A00066,P0139,SL00209,Đau vai gáy,confirmed,2026-05-27 12:30:00,yes
+A00067,P0476,SL00217,Đau vai gáy,confirmed,2026-05-29 06:30:00,no
+A00068,P0153,SL00220,Tê tay chân,confirmed,2026-05-23 08:15:00,no
+A00069,P0161,SL00224,Đau gối,cancelled,2026-05-26 12:00:00,yes
+A00070,P0144,SL00226,Kiểm tra đường huyết,confirmed,2026-05-31 11:00:00,no
+A00071,P0380,SL00233,Kiểm tra đường huyết,confirmed,2026-05-22 11:45:00,yes
+A00072,P0210,SL00235,Tư vấn tuyến giáp,confirmed,2026-05-22 10:45:00,yes
+A00073,P0027,SL00236,Sụt cân không rõ nguyên nhân,cancelled,2026-06-01 13:15:00,yes
+A00074,P0440,SL00237,Khát nước nhiều,confirmed,2026-05-27 12:00:00,no
+A00075,P0070,SL00240,Kiểm tra đường huyết,cancelled,2026-05-28 08:00:00,yes
+A00076,P0216,SL00241,Tư vấn tuyến giáp,confirmed,2026-06-01 10:45:00,yes
+A00077,P0432,SL00242,Khát nước nhiều,confirmed,2026-05-23 10:15:00,yes
+A00078,P0206,SL00243,Chóng mặt,cancelled,2026-05-30 00:15:00,yes
+A00079,P0362,SL00246,Mất ngủ,confirmed,2026-05-31 02:00:00,yes
+A00080,P0089,SL00253,Đau đầu,confirmed,2026-05-27 07:15:00,yes
+A00081,P0375,SL00257,Đau đầu,cancelled,2026-05-21 03:00:00,yes
+A00082,P0073,SL00261,Đau đầu,confirmed,2026-05-31 10:30:00,yes
+A00083,P0468,SL00262,Tê bì tay chân,confirmed,2026-05-23 02:30:00,yes
+A00084,P0121,SL00263,Mất ngủ,confirmed,2026-06-01 05:30:00,yes
+A00085,P0417,SL00265,Mất ngủ,confirmed,2026-05-31 04:00:00,yes
+A00086,P0083,SL00266,Đau đầu,completed,2026-06-01 09:45:00,yes
+A00087,P0067,SL00281,Viêm lợi,confirmed,2026-05-29 06:00:00,yes
+A00088,P0220,SL00282,Kiểm tra răng miệng,confirmed,2026-05-25 07:30:00,yes
+A00089,P0462,SL00295,Sâu răng,confirmed,2026-05-23 13:15:00,yes
+A00090,P0108,SL00300,Đau răng,confirmed,2026-05-24 13:00:00,no
+A00091,P0181,SL00301,Hồi hộp tim,confirmed,2026-06-01 01:30:00,no
+A00092,P0190,SL00302,Kiểm tra tim mạch định kỳ,confirmed,2026-05-30 01:45:00,yes
+A00093,P0248,SL00309,Hồi hộp tim,confirmed,2026-05-25 09:00:00,yes
+A00094,P0012,SL00314,Kiểm tra tim mạch định kỳ,confirmed,2026-05-28 07:45:00,yes
+A00095,P0238,SL00316,Tăng huyết áp,rescheduled,2026-05-23 02:45:00,yes
+A00096,P0305,SL00317,Kiểm tra tim mạch định kỳ,completed,2026-06-02 00:15:00,no
+A00097,P0376,SL00318,Hồi hộp tim,confirmed,2026-05-31 01:30:00,yes
+A00098,P0331,SL00320,Kiểm tra tim mạch định kỳ,confirmed,2026-05-29 02:15:00,no
+A00099,P0259,SL00321,Hồi hộp tim,rescheduled,2026-05-28 07:15:00,yes
+A00100,P0363,SL00331,Mụn kéo dài,cancelled,2026-05-28 14:30:00,no
+A00101,P0371,SL00332,Ngứa da,confirmed,2026-05-25 10:45:00,yes
+A00102,P0156,SL00336,Mụn kéo dài,confirmed,2026-05-26 07:00:00,yes
+A00103,P0288,SL00337,Viêm da,confirmed,2026-05-25 01:15:00,yes
+A00104,P0078,SL00338,Viêm da,confirmed,2026-05-23 02:00:00,yes
+A00105,P0271,SL00341,Nổi mẩn đỏ,cancelled,2026-05-30 09:45:00,yes
+A00106,P0421,SL00345,Mụn kéo dài,confirmed,2026-05-22 13:00:00,no
+A00107,P0282,SL00346,Nổi mẩn đỏ,confirmed,2026-05-27 13:30:00,yes
+A00108,P0125,SL00350,Viêm da,completed,2026-05-24 08:30:00,yes
+A00109,P0307,SL00351,Nổi mẩn đỏ,confirmed,2026-05-27 06:45:00,no
+A00110,P0251,SL00353,Viêm da,confirmed,2026-05-31 09:30:00,yes
+A00111,P0336,SL00354,Ngứa da,confirmed,2026-05-22 12:30:00,yes
+A00112,P0008,SL00362,Viêm da,cancelled,2026-05-22 07:30:00,no
+A00113,P0265,SL00364,Nổi mẩn đỏ,confirmed,2026-05-26 03:45:00,yes
+A00114,P0214,SL00365,Ngứa da,confirmed,2026-06-01 09:00:00,yes
+A00115,P0388,SL00367,Ho kéo dài ở trẻ,confirmed,2026-05-24 07:30:00,yes
+A00116,P0076,SL00370,Kiểm tra sức khỏe trẻ,confirmed,2026-05-26 09:30:00,yes
+A00117,P0294,SL00374,Tư vấn dinh dưỡng,no_show,2026-05-30 11:45:00,yes
+A00118,P0100,SL00375,Nghẹt mũi,confirmed,2026-06-02 05:15:00,no
+A00119,P0222,SL00379,Ù tai,cancelled,2026-06-01 11:30:00,yes
+A00120,P0302,SL00380,Đau họng,confirmed,2026-05-22 11:15:00,yes
+A00121,P0378,SL00381,Viêm xoang,confirmed,2026-05-31 07:45:00,yes
+A00122,P0351,SL00382,Ù tai,cancelled,2026-05-21 23:45:00,yes
+A00123,P0085,SL00388,Nghẹt mũi,confirmed,2026-05-30 07:45:00,yes
+A00124,P0489,SL00390,Ù tai,confirmed,2026-05-31 08:00:00,yes
+A00125,P0380,SL00398,Rối loạn tiêu hóa,completed,2026-05-25 07:00:00,yes
+A00126,P0070,SL00399,Đầy bụng ợ nóng,cancelled,2026-06-01 10:00:00,no
+A00127,P0087,SL00402,Đau bụng,confirmed,2026-05-30 07:30:00,yes
+A00128,P0160,SL00405,Đau bụng,no_show,2026-05-23 09:00:00,yes
+A00129,P0383,SL00408,Đầy bụng ợ nóng,confirmed,2026-05-23 07:30:00,yes
+A00130,P0055,SL00412,Rối loạn tiêu hóa,confirmed,2026-05-30 01:30:00,yes
+A00131,P0421,SL00415,Đau dạ dày,confirmed,2026-05-24 08:00:00,no
+A00132,P0295,SL00416,Đau bụng,confirmed,2026-05-28 08:30:00,no
+A00133,P0041,SL00420,Đau bụng,confirmed,2026-06-02 15:15:00,yes
+A00134,P0444,SL00423,Khám sức khỏe định kỳ,rescheduled,2026-05-21 23:15:00,no
+A00135,P0090,SL00424,Khám sức khỏe định kỳ,no_show,2026-05-27 02:30:00,yes
+A00136,P0378,SL00429,Sốt nhẹ,completed,2026-05-22 03:15:00,yes
+A00137,P0047,SL00431,Mệt mỏi,confirmed,2026-05-22 10:15:00,yes
+A00138,P0146,SL00432,Mệt mỏi,rescheduled,2026-05-25 12:00:00,no
+A00139,P0309,SL00433,Sốt nhẹ,confirmed,2026-05-25 13:30:00,no
+A00140,P0296,SL00435,Sốt nhẹ,confirmed,2026-05-23 09:00:00,yes
+A00141,P0171,SL00445,Mệt mỏi,rescheduled,2026-05-27 13:15:00,no
+A00142,P0013,SL00446,Mệt mỏi,no_show,2026-06-02 14:15:00,no
+A00143,P0267,SL00449,Khám thai định kỳ,confirmed,2026-05-27 12:45:00,yes
+A00144,P0214,SL00450,Đau bụng dưới,rescheduled,2026-05-27 09:45:00,yes
+A00145,P0336,SL00455,Khám phụ khoa,confirmed,2026-05-25 05:30:00,yes
+A00146,P0148,SL00461,Khám phụ khoa,no_show,2026-05-23 11:00:00,no
+A00147,P0300,SL00466,Rối loạn kinh nguyệt,no_show,2026-05-31 11:15:00,yes
+A00148,P0242,SL00469,Đau bụng dưới,completed,2026-05-23 01:30:00,yes
+A00149,P0106,SL00470,Đau bụng dưới,completed,2026-05-23 02:30:00,yes
+A00150,P0306,SL00474,Đau bụng dưới,confirmed,2026-05-31 09:15:00,yes
+A00151,P0379,SL00476,Tê tay chân,confirmed,2026-05-25 05:15:00,yes
+A00152,P0032,SL00477,Đau gối,rescheduled,2026-05-25 05:00:00,yes
+A00153,P0440,SL00480,Đau lưng,confirmed,2026-05-26 05:30:00,yes
+A00154,P0012,SL00481,Đau gối,confirmed,2026-05-23 04:15:00,no
+A00155,P0354,SL00482,Đau lưng,no_show,2026-05-22 07:15:00,no
+A00156,P0232,SL00483,Đau gối,confirmed,2026-05-27 07:45:00,yes
+A00157,P0010,SL00485,Đau vai gáy,confirmed,2026-05-26 10:45:00,yes
+A00158,P0104,SL00488,Đau vai gáy,completed,2026-05-27 06:15:00,yes
+A00159,P0023,SL00490,Đau gối,cancelled,2026-05-31 03:00:00,yes
+A00160,P0330,SL00497,Tê tay chân,confirmed,2026-05-30 11:15:00,yes
+A00161,P0316,SL00505,Tê tay chân,completed,2026-05-28 07:30:00,yes
+A00162,P0115,SL00511,Khát nước nhiều,confirmed,2026-06-02 04:30:00,yes
+A00163,P0144,SL00512,Sụt cân không rõ nguyên nhân,cancelled,2026-05-31 07:15:00,yes
+A00164,P0332,SL00513,Sụt cân không rõ nguyên nhân,confirmed,2026-05-26 04:15:00,no
+A00165,P0290,SL00514,Khát nước nhiều,confirmed,2026-05-23 04:45:00,yes
+A00166,P0289,SL00525,Tư vấn tuyến giáp,confirmed,2026-05-23 07:45:00,yes
+A00167,P0047,SL00527,Khát nước nhiều,cancelled,2026-06-01 09:15:00,yes
+A00168,P0330,SL00529,Tư vấn tuyến giáp,confirmed,2026-05-26 13:00:00,yes
+A00169,P0488,SL00534,Khát nước nhiều,confirmed,2026-05-31 04:45:00,yes
+A00170,P0012,SL00540,Mất ngủ,rescheduled,2026-05-27 07:00:00,yes
+A00171,P0026,SL00542,Mất ngủ,confirmed,2026-05-25 04:30:00,yes
+A00172,P0271,SL00544,Chóng mặt,cancelled,2026-06-02 10:00:00,yes
+A00173,P0209,SL00545,Tê bì tay chân,no_show,2026-06-02 07:45:00,no
+A00174,P0029,SL00549,Đau đầu,confirmed,2026-05-23 06:45:00,no
+A00175,P0092,SL00550,Mất ngủ,no_show,2026-05-23 07:15:00,yes
+A00176,P0349,SL00551,Chóng mặt,confirmed,2026-06-01 03:45:00,yes
+A00177,P0422,SL00552,Đau đầu,no_show,2026-05-24 07:30:00,yes
+A00178,P0216,SL00562,Tê bì tay chân,confirmed,2026-06-01 05:45:00,yes
+A00179,P0417,SL00567,Chóng mặt,confirmed,2026-05-30 13:45:00,yes
+A00180,P0296,SL00568,Mất ngủ,cancelled,2026-05-25 15:00:00,yes
+A00181,P0169,SL00570,Mờ mắt,confirmed,2026-05-26 03:15:00,yes
+A00182,P0395,SL00572,Đo thị lực,confirmed,2026-05-25 05:45:00,yes
+A00183,P0045,SL00576,Đỏ mắt,completed,2026-05-25 05:45:00,yes
+A00184,P0154,SL00577,Đo thị lực,confirmed,2026-05-25 14:00:00,yes
+A00185,P0327,SL00582,Mờ mắt,confirmed,2026-05-29 03:00:00,yes
+A00186,P0428,SL00586,Khô mắt,confirmed,2026-06-01 09:00:00,yes
+A00187,P0327,SL00587,Đau răng,cancelled,2026-05-26 07:00:00,yes
+A00188,P0256,SL00588,Đau răng,confirmed,2026-06-01 12:15:00,yes
+A00189,P0350,SL00591,Kiểm tra răng miệng,confirmed,2026-05-28 14:00:00,yes
+A00190,P0384,SL00594,Viêm lợi,cancelled,2026-05-30 04:30:00,yes
+A00191,P0260,SL00596,Đau răng,confirmed,2026-05-26 02:15:00,yes
+A00192,P0124,SL00597,Đau răng,completed,2026-05-25 02:45:00,yes
+A00193,P0420,SL00601,Đau răng,cancelled,2026-05-29 08:30:00,yes
+A00194,P0313,SL00603,Viêm lợi,confirmed,2026-06-02 06:15:00,yes
+A00195,P0157,SL00604,Đau răng,confirmed,2026-05-31 12:00:00,yes
+A00196,P0266,SL00606,Viêm lợi,confirmed,2026-05-28 12:45:00,yes
+A00197,P0240,SL00612,Đau ngực nhẹ,confirmed,2026-05-24 00:45:00,yes
+A00198,P0436,SL00614,Đau ngực nhẹ,completed,2026-05-31 01:15:00,yes
+A00199,P0132,SL00615,Tăng huyết áp,cancelled,2026-05-23 06:15:00,yes
+A00200,P0418,SL00621,Kiểm tra tim mạch định kỳ,confirmed,2026-05-31 12:30:00,no
+A00201,P0367,SL00625,Hồi hộp tim,confirmed,2026-05-29 05:30:00,yes
+A00202,P0252,SL00626,Đau ngực nhẹ,confirmed,2026-05-29 03:30:00,no
+A00203,P0064,SL00630,Ngứa da,confirmed,2026-06-02 00:00:00,yes
+A00204,P0372,SL00631,Ngứa da,cancelled,2026-06-03 00:30:00,yes
+A00205,P0060,SL00632,Ngứa da,completed,2026-05-28 06:00:00,yes
+A00206,P0146,SL00633,Ngứa da,confirmed,2026-05-25 04:00:00,yes
+A00207,P0290,SL00645,Sốt trẻ em,confirmed,2026-05-23 08:00:00,no
+A00208,P0348,SL00649,Tư vấn dinh dưỡng,completed,2026-06-02 08:15:00,yes
+A00209,P0077,SL00650,Kiểm tra sức khỏe trẻ,cancelled,2026-05-29 10:30:00,yes
+A00210,P0338,SL00651,Sốt trẻ em,confirmed,2026-05-29 14:15:00,yes
+A00211,P0191,SL00652,Ho kéo dài ở trẻ,confirmed,2026-05-29 07:15:00,yes
+A00212,P0138,SL00653,Sốt trẻ em,no_show,2026-05-23 13:45:00,yes
+A00213,P0280,SL00659,Ù tai,confirmed,2026-06-03 06:00:00,no
+A00214,P0204,SL00660,Đau họng,confirmed,2026-06-01 01:00:00,yes
+A00215,P0028,SL00662,Ù tai,confirmed,2026-05-24 04:30:00,no
+A00216,P0018,SL00666,Ù tai,confirmed,2026-06-01 00:15:00,no
+A00217,P0144,SL00669,Nghẹt mũi,completed,2026-05-31 03:30:00,yes
+A00218,P0134,SL00670,Ù tai,rescheduled,2026-05-24 08:30:00,yes
+A00219,P0196,SL00672,Ù tai,no_show,2026-05-27 08:00:00,yes
+A00220,P0181,SL00676,Nghẹt mũi,confirmed,2026-06-02 06:45:00,yes
+A00221,P0149,SL00677,Ù tai,cancelled,2026-05-29 15:15:00,yes
+A00222,P0127,SL00679,Rối loạn tiêu hóa,no_show,2026-06-01 03:30:00,yes
+A00223,P0240,SL00680,Đầy bụng ợ nóng,cancelled,2026-05-30 02:45:00,yes
+A00224,P0150,SL00681,Đầy bụng ợ nóng,confirmed,2026-05-25 08:45:00,yes
+A00225,P0339,SL00683,Rối loạn tiêu hóa,confirmed,2026-05-30 04:00:00,yes
+A00226,P0077,SL00690,Mệt mỏi,rescheduled,2026-05-23 01:15:00,yes
+A00227,P0439,SL00695,Sốt nhẹ,cancelled,2026-05-27 03:15:00,yes
+A00228,P0248,SL00697,Tư vấn tổng quát,cancelled,2026-05-24 06:45:00,yes
+A00229,P0127,SL00705,Sốt nhẹ,confirmed,2026-06-02 07:30:00,no
+A00230,P0089,SL00707,Mệt mỏi,completed,2026-05-26 07:15:00,no
+A00231,P0150,SL00709,Sốt nhẹ,confirmed,2026-05-25 05:45:00,yes
+A00232,P0163,SL00710,Khám sức khỏe định kỳ,confirmed,2026-05-28 01:30:00,yes
+A00233,P0059,SL00712,Tư vấn tổng quát,confirmed,2026-05-31 04:00:00,no
+A00234,P0197,SL00714,Sốt nhẹ,confirmed,2026-05-31 03:30:00,yes
+A00235,P0233,SL00716,Đau bụng dưới,confirmed,2026-06-03 04:45:00,yes
+A00236,P0390,SL00720,Khám phụ khoa,no_show,2026-06-01 02:15:00,yes
+A00237,P0335,SL00722,Khám thai định kỳ,rescheduled,2026-06-03 13:00:00,yes
+A00238,P0001,SL00723,Khám thai định kỳ,confirmed,2026-06-01 08:30:00,yes
+A00239,P0006,SL00728,Khám phụ khoa,confirmed,2026-05-27 08:15:00,yes
+A00240,P0439,SL00729,Rối loạn kinh nguyệt,confirmed,2026-05-28 02:45:00,yes
+A00241,P0406,SL00731,Đau bụng dưới,confirmed,2026-06-03 05:15:00,yes
+A00242,P0148,SL00736,Đau bụng dưới,confirmed,2026-06-02 06:30:00,yes
+A00243,P0496,SL00741,Khám phụ khoa,completed,2026-05-29 07:15:00,no
+A00244,P0467,SL00749,Đau vai gáy,cancelled,2026-06-01 15:15:00,yes
+A00245,P0290,SL00751,Đau gối,confirmed,2026-05-31 07:30:00,yes
+A00246,P0163,SL00752,Đau lưng,confirmed,2026-05-30 02:30:00,yes
+A00247,P0477,SL00755,Khát nước nhiều,cancelled,2026-05-24 06:00:00,no
+A00248,P0407,SL00758,Sụt cân không rõ nguyên nhân,confirmed,2026-05-27 01:30:00,yes
+A00249,P0323,SL00760,Kiểm tra đường huyết,confirmed,2026-06-02 02:45:00,yes
+A00250,P0296,SL00761,Tư vấn tuyến giáp,confirmed,2026-06-02 08:00:00,yes
+A00251,P0113,SL00765,Kiểm tra đường huyết,completed,2026-05-23 06:30:00,yes
+A00252,P0417,SL00766,Tư vấn tuyến giáp,confirmed,2026-06-01 09:45:00,yes
+A00253,P0476,SL00769,Sụt cân không rõ nguyên nhân,cancelled,2026-05-29 02:15:00,no
+A00254,P0040,SL00774,Sụt cân không rõ nguyên nhân,confirmed,2026-05-27 13:30:00,no
+A00255,P0288,SL00775,Kiểm tra đường huyết,no_show,2026-05-26 08:00:00,no
+A00256,P0059,SL00776,Khát nước nhiều,confirmed,2026-05-26 13:00:00,yes
+A00257,P0173,SL00778,Sụt cân không rõ nguyên nhân,confirmed,2026-05-24 10:30:00,yes
+A00258,P0074,SL00784,Mất ngủ,cancelled,2026-06-03 03:15:00,yes
+A00259,P0234,SL00785,Đau đầu,rescheduled,2026-05-30 05:00:00,yes
+A00260,P0337,SL00786,Mất ngủ,completed,2026-05-23 02:00:00,yes
+A00261,P0207,SL00792,Tê bì tay chân,cancelled,2026-06-02 12:15:00,yes
+A00262,P0122,SL00803,Đau đầu,confirmed,2026-05-25 03:00:00,yes
+A00263,P0139,SL00806,Tê bì tay chân,confirmed,2026-05-29 07:30:00,yes
+A00264,P0216,SL00807,Đau đầu,confirmed,2026-05-23 05:15:00,yes
+A00265,P0145,SL00808,Mất ngủ,confirmed,2026-05-26 10:45:00,yes
+A00266,P0252,SL00809,Tê bì tay chân,rescheduled,2026-06-02 06:15:00,no
+A00267,P0117,SL00813,Chóng mặt,rescheduled,2026-05-24 12:15:00,yes
+A00268,P0387,SL00814,Mất ngủ,confirmed,2026-06-02 09:15:00,yes
+A00269,P0105,SL00817,Mất ngủ,confirmed,2026-05-30 02:45:00,yes
+A00270,P0299,SL00819,Chóng mặt,confirmed,2026-05-27 09:15:00,yes
+A00271,P0264,SL00820,Mất ngủ,cancelled,2026-06-01 07:30:00,yes
+A00272,P0056,SL00825,Tê bì tay chân,confirmed,2026-06-03 12:15:00,yes
+A00273,P0233,SL00826,Đau đầu,completed,2026-05-28 08:30:00,no
+A00274,P0158,SL00827,Tê bì tay chân,cancelled,2026-06-02 12:15:00,yes
+A00275,P0416,SL00828,Chóng mặt,confirmed,2026-05-28 10:15:00,yes
+A00276,P0416,SL00829,Chóng mặt,confirmed,2026-05-26 12:45:00,yes
+A00277,P0260,SL00830,Mờ mắt,confirmed,2026-05-25 06:45:00,yes
+A00278,P0077,SL00831,Mờ mắt,confirmed,2026-05-27 04:45:00,yes
+A00279,P0023,SL00832,Đo thị lực,confirmed,2026-05-26 05:30:00,yes
+A00280,P0282,SL00833,Mờ mắt,rescheduled,2026-05-25 02:15:00,yes
+A00281,P0236,SL00835,Khô mắt,completed,2026-05-24 07:15:00,no
+A00282,P0242,SL00842,Đỏ mắt,no_show,2026-05-24 08:45:00,no
+A00283,P0184,SL00846,Đo thị lực,rescheduled,2026-06-02 05:15:00,yes
+A00284,P0235,SL00849,Đỏ mắt,confirmed,2026-05-25 04:30:00,yes
+A00285,P0051,SL00850,Khô mắt,confirmed,2026-05-28 10:15:00,yes
+A00286,P0122,SL00852,Đỏ mắt,completed,2026-05-23 07:30:00,yes
+A00287,P0054,SL00855,Mờ mắt,confirmed,2026-05-25 07:30:00,yes
+A00288,P0129,SL00856,Khô mắt,confirmed,2026-05-25 16:00:00,yes
+A00289,P0377,SL00857,Đo thị lực,confirmed,2026-05-28 12:15:00,no
+A00290,P0200,SL00858,Khô mắt,confirmed,2026-06-02 06:15:00,yes
+A00291,P0436,SL00859,Khô mắt,rescheduled,2026-05-29 04:30:00,yes
+A00292,P0096,SL00862,Đỏ mắt,confirmed,2026-05-28 08:15:00,yes
+A00293,P0488,SL00863,Đỏ mắt,no_show,2026-05-28 09:30:00,yes
+A00294,P0409,SL00864,Khô mắt,confirmed,2026-05-30 08:15:00,yes
+A00295,P0255,SL00867,Mờ mắt,confirmed,2026-06-03 13:45:00,yes
+A00296,P0031,SL00870,Mờ mắt,cancelled,2026-05-30 12:00:00,yes
+A00297,P0476,SL00871,Đo thị lực,cancelled,2026-05-31 14:45:00,yes
+A00298,P0064,SL00873,Kiểm tra răng miệng,confirmed,2026-05-31 07:30:00,yes
+A00299,P0421,SL00875,Kiểm tra răng miệng,confirmed,2026-05-28 06:30:00,yes
+A00300,P0371,SL00877,Đau răng,confirmed,2026-05-31 14:45:00,yes
+A00301,P0104,SL00879,Đau răng,no_show,2026-05-30 10:45:00,no
+A00302,P0347,SL00880,Viêm lợi,confirmed,2026-05-28 12:00:00,yes
+A00303,P0213,SL00882,Kiểm tra răng miệng,completed,2026-05-27 13:30:00,yes
+A00304,P0219,SL00884,Kiểm tra răng miệng,confirmed,2026-05-29 08:15:00,yes
+A00305,P0092,SL00892,Viêm da,no_show,2026-06-01 08:00:00,yes
+A00306,P0245,SL00893,Nổi mẩn đỏ,confirmed,2026-05-27 07:15:00,yes
+A00307,P0413,SL00894,Ngứa da,confirmed,2026-05-28 00:30:00,yes
+A00308,P0367,SL00896,Mụn kéo dài,confirmed,2026-05-26 06:00:00,yes
+A00309,P0350,SL00897,Nổi mẩn đỏ,completed,2026-05-27 02:00:00,no
+A00310,P0085,SL00898,Nổi mẩn đỏ,confirmed,2026-05-31 03:45:00,no
+A00311,P0495,SL00905,Kiểm tra sức khỏe trẻ,confirmed,2026-05-26 06:45:00,yes
+A00312,P0218,SL00907,Ho kéo dài ở trẻ,completed,2026-05-31 01:30:00,yes
+A00313,P0191,SL00909,Kiểm tra sức khỏe trẻ,confirmed,2026-06-01 08:00:00,yes
+A00314,P0433,SL00911,Ho kéo dài ở trẻ,confirmed,2026-05-27 05:15:00,yes
+A00315,P0326,SL00925,Đau họng,completed,2026-05-31 15:00:00,yes
+A00316,P0131,SL00933,Đau bụng,confirmed,2026-05-26 03:30:00,yes
+A00317,P0452,SL00936,Đầy bụng ợ nóng,confirmed,2026-05-25 03:45:00,no
+A00318,P0159,SL00938,Đầy bụng ợ nóng,confirmed,2026-06-01 02:15:00,yes
+A00319,P0111,SL00939,Đau dạ dày,no_show,2026-05-26 08:45:00,no
+A00320,P0178,SL00942,Đau bụng,confirmed,2026-05-26 08:30:00,no
+A00321,P0272,SL00946,Đau bụng,confirmed,2026-05-31 04:30:00,yes
+A00322,P0143,SL00947,Đầy bụng ợ nóng,cancelled,2026-06-03 06:30:00,yes
+A00323,P0297,SL00949,Đau bụng,cancelled,2026-05-26 01:00:00,no
+A00324,P0286,SL00955,Đầy bụng ợ nóng,cancelled,2026-05-27 13:00:00,yes
+A00325,P0092,SL00959,Đau bụng,confirmed,2026-05-30 08:30:00,yes
+A00326,P0413,SL00960,Tư vấn tổng quát,rescheduled,2026-05-31 04:30:00,yes
+A00327,P0384,SL00961,Sốt nhẹ,confirmed,2026-05-28 04:45:00,yes
+A00328,P0406,SL00965,Mệt mỏi,confirmed,2026-05-30 08:45:00,yes
+A00329,P0111,SL00967,Mệt mỏi,confirmed,2026-05-25 06:15:00,yes
+A00330,P0311,SL00968,Mệt mỏi,confirmed,2026-06-02 06:45:00,no
+A00331,P0304,SL00971,Mệt mỏi,cancelled,2026-05-25 11:45:00,yes
+A00332,P0388,SL00973,Sốt nhẹ,confirmed,2026-05-31 12:30:00,yes
+A00333,P0139,SL00979,Sốt nhẹ,confirmed,2026-05-29 05:45:00,yes
+A00334,P0100,SL00981,Sốt nhẹ,confirmed,2026-05-26 11:45:00,yes
+A00335,P0026,SL00984,Tư vấn tổng quát,completed,2026-05-29 11:15:00,yes
+A00336,P0050,SL00987,Rối loạn kinh nguyệt,cancelled,2026-05-29 08:15:00,yes
+A00337,P0478,SL00994,Đau bụng dưới,rescheduled,2026-06-02 08:45:00,yes
+A00338,P0259,SL00996,Rối loạn kinh nguyệt,confirmed,2026-05-31 08:15:00,yes
+A00339,P0364,SL01002,Đau lưng,no_show,2026-06-03 12:30:00,yes
+A00340,P0006,SL01004,Đau gối,confirmed,2026-06-03 08:30:00,yes
+A00341,P0136,SL01005,Đau vai gáy,confirmed,2026-06-02 09:45:00,yes
+A00342,P0483,SL01006,Đau lưng,confirmed,2026-05-26 07:45:00,no
+A00343,P0014,SL01019,Đau lưng,completed,2026-06-03 14:45:00,yes
+A00344,P0274,SL01022,Sụt cân không rõ nguyên nhân,confirmed,2026-05-30 09:00:00,yes
+A00345,P0348,SL01023,Kiểm tra đường huyết,confirmed,2026-05-25 08:30:00,yes
+A00346,P0489,SL01027,Khát nước nhiều,confirmed,2026-06-02 13:15:00,yes
+A00347,P0128,SL01028,Sụt cân không rõ nguyên nhân,cancelled,2026-05-29 08:45:00,no
+A00348,P0387,SL01030,Khát nước nhiều,confirmed,2026-05-28 09:15:00,yes
+A00349,P0441,SL01034,Kiểm tra đường huyết,confirmed,2026-05-25 02:00:00,no
+A00350,P0247,SL01043,Kiểm tra đường huyết,confirmed,2026-05-26 08:45:00,yes
+A00351,P0393,SL01049,Kiểm tra đường huyết,cancelled,2026-05-26 02:15:00,yes
+A00352,P0359,SL01053,Kiểm tra đường huyết,completed,2026-05-27 08:30:00,yes
+A00353,P0268,SL01054,Sụt cân không rõ nguyên nhân,confirmed,2026-05-24 14:30:00,yes
+A00354,P0166,SL01057,Sụt cân không rõ nguyên nhân,completed,2026-06-01 11:30:00,yes
+A00355,P0025,SL01065,Mất ngủ,confirmed,2026-05-30 03:00:00,yes
+A00356,P0072,SL01067,Mất ngủ,confirmed,2026-06-01 03:30:00,no
+A00357,P0087,SL01068,Mất ngủ,confirmed,2026-05-27 02:45:00,yes
+A00358,P0290,SL01071,Đỏ mắt,confirmed,2026-05-30 06:00:00,yes
+A00359,P0333,SL01072,Khô mắt,rescheduled,2026-06-03 02:45:00,yes
+A00360,P0414,SL01075,Mờ mắt,confirmed,2026-05-28 01:30:00,yes
+A00361,P0460,SL01077,Mờ mắt,rescheduled,2026-05-24 10:15:00,yes
+A00362,P0006,SL01078,Đo thị lực,cancelled,2026-06-01 10:45:00,no
+A00363,P0245,SL01083,Khô mắt,no_show,2026-05-25 09:15:00,yes
+A00364,P0197,SL01084,Khô mắt,rescheduled,2026-05-26 12:00:00,yes
+A00365,P0094,SL01088,Mờ mắt,confirmed,2026-05-24 05:00:00,yes
+A00366,P0222,SL01090,Khô mắt,confirmed,2026-06-03 02:15:00,yes
+A00367,P0175,SL01091,Mờ mắt,completed,2026-06-02 03:15:00,no
+A00368,P0129,SL01092,Đo thị lực,confirmed,2026-05-25 11:45:00,yes
+A00369,P0045,SL01096,Đỏ mắt,completed,2026-05-31 12:15:00,yes
+A00370,P0354,SL01098,Đỏ mắt,cancelled,2026-06-03 14:30:00,yes
+A00371,P0348,SL01103,Sâu răng,confirmed,2026-05-29 08:30:00,yes
+A00372,P0333,SL01106,Viêm lợi,confirmed,2026-06-04 11:00:00,yes
+A00373,P0162,SL01111,Đau răng,confirmed,2026-05-28 12:00:00,yes
+A00374,P0363,SL01112,Viêm lợi,confirmed,2026-05-29 10:00:00,yes
+A00375,P0144,SL01113,Viêm da,confirmed,2026-05-31 00:45:00,yes
+A00376,P0282,SL01116,Ngứa da,no_show,2026-06-04 03:00:00,yes
+A00377,P0147,SL01125,Nổi mẩn đỏ,cancelled,2026-05-31 08:30:00,no
+A00378,P0244,SL01133,Sốt trẻ em,no_show,2026-06-04 05:45:00,yes
+A00379,P0253,SL01136,Tư vấn dinh dưỡng,confirmed,2026-05-30 12:00:00,no
+A00380,P0373,SL01137,Kiểm tra sức khỏe trẻ,confirmed,2026-05-28 10:00:00,no
+A00381,P0347,SL01140,Nghẹt mũi,cancelled,2026-06-04 11:15:00,yes
+A00382,P0152,SL01141,Ù tai,confirmed,2026-06-02 14:15:00,yes
+A00383,P0369,SL01142,Viêm xoang,confirmed,2026-05-30 09:45:00,yes
+A00384,P0453,SL01147,Đau họng,confirmed,2026-06-03 10:00:00,no
+A00385,P0271,SL01150,Viêm xoang,completed,2026-05-29 00:30:00,yes
+A00386,P0338,SL01151,Ù tai,confirmed,2026-06-01 02:15:00,no
+A00387,P0408,SL01152,Viêm xoang,confirmed,2026-05-26 04:15:00,yes
+A00388,P0215,SL01159,Ù tai,cancelled,2026-05-31 10:15:00,no
+A00389,P0236,SL01165,Đau dạ dày,confirmed,2026-05-31 08:30:00,yes
+A00390,P0208,SL01166,Đau bụng,no_show,2026-05-28 03:00:00,yes
+A00391,P0442,SL01168,Đau bụng,confirmed,2026-05-25 09:00:00,no
+A00392,P0360,SL01175,Rối loạn tiêu hóa,confirmed,2026-06-02 10:30:00,yes
+A00393,P0482,SL01178,Rối loạn tiêu hóa,completed,2026-05-30 06:15:00,yes
+A00394,P0191,SL01189,Đau bụng,cancelled,2026-05-29 03:00:00,no
+A00395,P0228,SL01191,Đau dạ dày,confirmed,2026-05-25 12:15:00,no
+A00396,P0290,SL01192,Đau dạ dày,rescheduled,2026-05-28 09:30:00,yes
+A00397,P0278,SL01195,Đau dạ dày,confirmed,2026-05-26 12:00:00,yes
+A00398,P0314,SL01197,Rối loạn tiêu hóa,confirmed,2026-06-05 11:00:00,yes
+A00399,P0244,SL01199,Đầy bụng ợ nóng,no_show,2026-06-04 12:00:00,yes
+A00400,P0085,SL01203,Đầy bụng ợ nóng,confirmed,2026-05-30 13:00:00,yes
+A00401,P0011,SL01204,Mệt mỏi,confirmed,2026-06-02 12:30:00,yes
+A00402,P0350,SL01209,Khám sức khỏe định kỳ,confirmed,2026-06-05 07:15:00,no
+A00403,P0200,SL01210,Khám sức khỏe định kỳ,completed,2026-06-05 09:30:00,yes
+A00404,P0329,SL01211,Khám phụ khoa,confirmed,2026-05-26 07:30:00,no
+A00405,P0172,SL01220,Rối loạn kinh nguyệt,confirmed,2026-06-04 10:45:00,yes
+A00406,P0284,SL01222,Khám phụ khoa,confirmed,2026-06-01 08:30:00,no
+A00407,P0024,SL01223,Đau bụng dưới,confirmed,2026-05-26 15:15:00,yes
+A00408,P0259,SL01234,Đau gối,confirmed,2026-06-05 03:00:00,yes
+A00409,P0395,SL01236,Đau vai gáy,completed,2026-05-29 07:30:00,yes
+A00410,P0196,SL01239,Tê tay chân,confirmed,2026-05-26 07:45:00,no
+A00411,P0363,SL01245,Đau gối,cancelled,2026-05-30 04:15:00,yes
+A00412,P0364,SL01258,Tê tay chân,confirmed,2026-05-28 06:15:00,yes
+A00413,P0301,SL01272,Khát nước nhiều,confirmed,2026-05-27 10:30:00,yes
+A00414,P0202,SL01275,Sụt cân không rõ nguyên nhân,confirmed,2026-05-26 10:45:00,no
+A00415,P0381,SL01278,Khát nước nhiều,no_show,2026-05-26 12:15:00,yes
+A00416,P0290,SL01289,Sâu răng,confirmed,2026-05-27 07:30:00,yes
+A00417,P0387,SL01292,Kiểm tra răng miệng,rescheduled,2026-05-25 07:30:00,yes
+A00418,P0358,SL01295,Kiểm tra răng miệng,completed,2026-06-05 07:45:00,no
+A00419,P0346,SL01301,Kiểm tra răng miệng,cancelled,2026-05-30 11:45:00,no
+A00420,P0175,SL01306,Kiểm tra răng miệng,no_show,2026-05-28 13:00:00,yes
+A00421,P0498,SL01309,Hồi hộp tim,confirmed,2026-06-05 07:30:00,no
+A00422,P0477,SL01310,Hồi hộp tim,completed,2026-06-06 05:30:00,yes
+A00423,P0002,SL01314,Hồi hộp tim,completed,2026-05-30 15:45:00,no
+A00424,P0245,SL01315,Tăng huyết áp,confirmed,2026-06-07 07:30:00,yes
+A00425,P0215,SL01316,Đau ngực nhẹ,no_show,2026-06-03 06:45:00,yes
+A00426,P0354,SL01317,Kiểm tra tim mạch định kỳ,no_show,2026-06-07 04:30:00,yes
+A00427,P0447,SL01318,Kiểm tra tim mạch định kỳ,confirmed,2026-05-31 06:15:00,yes
+A00428,P0299,SL01319,Tăng huyết áp,confirmed,2026-06-07 01:30:00,yes
+A00429,P0207,SL01322,Đau ngực nhẹ,confirmed,2026-05-27 06:30:00,yes
+A00430,P0143,SL01325,Tăng huyết áp,confirmed,2026-06-07 02:15:00,yes
+A00431,P0169,SL01326,Tăng huyết áp,confirmed,2026-05-31 03:30:00,yes
+A00432,P0019,SL01328,Hồi hộp tim,no_show,2026-05-30 03:30:00,yes
+A00433,P0152,SL01329,Đau ngực nhẹ,no_show,2026-05-31 04:30:00,yes
+A00434,P0030,SL01331,Đau ngực nhẹ,cancelled,2026-06-03 01:30:00,no
+A00435,P0265,SL01333,Đau ngực nhẹ,confirmed,2026-05-28 07:45:00,yes
+A00436,P0201,SL01339,Ngứa da,completed,2026-06-02 09:00:00,no
+A00437,P0391,SL01340,Nổi mẩn đỏ,confirmed,2026-06-04 10:15:00,yes
+A00438,P0412,SL01346,Mụn kéo dài,cancelled,2026-06-01 10:15:00,yes
+A00439,P0286,SL01349,Mụn kéo dài,confirmed,2026-06-04 03:30:00,yes
+A00440,P0299,SL01352,Nổi mẩn đỏ,cancelled,2026-05-27 08:00:00,yes
+A00441,P0299,SL01355,Ho kéo dài ở trẻ,cancelled,2026-05-29 04:30:00,yes
+A00442,P0459,SL01356,Tư vấn dinh dưỡng,no_show,2026-06-06 04:15:00,yes
+A00443,P0218,SL01358,Tư vấn dinh dưỡng,confirmed,2026-05-31 03:30:00,yes
+A00444,P0143,SL01361,Sốt trẻ em,confirmed,2026-05-28 09:00:00,yes
+A00445,P0489,SL01362,Tư vấn dinh dưỡng,confirmed,2026-06-04 11:45:00,no
+A00446,P0445,SL01364,Kiểm tra sức khỏe trẻ,confirmed,2026-06-05 07:15:00,yes
+A00447,P0090,SL01366,Sốt trẻ em,confirmed,2026-05-31 10:30:00,yes
+A00448,P0198,SL01373,Ho kéo dài ở trẻ,confirmed,2026-05-30 05:45:00,no
+A00449,P0224,SL01374,Ho kéo dài ở trẻ,cancelled,2026-06-07 02:15:00,no
+A00450,P0283,SL01377,Sốt trẻ em,confirmed,2026-05-29 09:45:00,yes
+A00451,P0209,SL01381,Kiểm tra sức khỏe trẻ,confirmed,2026-06-02 09:15:00,no
+A00452,P0180,SL01382,Kiểm tra sức khỏe trẻ,cancelled,2026-06-03 13:15:00,yes
+A00453,P0314,SL01390,Đau dạ dày,rescheduled,2026-06-07 06:15:00,yes
+A00454,P0113,SL01391,Rối loạn tiêu hóa,confirmed,2026-06-07 05:45:00,no
+A00455,P0251,SL01392,Đau dạ dày,completed,2026-06-01 06:45:00,yes
+A00456,P0261,SL01393,Rối loạn tiêu hóa,confirmed,2026-06-06 01:15:00,yes
+A00457,P0019,SL01394,Đau dạ dày,confirmed,2026-06-02 03:15:00,yes
+A00458,P0222,SL01396,Rối loạn tiêu hóa,rescheduled,2026-06-07 01:00:00,no
+A00459,P0003,SL01398,Đau bụng,completed,2026-06-06 04:15:00,yes
+A00460,P0491,SL01400,Rối loạn tiêu hóa,confirmed,2026-05-31 09:15:00,yes
+A00461,P0162,SL01401,Đau dạ dày,cancelled,2026-06-04 13:15:00,yes
+A00462,P0428,SL01404,Đau bụng,completed,2026-06-04 15:00:00,yes
+A00463,P0479,SL01405,Đau bụng,confirmed,2026-06-04 11:45:00,no
+A00464,P0260,SL01406,Rối loạn tiêu hóa,no_show,2026-06-01 07:45:00,yes
+A00465,P0297,SL01410,Đau bụng,confirmed,2026-06-05 02:15:00,yes
+A00466,P0255,SL01415,Rối loạn tiêu hóa,cancelled,2026-05-28 14:15:00,no
+A00467,P0364,SL01418,Đầy bụng ợ nóng,cancelled,2026-06-07 12:30:00,no
+A00468,P0264,SL01419,Tư vấn tổng quát,cancelled,2026-05-27 07:45:00,yes
+A00469,P0221,SL01420,Sốt nhẹ,confirmed,2026-06-02 07:45:00,yes
+A00470,P0437,SL01421,Tư vấn tổng quát,cancelled,2026-06-06 06:45:00,yes
+A00471,P0220,SL01422,Khám sức khỏe định kỳ,rescheduled,2026-05-29 02:45:00,yes
+A00472,P0379,SL01423,Khám sức khỏe định kỳ,confirmed,2026-05-31 04:15:00,yes
+A00473,P0313,SL01427,Sốt nhẹ,confirmed,2026-05-27 07:00:00,no
+A00474,P0337,SL01428,Tư vấn tổng quát,completed,2026-06-01 13:30:00,yes
+A00475,P0373,SL01440,Tư vấn tổng quát,confirmed,2026-06-04 03:45:00,no
+A00476,P0086,SL01443,Khám sức khỏe định kỳ,confirmed,2026-06-06 09:00:00,yes
+A00477,P0013,SL01444,Tư vấn tổng quát,confirmed,2026-06-02 02:30:00,yes
+A00478,P0068,SL01450,Mệt mỏi,confirmed,2026-06-04 08:45:00,yes
+A00479,P0473,SL01451,Khám sức khỏe định kỳ,confirmed,2026-06-04 08:45:00,yes
+A00480,P0376,SL01452,Sốt nhẹ,confirmed,2026-05-29 09:45:00,yes
+A00481,P0156,SL01455,Sốt nhẹ,confirmed,2026-05-27 06:15:00,yes
+A00482,P0244,SL01459,Mệt mỏi,confirmed,2026-05-29 06:45:00,no
+A00483,P0038,SL01461,Sốt nhẹ,confirmed,2026-06-04 13:45:00,yes
+A00484,P0309,SL01463,Sốt nhẹ,confirmed,2026-06-06 13:45:00,yes
+A00485,P0096,SL01465,Khám sức khỏe định kỳ,cancelled,2026-05-31 14:00:00,yes
+A00486,P0269,SL01466,Khám phụ khoa,cancelled,2026-05-31 00:30:00,yes
+A00487,P0182,SL01467,Khám thai định kỳ,cancelled,2026-06-05 00:30:00,yes
+A00488,P0327,SL01468,Rối loạn kinh nguyệt,confirmed,2026-06-05 01:15:00,yes
+A00489,P0426,SL01469,Khám thai định kỳ,confirmed,2026-06-04 02:30:00,no
+A00490,P0330,SL01470,Rối loạn kinh nguyệt,confirmed,2026-06-03 06:15:00,no
+A00491,P0236,SL01471,Đau bụng dưới,confirmed,2026-06-02 07:45:00,no
+A00492,P0421,SL01472,Khám thai định kỳ,confirmed,2026-06-01 12:45:00,yes
+A00493,P0342,SL01475,Khám thai định kỳ,cancelled,2026-06-05 12:30:00,yes
+A00494,P0093,SL01477,Khám thai định kỳ,confirmed,2026-05-27 12:30:00,yes
+A00495,P0452,SL01479,Khám thai định kỳ,confirmed,2026-05-27 01:00:00,no
+A00496,P0025,SL01481,Khám thai định kỳ,confirmed,2026-05-30 07:15:00,yes
+A00497,P0204,SL01483,Khám thai định kỳ,rescheduled,2026-06-01 04:30:00,yes
+A00498,P0020,SL01484,Khám phụ khoa,rescheduled,2026-06-03 11:00:00,yes
+A00499,P0462,SL01486,Rối loạn kinh nguyệt,completed,2026-05-28 11:15:00,yes
+A00500,P0393,SL01488,Khám thai định kỳ,confirmed,2026-06-06 14:30:00,yes
+A00501,P0490,SL01489,Đau vai gáy,no_show,2026-05-31 12:45:00,no
+A00502,P0278,SL01490,Đau gối,completed,2026-05-27 06:30:00,no
+A00503,P0201,SL01491,Tê tay chân,confirmed,2026-06-03 12:00:00,no
+A00504,P0409,SL01493,Đau gối,completed,2026-06-02 09:15:00,yes
+A00505,P0053,SL01499,Đau lưng,cancelled,2026-05-27 04:00:00,yes
+A00506,P0370,SL01500,Đau vai gáy,completed,2026-05-28 01:45:00,yes
+A00507,P0195,SL01505,Tê tay chân,confirmed,2026-06-05 03:00:00,yes
+A00508,P0384,SL01506,Đau lưng,confirmed,2026-05-31 02:00:00,no
+A00509,P0242,SL01507,Đau vai gáy,completed,2026-05-28 05:15:00,yes
+A00510,P0419,SL01509,Đau lưng,cancelled,2026-05-30 10:15:00,yes
+A00511,P0224,SL01512,Tư vấn tuyến giáp,confirmed,2026-06-02 07:00:00,no
+A00512,P0006,SL01515,Sụt cân không rõ nguyên nhân,completed,2026-05-28 13:15:00,no
+A00513,P0056,SL01518,Tư vấn tuyến giáp,confirmed,2026-06-06 04:00:00,yes
+A00514,P0018,SL01519,Kiểm tra đường huyết,cancelled,2026-06-03 10:00:00,no
+A00515,P0244,SL01523,Tư vấn tuyến giáp,confirmed,2026-06-04 12:45:00,no
+A00516,P0094,SL01526,Kiểm tra đường huyết,cancelled,2026-05-27 09:15:00,yes
+A00517,P0004,SL01528,Đau đầu,cancelled,2026-05-29 07:15:00,yes
+A00518,P0013,SL01529,Đau đầu,no_show,2026-05-29 06:30:00,no
+A00519,P0293,SL01530,Tê bì tay chân,confirmed,2026-06-01 07:15:00,yes
+A00520,P0235,SL01532,Chóng mặt,no_show,2026-05-27 02:30:00,yes
+A00521,P0280,SL01534,Mất ngủ,confirmed,2026-05-27 07:30:00,yes
+A00522,P0409,SL01535,Chóng mặt,confirmed,2026-06-03 11:00:00,yes
+A00523,P0324,SL01536,Mất ngủ,confirmed,2026-06-02 12:15:00,yes
+A00524,P0276,SL01539,Mất ngủ,confirmed,2026-06-05 03:30:00,no
+A00525,P0346,SL01540,Chóng mặt,confirmed,2026-05-27 00:30:00,no
+A00526,P0059,SL01541,Chóng mặt,confirmed,2026-06-07 06:00:00,no
+A00527,P0030,SL01542,Mất ngủ,confirmed,2026-06-01 01:45:00,yes
+A00528,P0330,SL01543,Tê bì tay chân,confirmed,2026-05-29 02:30:00,yes
+A00529,P0073,SL01545,Chóng mặt,cancelled,2026-06-03 08:30:00,yes
+A00530,P0200,SL01547,Mất ngủ,confirmed,2026-06-03 02:15:00,yes
+A00531,P0249,SL01549,Mất ngủ,completed,2026-06-04 06:15:00,no
+A00532,P0426,SL01554,Tê bì tay chân,confirmed,2026-05-30 10:00:00,yes
+A00533,P0401,SL01556,Đỏ mắt,confirmed,2026-05-28 00:45:00,no
+A00534,P0192,SL01558,Mờ mắt,cancelled,2026-06-07 04:00:00,yes
+A00535,P0150,SL01561,Đỏ mắt,confirmed,2026-05-30 01:45:00,yes
+A00536,P0077,SL01562,Đỏ mắt,completed,2026-06-02 07:45:00,yes
+A00537,P0164,SL01563,Đỏ mắt,confirmed,2026-06-04 06:30:00,yes
+A00538,P0205,SL01565,Đo thị lực,cancelled,2026-05-31 06:30:00,yes
+A00539,P0041,SL01567,Đo thị lực,confirmed,2026-06-05 07:45:00,yes
+A00540,P0188,SL01569,Đo thị lực,completed,2026-05-31 02:15:00,yes
+A00541,P0356,SL01570,Mờ mắt,confirmed,2026-06-02 03:45:00,yes
+A00542,P0389,SL01571,Mờ mắt,confirmed,2026-05-29 07:00:00,yes
+A00543,P0401,SL01573,Mờ mắt,rescheduled,2026-06-07 08:15:00,yes
+A00544,P0057,SL01575,Khô mắt,confirmed,2026-05-27 11:00:00,no
+A00545,P0298,SL01579,Khô mắt,cancelled,2026-05-28 09:30:00,yes
+A00546,P0274,SL01583,Khô mắt,confirmed,2026-05-30 02:30:00,no
+A00547,P0146,SL01584,Đỏ mắt,confirmed,2026-06-07 07:45:00,yes
+A00548,P0229,SL01585,Đỏ mắt,no_show,2026-05-31 05:30:00,yes
+A00549,P0098,SL01588,Viêm lợi,no_show,2026-06-02 01:30:00,yes
+A00550,P0318,SL01589,Sâu răng,completed,2026-05-29 08:00:00,yes
+A00551,P0248,SL01590,Viêm lợi,confirmed,2026-06-06 09:45:00,yes
+A00552,P0280,SL01592,Kiểm tra răng miệng,no_show,2026-06-06 05:15:00,no
+A00553,P0200,SL01595,Kiểm tra răng miệng,cancelled,2026-06-03 12:45:00,yes
+A00554,P0076,SL01597,Kiểm tra răng miệng,confirmed,2026-05-30 08:30:00,no
+A00555,P0051,SL01599,Kiểm tra răng miệng,confirmed,2026-06-06 08:00:00,yes
+A00556,P0114,SL01602,Sâu răng,confirmed,2026-06-06 01:00:00,yes
+A00557,P0166,SL01603,Sâu răng,confirmed,2026-06-07 01:15:00,yes
+A00558,P0471,SL01604,Kiểm tra răng miệng,confirmed,2026-05-27 05:30:00,yes
+A00559,P0180,SL01606,Viêm lợi,rescheduled,2026-06-02 08:30:00,yes
+A00560,P0284,SL01608,Kiểm tra răng miệng,confirmed,2026-06-02 07:45:00,yes
+A00561,P0039,SL01610,Đau răng,confirmed,2026-05-29 15:15:00,no
+A00562,P0035,SL01612,Đau răng,confirmed,2026-06-07 13:00:00,no
+A00563,P0076,SL01624,Viêm lợi,confirmed,2026-06-05 12:30:00,yes
+A00564,P0148,SL01628,Tăng huyết áp,confirmed,2026-06-05 05:15:00,yes
+A00565,P0081,SL01629,Đau ngực nhẹ,confirmed,2026-05-29 02:45:00,yes
+A00566,P0200,SL01630,Kiểm tra tim mạch định kỳ,confirmed,2026-05-31 10:00:00,yes
+A00567,P0211,SL01631,Hồi hộp tim,no_show,2026-06-08 08:30:00,no
+A00568,P0034,SL01632,Đau ngực nhẹ,confirmed,2026-06-08 06:45:00,yes
+A00569,P0041,SL01634,Hồi hộp tim,confirmed,2026-05-30 06:15:00,yes
+A00570,P0025,SL01635,Hồi hộp tim,confirmed,2026-05-29 13:00:00,yes
+A00571,P0243,SL01636,Đau ngực nhẹ,confirmed,2026-06-03 14:45:00,no
+A00572,P0494,SL01639,Tăng huyết áp,completed,2026-05-28 11:45:00,no
+A00573,P0173,SL01645,Tăng huyết áp,confirmed,2026-06-04 10:00:00,yes
+A00574,P0413,SL01647,Đau ngực nhẹ,no_show,2026-05-30 06:00:00,yes
+A00575,P0323,SL01648,Hồi hộp tim,confirmed,2026-06-07 07:30:00,yes
+A00576,P0188,SL01650,Đau ngực nhẹ,confirmed,2026-05-30 08:45:00,yes
+A00577,P0018,SL01653,Hồi hộp tim,cancelled,2026-06-07 08:45:00,yes
+A00578,P0401,SL01654,Kiểm tra tim mạch định kỳ,confirmed,2026-06-08 05:15:00,no
+A00579,P0082,SL01662,Nổi mẩn đỏ,confirmed,2026-06-05 03:45:00,no
+A00580,P0328,SL01666,Viêm da,confirmed,2026-06-04 07:00:00,yes
+A00581,P0283,SL01670,Nổi mẩn đỏ,no_show,2026-06-07 14:15:00,yes
+A00582,P0099,SL01672,Ngứa da,confirmed,2026-05-30 12:15:00,no
+A00583,P0036,SL01674,Ngứa da,confirmed,2026-06-01 08:30:00,yes
+A00584,P0173,SL01675,Viêm da,confirmed,2026-06-05 07:00:00,yes
+A00585,P0115,SL01677,Mụn kéo dài,cancelled,2026-06-01 09:00:00,no
+A00586,P0043,SL01680,Ngứa da,rescheduled,2026-06-04 13:45:00,yes
+A00587,P0104,SL01681,Viêm da,no_show,2026-06-03 12:00:00,no
+A00588,P0314,SL01684,Ngứa da,confirmed,2026-06-01 12:00:00,yes
+A00589,P0324,SL01687,Sốt trẻ em,confirmed,2026-06-02 05:45:00,yes
+A00590,P0433,SL01690,Kiểm tra sức khỏe trẻ,confirmed,2026-06-04 12:15:00,yes
+A00591,P0016,SL01691,Kiểm tra sức khỏe trẻ,no_show,2026-06-05 11:45:00,yes
+A00592,P0490,SL01694,Tư vấn dinh dưỡng,confirmed,2026-05-31 03:30:00,yes
+A00593,P0147,SL01695,Tư vấn dinh dưỡng,completed,2026-06-05 06:45:00,yes
+A00594,P0205,SL01701,Tư vấn dinh dưỡng,confirmed,2026-06-06 06:30:00,no
+A00595,P0237,SL01703,Sốt trẻ em,confirmed,2026-06-04 14:00:00,yes
+A00596,P0489,SL01706,Sốt trẻ em,confirmed,2026-06-04 13:45:00,yes
+A00597,P0362,SL01707,Sốt trẻ em,confirmed,2026-06-07 09:15:00,no
+A00598,P0294,SL01708,Ù tai,confirmed,2026-06-07 04:30:00,yes
+A00599,P0006,SL01710,Ù tai,no_show,2026-05-30 03:30:00,yes
+A00600,P0316,SL01715,Viêm xoang,rescheduled,2026-06-07 23:15:00,yes
+A00601,P0254,SL01717,Ù tai,confirmed,2026-06-08 01:30:00,yes
+A00602,P0314,SL01718,Viêm xoang,confirmed,2026-06-02 04:45:00,yes
+A00603,P0315,SL01720,Ù tai,confirmed,2026-06-06 05:30:00,yes
+A00604,P0387,SL01722,Nghẹt mũi,completed,2026-05-28 01:15:00,no
+A00605,P0461,SL01725,Nghẹt mũi,rescheduled,2026-06-04 00:45:00,no
+A00606,P0301,SL01727,Ù tai,confirmed,2026-06-07 05:15:00,yes
+A00607,P0370,SL01729,Rối loạn tiêu hóa,confirmed,2026-06-02 23:15:00,yes
+A00608,P0491,SL01730,Rối loạn tiêu hóa,confirmed,2026-06-04 00:30:00,yes
+A00609,P0402,SL01733,Đau bụng,confirmed,2026-06-04 07:30:00,yes
+A00610,P0344,SL01736,Đầy bụng ợ nóng,completed,2026-06-02 06:30:00,no
+A00611,P0082,SL01737,Đau bụng,confirmed,2026-06-06 05:15:00,yes
+A00612,P0355,SL01738,Đầy bụng ợ nóng,confirmed,2026-05-31 11:30:00,no
+A00613,P0426,SL01739,Rối loạn tiêu hóa,confirmed,2026-05-29 12:30:00,yes
+A00614,P0330,SL01741,Đau bụng,confirmed,2026-06-07 16:00:00,yes
+A00615,P0277,SL01744,Mệt mỏi,no_show,2026-05-29 06:30:00,yes
+A00616,P0078,SL01745,Sốt nhẹ,confirmed,2026-06-01 09:00:00,yes
+A00617,P0085,SL01749,Mệt mỏi,no_show,2026-05-29 09:45:00,yes
+A00618,P0296,SL01752,Mệt mỏi,rescheduled,2026-06-03 07:00:00,no
+A00619,P0354,SL01757,Tư vấn tổng quát,confirmed,2026-06-08 02:15:00,no
+A00620,P0097,SL01761,Mệt mỏi,confirmed,2026-05-29 04:30:00,yes
+A00621,P0467,SL01762,Tư vấn tổng quát,no_show,2026-06-05 06:45:00,no
+A00622,P0040,SL01773,Mệt mỏi,confirmed,2026-06-08 07:45:00,yes
+A00623,P0200,SL01774,Mệt mỏi,rescheduled,2026-06-05 09:15:00,yes
+A00624,P0286,SL01775,Sốt nhẹ,confirmed,2026-05-29 02:00:00,no
+A00625,P0057,SL01782,Sốt nhẹ,no_show,2026-06-04 14:45:00,yes
+A00626,P0366,SL01783,Sốt nhẹ,no_show,2026-05-31 11:30:00,no
+A00627,P0140,SL01784,Đau bụng dưới,cancelled,2026-06-04 06:30:00,yes
+A00628,P0413,SL01785,Rối loạn kinh nguyệt,confirmed,2026-05-30 01:00:00,yes
+A00629,P0320,SL01787,Rối loạn kinh nguyệt,completed,2026-05-28 05:15:00,yes
+A00630,P0364,SL01791,Khám thai định kỳ,completed,2026-05-31 09:30:00,yes
+A00631,P0278,SL01795,Khám thai định kỳ,cancelled,2026-06-01 05:00:00,no
+A00632,P0098,SL01800,Khám thai định kỳ,confirmed,2026-05-28 04:00:00,yes
+A00633,P0444,SL01803,Khám phụ khoa,confirmed,2026-06-01 06:15:00,no
+A00634,P0177,SL01808,Khám phụ khoa,cancelled,2026-05-28 11:30:00,no
+A00635,P0161,SL01809,Rối loạn kinh nguyệt,rescheduled,2026-06-03 06:00:00,yes
+A00636,P0487,SL01816,Khám thai định kỳ,confirmed,2026-05-31 06:30:00,yes
+A00637,P0308,SL01817,Đau bụng dưới,confirmed,2026-05-29 01:45:00,no
+A00638,P0474,SL01820,Đau lưng,cancelled,2026-06-05 00:30:00,no
+A00639,P0234,SL01822,Đau gối,completed,2026-06-05 02:00:00,yes
+A00640,P0197,SL01823,Đau vai gáy,confirmed,2026-06-08 06:45:00,yes
+A00641,P0270,SL01824,Đau vai gáy,cancelled,2026-05-28 03:45:00,yes
+A00642,P0498,SL01826,Đau vai gáy,no_show,2026-06-08 10:30:00,no
+A00643,P0191,SL01831,Đau vai gáy,completed,2026-06-06 12:00:00,yes
+A00644,P0102,SL01832,Đau lưng,confirmed,2026-06-05 08:15:00,yes
+A00645,P0172,SL01835,Đau lưng,confirmed,2026-05-28 02:45:00,no
+A00646,P0019,SL01838,Đau gối,confirmed,2026-05-29 05:45:00,no
+A00647,P0278,SL01843,Đau vai gáy,confirmed,2026-05-31 14:15:00,no
+A00648,P0319,SL01852,Khát nước nhiều,completed,2026-05-28 07:30:00,no
+A00649,P0487,SL01855,Khát nước nhiều,rescheduled,2026-05-31 09:45:00,yes
+A00650,P0102,SL01859,Sụt cân không rõ nguyên nhân,confirmed,2026-06-06 16:30:00,yes
+A00651,P0048,SL01866,Kiểm tra đường huyết,completed,2026-05-30 13:45:00,yes
+A00652,P0107,SL01871,Chóng mặt,confirmed,2026-06-07 01:30:00,yes
+A00653,P0270,SL01873,Tê bì tay chân,confirmed,2026-06-08 08:45:00,yes
+A00654,P0358,SL01874,Chóng mặt,confirmed,2026-06-02 11:15:00,no
+A00655,P0347,SL01877,Chóng mặt,confirmed,2026-06-03 09:30:00,no
+A00656,P0020,SL01878,Đau đầu,confirmed,2026-06-02 08:45:00,yes
+A00657,P0292,SL01885,Đau đầu,cancelled,2026-05-31 02:00:00,yes
+A00658,P0482,SL01886,Tê bì tay chân,no_show,2026-06-08 08:45:00,yes
+A00659,P0017,SL01897,Đau đầu,confirmed,2026-05-30 06:15:00,no
+A00660,P0170,SL01898,Mất ngủ,confirmed,2026-06-01 13:30:00,yes
+A00661,P0315,SL01902,Đo thị lực,rescheduled,2026-06-06 01:30:00,yes
+A00662,P0230,SL01904,Mờ mắt,confirmed,2026-05-30 01:00:00,no
+A00663,P0267,SL01905,Khô mắt,no_show,2026-06-07 05:15:00,yes
+A00664,P0421,SL01906,Khô mắt,confirmed,2026-06-07 09:45:00,no
+A00665,P0356,SL01907,Đỏ mắt,completed,2026-05-29 02:45:00,yes
+A00666,P0271,SL01909,Kiểm tra răng miệng,confirmed,2026-06-06 04:45:00,yes
+A00667,P0426,SL01912,Đau răng,confirmed,2026-05-28 08:15:00,yes
+A00668,P0488,SL01920,Viêm lợi,confirmed,2026-06-03 07:00:00,yes
+A00669,P0277,SL01922,Kiểm tra răng miệng,confirmed,2026-06-08 08:15:00,yes
+A00670,P0110,SL01930,Tăng huyết áp,confirmed,2026-05-29 01:00:00,yes
+A00671,P0313,SL01931,Tăng huyết áp,rescheduled,2026-05-30 08:30:00,yes
+A00672,P0464,SL01942,Hồi hộp tim,no_show,2026-05-31 05:15:00,yes
+A00673,P0269,SL01943,Tăng huyết áp,no_show,2026-06-04 06:00:00,yes
+A00674,P0440,SL01947,Đau ngực nhẹ,confirmed,2026-06-03 03:30:00,yes
+A00675,P0213,SL01949,Tăng huyết áp,confirmed,2026-06-04 11:00:00,no
+A00676,P0494,SL01950,Tăng huyết áp,confirmed,2026-06-09 12:30:00,no
+A00677,P0155,SL01953,Đau ngực nhẹ,cancelled,2026-06-05 11:45:00,yes
+A00678,P0027,SL01954,Đau ngực nhẹ,confirmed,2026-05-29 14:15:00,yes
+A00679,P0442,SL01955,Ngứa da,confirmed,2026-06-09 07:45:00,yes
+A00680,P0257,SL01959,Ngứa da,completed,2026-06-07 13:30:00,yes
+A00681,P0366,SL01961,Mụn kéo dài,cancelled,2026-06-07 14:30:00,yes
+A00682,P0097,SL01967,Ngứa da,rescheduled,2026-05-31 08:30:00,yes
+A00683,P0482,SL01968,Nổi mẩn đỏ,confirmed,2026-05-31 05:30:00,yes
+A00684,P0494,SL01976,Mụn kéo dài,cancelled,2026-05-30 02:30:00,yes
+A00685,P0309,SL01981,Viêm da,confirmed,2026-06-03 12:30:00,yes
+A00686,P0050,SL01988,Viêm da,confirmed,2026-06-04 01:30:00,yes
+A00687,P0362,SL01989,Viêm da,no_show,2026-05-29 07:45:00,yes
+A00688,P0399,SL01991,Ho kéo dài ở trẻ,rescheduled,2026-05-29 03:00:00,no
+A00689,P0026,SL01996,Kiểm tra sức khỏe trẻ,confirmed,2026-06-05 10:00:00,yes
+A00690,P0150,SL01997,Tư vấn dinh dưỡng,completed,2026-06-02 10:30:00,yes
+A00691,P0237,SL02000,Tư vấn dinh dưỡng,confirmed,2026-06-05 06:30:00,no
+A00692,P0454,SL02001,Kiểm tra sức khỏe trẻ,confirmed,2026-05-30 10:15:00,no
+A00693,P0411,SL02003,Sốt trẻ em,confirmed,2026-06-05 08:30:00,yes
+A00694,P0023,SL02009,Nghẹt mũi,confirmed,2026-05-31 12:45:00,yes
+A00695,P0128,SL02010,Nghẹt mũi,confirmed,2026-05-31 11:15:00,yes
+A00696,P0438,SL02012,Ù tai,cancelled,2026-05-31 02:00:00,yes
+A00697,P0368,SL02018,Ù tai,rescheduled,2026-06-02 06:30:00,no
+A00698,P0183,SL02020,Đau họng,confirmed,2026-06-08 01:00:00,yes
+A00699,P0083,SL02021,Ù tai,confirmed,2026-06-02 05:00:00,yes
+A00700,P0110,SL02023,Ù tai,confirmed,2026-06-09 07:30:00,no
+A00701,P0082,SL02025,Đau bụng,cancelled,2026-05-29 07:00:00,yes
+A00702,P0296,SL02031,Đau dạ dày,rescheduled,2026-06-09 05:30:00,yes
+A00703,P0324,SL02046,Đau bụng,confirmed,2026-05-31 13:00:00,no
+A00704,P0213,SL02048,Đau dạ dày,confirmed,2026-06-09 08:45:00,no
+A00705,P0115,SL02053,Mệt mỏi,no_show,2026-06-01 03:00:00,yes
+A00706,P0162,SL02054,Sốt nhẹ,confirmed,2026-06-06 08:15:00,yes
+A00707,P0070,SL02055,Khám sức khỏe định kỳ,confirmed,2026-05-31 01:45:00,yes
+A00708,P0450,SL02056,Mệt mỏi,completed,2026-06-04 07:00:00,yes
+A00709,P0021,SL02059,Sốt nhẹ,rescheduled,2026-05-30 10:00:00,yes
+A00710,P0393,SL02060,Mệt mỏi,confirmed,2026-06-06 07:15:00,yes
+A00711,P0463,SL02062,Khám sức khỏe định kỳ,confirmed,2026-06-08 10:15:00,yes
+A00712,P0268,SL02064,Sốt nhẹ,confirmed,2026-06-07 11:00:00,yes
+A00713,P0236,SL02065,Mệt mỏi,confirmed,2026-06-04 16:15:00,no
+A00714,P0457,SL02067,Mệt mỏi,confirmed,2026-05-31 05:45:00,yes
+A00715,P0331,SL02068,Sốt nhẹ,rescheduled,2026-06-04 07:00:00,yes
+A00716,P0355,SL02071,Mệt mỏi,confirmed,2026-06-06 07:30:00,yes
+A00717,P0392,SL02072,Mệt mỏi,confirmed,2026-05-31 02:45:00,yes
+A00718,P0342,SL02073,Khám sức khỏe định kỳ,confirmed,2026-06-02 13:45:00,yes
+A00719,P0397,SL02075,Sốt nhẹ,completed,2026-05-29 11:30:00,yes
+A00720,P0333,SL02076,Tư vấn tổng quát,no_show,2026-06-04 12:15:00,yes
+A00721,P0189,SL02083,Khám thai định kỳ,completed,2026-05-31 07:15:00,yes
+A00722,P0421,SL02085,Khám thai định kỳ,confirmed,2026-06-09 15:45:00,yes
+A00723,P0385,SL02086,Khám phụ khoa,completed,2026-05-31 01:30:00,no
+A00724,P0196,SL02089,Khám thai định kỳ,confirmed,2026-06-01 07:30:00,yes
+A00725,P0199,SL02094,Đau bụng dưới,confirmed,2026-05-30 07:45:00,no
+A00726,P0286,SL02095,Khám phụ khoa,confirmed,2026-06-09 07:45:00,no
+A00727,P0157,SL02099,Khám phụ khoa,confirmed,2026-06-07 10:15:00,yes
+A00728,P0462,SL02100,Khám phụ khoa,confirmed,2026-06-09 01:15:00,no
+A00729,P0196,SL02101,Rối loạn kinh nguyệt,confirmed,2026-06-06 01:30:00,yes
+A00730,P0396,SL02103,Rối loạn kinh nguyệt,cancelled,2026-06-06 09:00:00,no
+A00731,P0323,SL02105,Đau bụng dưới,confirmed,2026-06-05 10:15:00,yes
+A00732,P0202,SL02108,Đau gối,confirmed,2026-06-01 02:45:00,no
+A00733,P0388,SL02113,Đau vai gáy,completed,2026-05-31 14:15:00,yes
+A00734,P0256,SL02115,Đau vai gáy,confirmed,2026-06-09 09:00:00,yes
+A00735,P0105,SL02119,Đau gối,confirmed,2026-05-31 03:30:00,no
+A00736,P0014,SL02122,Đau lưng,rescheduled,2026-06-05 12:15:00,no
+A00737,P0206,SL02123,Tê tay chân,confirmed,2026-06-01 12:15:00,yes
+A00738,P0100,SL02127,Tê tay chân,confirmed,2026-06-06 07:00:00,yes
+A00739,P0485,SL02128,Đau gối,confirmed,2026-05-30 09:15:00,yes
+A00740,P0347,SL02130,Đau lưng,confirmed,2026-06-02 01:00:00,yes
+A00741,P0274,SL02134,Đau vai gáy,completed,2026-06-09 09:15:00,no
+A00742,P0495,SL02140,Khát nước nhiều,cancelled,2026-06-02 02:45:00,yes
+A00743,P0010,SL02142,Sụt cân không rõ nguyên nhân,completed,2026-06-04 07:15:00,no
+A00744,P0171,SL02143,Khát nước nhiều,rescheduled,2026-06-09 07:30:00,yes
+A00745,P0182,SL02146,Khát nước nhiều,confirmed,2026-06-08 02:00:00,no
+A00746,P0250,SL02148,Tư vấn tuyến giáp,confirmed,2026-06-02 06:30:00,no
+A00747,P0317,SL02149,Tư vấn tuyến giáp,confirmed,2026-06-01 06:00:00,no
+A00748,P0284,SL02165,Tê bì tay chân,confirmed,2026-05-31 07:00:00,yes
+A00749,P0398,SL02169,Mất ngủ,confirmed,2026-06-09 03:15:00,yes
+A00750,P0233,SL02170,Chóng mặt,confirmed,2026-06-01 04:30:00,yes
+A00751,P0418,SL02172,Đau đầu,rescheduled,2026-06-07 02:45:00,yes
+A00752,P0333,SL02181,Tê bì tay chân,rescheduled,2026-06-02 03:45:00,yes
+A00753,P0425,SL02184,Đau đầu,no_show,2026-05-29 04:00:00,no
+A00754,P0304,SL02186,Mất ngủ,cancelled,2026-06-05 10:00:00,no
+A00755,P0409,SL02187,Mất ngủ,confirmed,2026-06-05 10:15:00,yes
+A00756,P0137,SL02189,Chóng mặt,confirmed,2026-05-30 07:30:00,no
+A00757,P0295,SL02190,Chóng mặt,confirmed,2026-06-01 08:15:00,yes
+A00758,P0212,SL02192,Đỏ mắt,confirmed,2026-06-04 01:30:00,yes
+A00759,P0153,SL02193,Đỏ mắt,confirmed,2026-06-05 07:00:00,yes
+A00760,P0145,SL02197,Đo thị lực,confirmed,2026-05-31 14:00:00,yes
+A00761,P0223,SL02198,Mờ mắt,confirmed,2026-06-07 08:15:00,yes
+A00762,P0368,SL02203,Mờ mắt,confirmed,2026-06-03 00:15:00,no
+A00763,P0052,SL02204,Đỏ mắt,confirmed,2026-05-30 02:00:00,yes
+A00764,P0293,SL02205,Khô mắt,no_show,2026-06-07 05:30:00,yes
+A00765,P0141,SL02206,Khô mắt,confirmed,2026-06-08 07:00:00,yes
+A00766,P0025,SL02207,Khô mắt,rescheduled,2026-06-09 02:30:00,yes
+A00767,P0476,SL02208,Viêm lợi,confirmed,2026-06-06 07:30:00,yes
+A00768,P0074,SL02209,Sâu răng,confirmed,2026-05-31 14:00:00,no
+A00769,P0397,SL02216,Kiểm tra răng miệng,confirmed,2026-05-29 08:45:00,yes
+A00770,P0250,SL02218,Đau răng,confirmed,2026-06-04 09:00:00,yes
+A00771,P0187,SL02220,Kiểm tra răng miệng,confirmed,2026-06-01 09:15:00,yes
+A00772,P0074,SL02223,Viêm lợi,completed,2026-06-04 06:15:00,no
+A00773,P0397,SL02231,Hồi hộp tim,confirmed,2026-06-10 01:30:00,yes
+A00774,P0313,SL02232,Hồi hộp tim,confirmed,2026-06-06 05:45:00,yes
+A00775,P0401,SL02233,Đau ngực nhẹ,confirmed,2026-06-02 07:30:00,yes
+A00776,P0207,SL02234,Hồi hộp tim,completed,2026-06-05 04:15:00,yes
+A00777,P0255,SL02239,Hồi hộp tim,confirmed,2026-05-31 13:30:00,yes
+A00778,P0124,SL02243,Kiểm tra tim mạch định kỳ,confirmed,2026-06-02 03:15:00,yes
+A00779,P0194,SL02244,Hồi hộp tim,confirmed,2026-06-03 00:45:00,no
+A00780,P0151,SL02245,Hồi hộp tim,completed,2026-05-30 01:45:00,yes
+A00781,P0362,SL02246,Tăng huyết áp,confirmed,2026-06-01 06:00:00,no
+A00782,P0090,SL02251,Viêm da,confirmed,2026-06-02 07:00:00,yes
+A00783,P0437,SL02253,Ngứa da,confirmed,2026-06-06 03:45:00,yes
+A00784,P0346,SL02254,Viêm da,confirmed,2026-06-09 04:45:00,no
+A00785,P0145,SL02255,Ngứa da,rescheduled,2026-06-08 07:00:00,yes
+A00786,P0436,SL02256,Mụn kéo dài,confirmed,2026-05-30 11:30:00,yes
+A00787,P0463,SL02258,Ngứa da,confirmed,2026-05-30 10:15:00,yes
+A00788,P0487,SL02259,Viêm da,confirmed,2026-06-05 10:30:00,no
+A00789,P0403,SL02263,Kiểm tra sức khỏe trẻ,no_show,2026-06-05 08:15:00,yes
+A00790,P0267,SL02264,Kiểm tra sức khỏe trẻ,confirmed,2026-06-07 10:30:00,yes
+A00791,P0432,SL02265,Tư vấn dinh dưỡng,completed,2026-05-30 07:45:00,no
+A00792,P0370,SL02270,Ho kéo dài ở trẻ,confirmed,2026-06-07 07:15:00,yes
+A00793,P0002,SL02271,Kiểm tra sức khỏe trẻ,no_show,2026-06-03 10:00:00,yes
+A00794,P0125,SL02273,Ho kéo dài ở trẻ,confirmed,2026-05-31 14:30:00,yes
+A00795,P0008,SL02275,Đau họng,confirmed,2026-06-05 05:45:00,no
+A00796,P0209,SL02276,Ù tai,confirmed,2026-05-31 09:00:00,yes
+A00797,P0258,SL02279,Đau họng,rescheduled,2026-05-30 05:00:00,no
+A00798,P0208,SL02280,Nghẹt mũi,completed,2026-05-31 01:00:00,yes
+A00799,P0098,SL02291,Đau họng,no_show,2026-06-06 07:45:00,no
+A00800,P0223,SL02293,Nghẹt mũi,confirmed,2026-06-05 12:45:00,yes
+A00801,P0418,SL02295,Nghẹt mũi,cancelled,2026-06-01 14:15:00,no
+A00802,P0197,SL02296,Viêm xoang,confirmed,2026-06-03 10:30:00,yes
+A00803,P0156,SL02304,Đầy bụng ợ nóng,confirmed,2026-06-07 09:00:00,yes
+A00804,P0215,SL02305,Đầy bụng ợ nóng,confirmed,2026-06-08 04:45:00,yes
+A00805,P0014,SL02306,Đau bụng,completed,2026-06-10 07:30:00,no
+A00806,P0182,SL02307,Đầy bụng ợ nóng,rescheduled,2026-06-06 05:00:00,yes
+A00807,P0311,SL02308,Đau dạ dày,completed,2026-06-03 07:30:00,yes
+A00808,P0111,SL02309,Đầy bụng ợ nóng,confirmed,2026-06-10 06:45:00,no
+A00809,P0026,SL02310,Rối loạn tiêu hóa,no_show,2026-06-07 08:15:00,yes
+A00810,P0368,SL02313,Sốt nhẹ,no_show,2026-05-31 08:30:00,yes
+A00811,P0309,SL02316,Mệt mỏi,confirmed,2026-06-03 09:00:00,yes
+A00812,P0391,SL02317,Khám sức khỏe định kỳ,confirmed,2026-06-02 07:30:00,yes
+A00813,P0172,SL02319,Khám sức khỏe định kỳ,confirmed,2026-06-10 08:15:00,yes
+A00814,P0107,SL02320,Khám sức khỏe định kỳ,confirmed,2026-05-30 06:30:00,yes
+A00815,P0051,SL02322,Khám sức khỏe định kỳ,confirmed,2026-06-09 15:15:00,yes
+A00816,P0268,SL02324,Tư vấn tổng quát,no_show,2026-06-01 08:30:00,yes
+A00817,P0153,SL02325,Khám sức khỏe định kỳ,confirmed,2026-06-06 01:45:00,yes
+A00818,P0098,SL02329,Tư vấn tổng quát,confirmed,2026-05-31 01:00:00,no
+A00819,P0299,SL02332,Sốt nhẹ,confirmed,2026-06-10 02:45:00,yes
+A00820,P0458,SL02337,Khám thai định kỳ,cancelled,2026-06-09 06:45:00,yes
+A00821,P0176,SL02338,Khám phụ khoa,cancelled,2026-06-01 05:15:00,yes
+A00822,P0390,SL02339,Khám phụ khoa,confirmed,2026-06-04 01:45:00,yes
+A00823,P0208,SL02351,Khám thai định kỳ,confirmed,2026-06-05 04:30:00,yes
+A00824,P0192,SL02353,Đau bụng dưới,confirmed,2026-06-02 05:00:00,yes
+A00825,P0069,SL02356,Khám thai định kỳ,confirmed,2026-06-07 02:45:00,yes
+A00826,P0371,SL02361,Đau bụng dưới,confirmed,2026-05-31 09:30:00,yes
+A00827,P0227,SL02363,Tê tay chân,confirmed,2026-06-08 10:45:00,yes
+A00828,P0311,SL02364,Tê tay chân,cancelled,2026-05-31 06:30:00,no
+A00829,P0180,SL02365,Tê tay chân,confirmed,2026-06-08 10:30:00,yes
+A00830,P0023,SL02369,Đau vai gáy,confirmed,2026-05-30 13:15:00,yes
+A00831,P0362,SL02371,Đau lưng,completed,2026-06-01 02:45:00,no
+A00832,P0327,SL02373,Đau vai gáy,confirmed,2026-06-02 04:00:00,yes
+A00833,P0224,SL02377,Sụt cân không rõ nguyên nhân,confirmed,2026-05-30 08:00:00,no
+A00834,P0236,SL02382,Khát nước nhiều,completed,2026-06-10 07:00:00,yes
+A00835,P0481,SL02383,Tư vấn tuyến giáp,completed,2026-06-03 06:30:00,yes
+A00836,P0195,SL02387,Tư vấn tuyến giáp,no_show,2026-06-02 02:45:00,yes
+A00837,P0091,SL02390,Khát nước nhiều,confirmed,2026-06-02 07:00:00,yes
+A00838,P0160,SL02392,Sụt cân không rõ nguyên nhân,confirmed,2026-06-04 10:00:00,yes
+A00839,P0079,SL02395,Khát nước nhiều,confirmed,2026-05-30 07:00:00,yes
+A00840,P0034,SL02398,Mất ngủ,cancelled,2026-06-04 07:30:00,yes
+A00841,P0107,SL02400,Tê bì tay chân,cancelled,2026-06-03 05:00:00,yes
+A00842,P0316,SL02401,Đau đầu,confirmed,2026-06-08 09:00:00,yes
+A00843,P0448,SL02410,Đau đầu,confirmed,2026-05-31 16:00:00,yes
+A00844,P0324,SL02411,Mất ngủ,rescheduled,2026-06-03 12:00:00,yes
+A00845,P0265,SL02417,Đau đầu,cancelled,2026-05-30 05:15:00,yes
+A00846,P0384,SL02419,Mất ngủ,completed,2026-06-03 04:30:00,no
+A00847,P0458,SL02423,Tê bì tay chân,confirmed,2026-06-10 02:00:00,no
+A00848,P0264,SL02428,Chóng mặt,no_show,2026-06-03 08:45:00,no
+A00849,P0282,SL02429,Tê bì tay chân,confirmed,2026-06-02 13:15:00,yes
+A00850,P0478,SL02430,Chóng mặt,confirmed,2026-06-07 08:15:00,yes
+A00851,P0284,SL02436,Đau đầu,cancelled,2026-06-02 01:30:00,yes
+A00852,P0382,SL02439,Đau đầu,confirmed,2026-06-08 12:00:00,no
+A00853,P0129,SL02444,Chóng mặt,confirmed,2026-06-10 07:30:00,yes
+A00854,P0271,SL02445,Đau đầu,cancelled,2026-06-09 13:30:00,yes
+A00855,P0018,SL02449,Mờ mắt,confirmed,2026-05-30 05:15:00,no
+A00856,P0155,SL02452,Mờ mắt,confirmed,2026-06-09 02:30:00,yes
+A00857,P0133,SL02456,Đỏ mắt,confirmed,2026-05-31 07:00:00,no
+A00858,P0105,SL02457,Khô mắt,cancelled,2026-06-06 13:00:00,yes
+A00859,P0221,SL02459,Mờ mắt,cancelled,2026-06-02 07:45:00,yes
+A00860,P0412,SL02460,Khô mắt,confirmed,2026-06-10 03:30:00,yes
+A00861,P0416,SL02461,Đo thị lực,rescheduled,2026-05-31 02:00:00,yes
+A00862,P0371,SL02466,Mờ mắt,confirmed,2026-06-10 11:45:00,yes
+A00863,P0252,SL02468,Khô mắt,cancelled,2026-06-03 09:00:00,yes
+A00864,P0291,SL02469,Đo thị lực,confirmed,2026-05-31 11:45:00,no
+A00865,P0111,SL02471,Đỏ mắt,confirmed,2026-06-03 05:00:00,yes
+A00866,P0068,SL02475,Đo thị lực,confirmed,2026-05-30 03:15:00,yes
+A00867,P0204,SL02476,Đo thị lực,confirmed,2026-06-05 02:30:00,yes
+A00868,P0165,SL02480,Đỏ mắt,completed,2026-05-30 12:45:00,yes
+A00869,P0403,SL02483,Khô mắt,confirmed,2026-06-02 11:45:00,yes
+A00870,P0017,SL02485,Kiểm tra răng miệng,rescheduled,2026-06-05 07:45:00,yes
+A00871,P0480,SL02487,Đau răng,confirmed,2026-06-06 07:15:00,yes
+A00872,P0230,SL02488,Đau răng,confirmed,2026-06-03 07:30:00,yes
+A00873,P0149,SL02489,Sâu răng,confirmed,2026-06-07 11:30:00,yes
+A00874,P0079,SL02491,Đau răng,confirmed,2026-06-10 06:45:00,yes
+A00875,P0237,SL02494,Kiểm tra răng miệng,confirmed,2026-05-30 11:45:00,yes
+A00876,P0074,SL02495,Viêm lợi,confirmed,2026-06-03 13:00:00,yes
+A00877,P0149,SL02504,Ngứa da,confirmed,2026-06-08 04:00:00,yes
+A00878,P0267,SL02508,Viêm da,completed,2026-06-11 06:00:00,yes
+A00879,P0177,SL02509,Ngứa da,confirmed,2026-06-03 10:45:00,no
+A00880,P0378,SL02513,Nổi mẩn đỏ,confirmed,2026-06-04 12:00:00,yes
+A00881,P0350,SL02515,Ho kéo dài ở trẻ,rescheduled,2026-06-05 07:00:00,yes
+A00882,P0316,SL02518,Ho kéo dài ở trẻ,confirmed,2026-06-01 04:15:00,yes
+A00883,P0283,SL02520,Kiểm tra sức khỏe trẻ,rescheduled,2026-06-03 08:00:00,yes
+A00884,P0092,SL02521,Tư vấn dinh dưỡng,confirmed,2026-06-09 08:45:00,no
+A00885,P0226,SL02525,Kiểm tra sức khỏe trẻ,confirmed,2026-06-02 09:00:00,yes
+A00886,P0236,SL02526,Kiểm tra sức khỏe trẻ,confirmed,2026-06-11 06:15:00,yes
+A00887,P0093,SL02527,Kiểm tra sức khỏe trẻ,confirmed,2026-06-07 01:45:00,yes
+A00888,P0455,SL02530,Kiểm tra sức khỏe trẻ,confirmed,2026-06-08 03:00:00,no
+A00889,P0410,SL02531,Tư vấn dinh dưỡng,completed,2026-06-01 03:30:00,yes
+A00890,P0005,SL02535,Viêm xoang,confirmed,2026-06-04 10:30:00,no
+A00891,P0177,SL02539,Viêm xoang,no_show,2026-06-10 11:00:00,yes
+A00892,P0380,SL02543,Nghẹt mũi,completed,2026-06-11 09:15:00,no
+A00893,P0297,SL02549,Đầy bụng ợ nóng,cancelled,2026-06-11 09:15:00,yes
+A00894,P0429,SL02550,Đầy bụng ợ nóng,confirmed,2026-06-08 04:45:00,yes
+A00895,P0318,SL02551,Đau dạ dày,confirmed,2026-06-09 02:45:00,no
+A00896,P0135,SL02553,Đầy bụng ợ nóng,confirmed,2026-06-06 06:30:00,yes
+A00897,P0400,SL02559,Đau dạ dày,no_show,2026-05-31 13:30:00,yes
+A00898,P0327,SL02560,Đầy bụng ợ nóng,rescheduled,2026-05-31 01:15:00,yes
+A00899,P0296,SL02569,Đầy bụng ợ nóng,no_show,2026-06-02 08:15:00,no
+A00900,P0106,SL02570,Rối loạn tiêu hóa,completed,2026-06-08 10:30:00,yes
+A00901,P0437,SL02584,Sốt nhẹ,cancelled,2026-06-05 10:30:00,no
+A00902,P0435,SL02586,Tư vấn tổng quát,confirmed,2026-06-05 09:30:00,yes
+A00903,P0214,SL02592,Tư vấn tổng quát,confirmed,2026-06-01 07:45:00,yes
+A00904,P0387,SL02598,Tư vấn tổng quát,completed,2026-06-08 13:30:00,no
+A00905,P0259,SL02602,Khám phụ khoa,confirmed,2026-06-01 08:15:00,no
+A00906,P0373,SL02604,Khám phụ khoa,confirmed,2026-06-08 05:15:00,no
+A00907,P0043,SL02606,Đau bụng dưới,completed,2026-06-01 03:45:00,yes
+A00908,P0414,SL02608,Khám thai định kỳ,completed,2026-06-02 11:45:00,yes
+A00909,P0320,SL02611,Đau bụng dưới,confirmed,2026-06-05 11:30:00,no
+A00910,P0001,SL02612,Khám thai định kỳ,completed,2026-06-03 15:00:00,yes
+A00911,P0427,SL02615,Đau gối,confirmed,2026-06-09 08:45:00,yes
+A00912,P0332,SL02616,Tê tay chân,confirmed,2026-06-05 13:00:00,yes
+A00913,P0185,SL02617,Đau vai gáy,confirmed,2026-06-02 14:00:00,yes
+A00914,P0036,SL02621,Đau gối,confirmed,2026-06-11 04:00:00,yes
+A00915,P0041,SL02625,Đau vai gáy,confirmed,2026-06-01 01:30:00,yes
+A00916,P0432,SL02630,Đau gối,confirmed,2026-06-10 07:45:00,yes
+A00917,P0198,SL02631,Đau gối,cancelled,2026-06-02 14:30:00,no
+A00918,P0209,SL02633,Đau vai gáy,cancelled,2026-06-06 13:00:00,no
+A00919,P0447,SL02636,Kiểm tra đường huyết,no_show,2026-06-02 00:45:00,yes
+A00920,P0306,SL02638,Sụt cân không rõ nguyên nhân,cancelled,2026-06-08 03:45:00,yes
+A00921,P0279,SL02642,Tư vấn tuyến giáp,confirmed,2026-06-01 10:45:00,yes
+A00922,P0048,SL02649,Tư vấn tuyến giáp,confirmed,2026-06-06 04:15:00,yes
+A00923,P0053,SL02650,Sụt cân không rõ nguyên nhân,confirmed,2026-06-09 06:00:00,yes
+A00924,P0049,SL02652,Khát nước nhiều,cancelled,2026-06-05 08:00:00,yes
+A00925,P0068,SL02653,Sụt cân không rõ nguyên nhân,no_show,2026-06-09 10:15:00,yes
+A00926,P0336,SL02655,Kiểm tra đường huyết,confirmed,2026-06-02 13:15:00,yes
+A00927,P0066,SL02661,Khát nước nhiều,confirmed,2026-06-10 05:45:00,yes
+A00928,P0254,SL02669,Khát nước nhiều,confirmed,2026-06-04 12:15:00,yes
+A00929,P0318,SL02670,Khát nước nhiều,confirmed,2026-06-10 08:30:00,yes
+A00930,P0307,SL02671,Kiểm tra đường huyết,cancelled,2026-06-04 14:30:00,yes
+A00931,P0285,SL02675,Đau đầu,completed,2026-06-11 01:30:00,yes
+A00932,P0406,SL02681,Đau đầu,cancelled,2026-06-01 03:00:00,yes
+A00933,P0255,SL02682,Đỏ mắt,confirmed,2026-06-10 04:15:00,no
+A00934,P0339,SL02684,Đỏ mắt,confirmed,2026-06-08 07:15:00,yes
+A00935,P0500,SL02686,Đo thị lực,confirmed,2026-06-09 06:00:00,no
+A00936,P0305,SL02690,Đỏ mắt,confirmed,2026-06-04 07:15:00,no
+A00937,P0271,SL02699,Đo thị lực,confirmed,2026-05-31 01:15:00,yes
+A00938,P0219,SL02703,Đo thị lực,completed,2026-06-09 09:45:00,yes
+A00939,P0344,SL02713,Sâu răng,confirmed,2026-06-03 09:30:00,yes
+A00940,P0213,SL02717,Sâu răng,confirmed,2026-06-04 10:30:00,yes
+A00941,P0305,SL02719,Kiểm tra răng miệng,confirmed,2026-06-11 10:30:00,no
+A00942,P0392,SL02721,Viêm lợi,confirmed,2026-06-11 13:00:00,yes
+A00943,P0165,SL02726,Ngứa da,cancelled,2026-06-02 08:30:00,yes
+A00944,P0449,SL02729,Viêm da,completed,2026-06-01 07:15:00,yes
+A00945,P0304,SL02737,Viêm da,confirmed,2026-06-04 02:15:00,yes
+A00946,P0193,SL02740,Viêm da,confirmed,2026-06-09 07:00:00,yes
+A00947,P0050,SL02741,Ngứa da,confirmed,2026-06-07 04:00:00,yes
+A00948,P0073,SL02744,Sốt trẻ em,cancelled,2026-06-12 07:00:00,yes
+A00949,P0170,SL02745,Sốt trẻ em,completed,2026-06-05 12:45:00,yes
+A00950,P0062,SL02752,Ù tai,confirmed,2026-06-11 13:30:00,yes
+A00951,P0072,SL02753,Viêm xoang,no_show,2026-06-01 07:30:00,no
+A00952,P0269,SL02755,Viêm xoang,confirmed,2026-06-11 15:00:00,no
+A00953,P0231,SL02756,Nghẹt mũi,confirmed,2026-06-06 08:45:00,yes
+A00954,P0009,SL02757,Viêm xoang,confirmed,2026-06-09 12:30:00,yes
+A00955,P0343,SL02761,Ù tai,confirmed,2026-06-10 06:45:00,yes
+A00956,P0390,SL02766,Viêm xoang,confirmed,2026-06-02 06:30:00,yes
+A00957,P0443,SL02773,Đầy bụng ợ nóng,cancelled,2026-06-11 00:15:00,no
+A00958,P0340,SL02783,Đau bụng,confirmed,2026-06-08 02:15:00,yes
+A00959,P0287,SL02784,Đau bụng,confirmed,2026-06-08 05:15:00,yes
+A00960,P0261,SL02787,Đau bụng,confirmed,2026-06-10 07:45:00,yes
+A00961,P0049,SL02790,Đầy bụng ợ nóng,completed,2026-06-02 10:30:00,yes
+A00962,P0309,SL02792,Rối loạn tiêu hóa,confirmed,2026-06-02 06:45:00,yes
+A00963,P0258,SL02793,Rối loạn tiêu hóa,confirmed,2026-06-06 00:45:00,yes
+A00964,P0213,SL02795,Đau dạ dày,confirmed,2026-06-01 08:45:00,no
+A00965,P0318,SL02798,Rối loạn tiêu hóa,no_show,2026-06-03 11:30:00,yes
+A00966,P0284,SL02799,Đau bụng,confirmed,2026-06-04 11:00:00,no
+A00967,P0094,SL02802,Đầy bụng ợ nóng,confirmed,2026-06-03 11:45:00,no
+A00968,P0108,SL02815,Tư vấn tổng quát,cancelled,2026-06-12 08:00:00,yes
+A00969,P0263,SL02816,Khám sức khỏe định kỳ,confirmed,2026-06-10 13:00:00,yes
+A00970,P0404,SL02820,Đau bụng dưới,rescheduled,2026-06-01 01:30:00,yes
+A00971,P0003,SL02822,Rối loạn kinh nguyệt,confirmed,2026-06-01 09:45:00,yes
+A00972,P0314,SL02824,Đau bụng dưới,rescheduled,2026-06-07 13:00:00,yes
+A00973,P0495,SL02826,Rối loạn kinh nguyệt,completed,2026-06-07 13:30:00,yes
+A00974,P0457,SL02827,Khám phụ khoa,confirmed,2026-06-07 10:15:00,yes
+A00975,P0169,SL02829,Rối loạn kinh nguyệt,confirmed,2026-06-05 10:00:00,no
+A00976,P0208,SL02835,Khám phụ khoa,confirmed,2026-06-01 04:00:00,no
+A00977,P0207,SL02837,Đau vai gáy,cancelled,2026-06-05 04:45:00,no
+A00978,P0454,SL02838,Đau vai gáy,confirmed,2026-06-08 04:00:00,yes
+A00979,P0377,SL02841,Đau gối,confirmed,2026-06-08 04:00:00,yes
+A00980,P0055,SL02842,Đau lưng,confirmed,2026-06-11 06:30:00,no
+A00981,P0409,SL02843,Tê tay chân,confirmed,2026-06-02 07:00:00,no
+A00982,P0243,SL02844,Đau vai gáy,confirmed,2026-06-10 07:30:00,yes
+A00983,P0373,SL02854,Đau vai gáy,cancelled,2026-06-08 10:00:00,yes
+A00984,P0103,SL02855,Đau vai gáy,cancelled,2026-06-10 08:15:00,no
+A00985,P0398,SL02862,Đau vai gáy,completed,2026-06-03 01:15:00,yes
+A00986,P0201,SL02871,Kiểm tra đường huyết,cancelled,2026-06-12 10:45:00,yes
+A00987,P0414,SL02872,Tư vấn tuyến giáp,confirmed,2026-06-06 12:45:00,yes
+A00988,P0219,SL02877,Sụt cân không rõ nguyên nhân,confirmed,2026-06-01 16:15:00,yes
+A00989,P0180,SL02880,Sụt cân không rõ nguyên nhân,no_show,2026-06-01 13:15:00,yes
+A00990,P0250,SL02883,Kiểm tra đường huyết,confirmed,2026-06-10 08:15:00,yes
+A00991,P0475,SL02893,Sâu răng,completed,2026-06-10 10:30:00,yes
+A00992,P0166,SL02895,Viêm lợi,cancelled,2026-06-12 07:30:00,yes
+A00993,P0417,SL02899,Đau răng,confirmed,2026-06-01 09:00:00,yes
+A00994,P0065,SL02901,Viêm lợi,confirmed,2026-06-12 09:45:00,no
+A00995,P0292,SL02903,Kiểm tra răng miệng,cancelled,2026-06-07 15:30:00,no
+A00996,P0312,SL02905,Viêm lợi,confirmed,2026-06-11 11:15:00,no
+A00997,P0164,SL02906,Đau răng,completed,2026-06-08 07:15:00,yes
+A00998,P0145,SL02908,Kiểm tra răng miệng,rescheduled,2026-06-07 12:30:00,no
+A00999,P0192,SL02910,Đau răng,confirmed,2026-06-01 12:00:00,yes
+A01000,P0036,SL02913,Đau ngực nhẹ,confirmed,2026-06-03 11:15:00,yes
+A01001,P0309,SL02914,Đau ngực nhẹ,confirmed,2026-06-07 13:00:00,yes
+A01002,P0079,SL02919,Đau ngực nhẹ,rescheduled,2026-06-13 03:15:00,yes
+A01003,P0308,SL02920,Hồi hộp tim,confirmed,2026-06-07 02:45:00,yes
+A01004,P0240,SL02926,Kiểm tra tim mạch định kỳ,confirmed,2026-06-12 08:00:00,yes
+A01005,P0052,SL02931,Tăng huyết áp,confirmed,2026-06-04 02:45:00,no
+A01006,P0136,SL02932,Hồi hộp tim,rescheduled,2026-06-12 05:30:00,yes
+A01007,P0026,SL02943,Ngứa da,confirmed,2026-06-11 10:45:00,yes
+A01008,P0117,SL02944,Viêm da,confirmed,2026-06-10 12:45:00,yes
+A01009,P0328,SL02946,Nổi mẩn đỏ,confirmed,2026-06-03 12:00:00,yes
+A01010,P0357,SL02949,Nổi mẩn đỏ,confirmed,2026-06-05 11:00:00,yes
+A01011,P0486,SL02950,Nổi mẩn đỏ,confirmed,2026-06-07 03:00:00,yes
+A01012,P0494,SL02952,Mụn kéo dài,completed,2026-06-03 05:00:00,no
+A01013,P0256,SL02955,Kiểm tra sức khỏe trẻ,confirmed,2026-06-14 05:00:00,yes
+A01014,P0088,SL02956,Tư vấn dinh dưỡng,cancelled,2026-06-04 04:30:00,yes
+A01015,P0407,SL02958,Ho kéo dài ở trẻ,no_show,2026-06-03 08:15:00,no
+A01016,P0416,SL02959,Tư vấn dinh dưỡng,no_show,2026-06-14 02:30:00,yes
+A01017,P0175,SL02962,Ho kéo dài ở trẻ,completed,2026-06-09 09:00:00,no
+A01018,P0227,SL02966,Ho kéo dài ở trẻ,completed,2026-06-14 08:15:00,yes
+A01019,P0046,SL02968,Tư vấn dinh dưỡng,cancelled,2026-06-13 13:30:00,yes
+A01020,P0279,SL02970,Tư vấn dinh dưỡng,confirmed,2026-06-11 11:00:00,no
+A01021,P0446,SL02971,Kiểm tra sức khỏe trẻ,completed,2026-06-11 07:30:00,yes
+A01022,P0431,SL02973,Sốt trẻ em,completed,2026-06-04 06:15:00,no
+A01023,P0033,SL02974,Ho kéo dài ở trẻ,confirmed,2026-06-09 05:45:00,yes
+A01024,P0322,SL02975,Tư vấn dinh dưỡng,completed,2026-06-06 07:45:00,no
+A01025,P0037,SL02979,Ho kéo dài ở trẻ,cancelled,2026-06-04 12:15:00,yes
+A01026,P0380,SL02980,Tư vấn dinh dưỡng,confirmed,2026-06-08 14:00:00,yes
+A01027,P0156,SL02981,Sốt trẻ em,cancelled,2026-06-07 14:45:00,no
+A01028,P0293,SL02982,Sốt trẻ em,confirmed,2026-06-11 09:45:00,yes
+A01029,P0218,SL02983,Kiểm tra sức khỏe trẻ,completed,2026-06-11 14:00:00,yes
+A01030,P0064,SL02985,Nghẹt mũi,confirmed,2026-06-06 08:00:00,yes
+A01031,P0145,SL02989,Đau họng,cancelled,2026-06-13 11:15:00,yes
+A01032,P0493,SL02990,Viêm xoang,confirmed,2026-06-08 14:45:00,no
+A01033,P0351,SL02992,Rối loạn tiêu hóa,confirmed,2026-06-07 07:00:00,no
+A01034,P0365,SL02993,Đau bụng,completed,2026-06-14 05:00:00,yes
+A01035,P0328,SL02994,Đau bụng,confirmed,2026-06-05 07:30:00,yes
+A01036,P0085,SL02995,Đau bụng,confirmed,2026-06-11 04:00:00,no
+A01037,P0008,SL02996,Rối loạn tiêu hóa,confirmed,2026-06-07 05:30:00,no
+A01038,P0096,SL02998,Rối loạn tiêu hóa,confirmed,2026-06-04 07:15:00,yes
+A01039,P0209,SL02999,Rối loạn tiêu hóa,confirmed,2026-06-14 01:15:00,yes
+A01040,P0134,SL03001,Đau bụng,confirmed,2026-06-10 04:45:00,yes
+A01041,P0248,SL03003,Rối loạn tiêu hóa,confirmed,2026-06-10 03:15:00,no
+A01042,P0185,SL03009,Đầy bụng ợ nóng,confirmed,2026-06-03 14:00:00,no
+A01043,P0348,SL03010,Đầy bụng ợ nóng,completed,2026-06-11 14:15:00,yes
+A01044,P0212,SL03011,Rối loạn tiêu hóa,confirmed,2026-06-05 05:00:00,yes
+A01045,P0466,SL03014,Đau dạ dày,no_show,2026-06-09 02:45:00,no
+A01046,P0464,SL03017,Rối loạn tiêu hóa,confirmed,2026-06-11 03:30:00,yes
+A01047,P0189,SL03019,Rối loạn tiêu hóa,confirmed,2026-06-08 08:15:00,no
+A01048,P0172,SL03020,Rối loạn tiêu hóa,confirmed,2026-06-06 07:15:00,no
+A01049,P0031,SL03022,Đau bụng,confirmed,2026-06-11 13:15:00,yes
+A01050,P0354,SL03024,Khám sức khỏe định kỳ,confirmed,2026-06-05 00:45:00,yes
+A01051,P0197,SL03026,Khám sức khỏe định kỳ,confirmed,2026-06-10 09:30:00,no
+A01052,P0307,SL03033,Sốt nhẹ,completed,2026-06-05 11:30:00,yes
+A01053,P0103,SL03036,Tư vấn tổng quát,completed,2026-06-12 12:30:00,no
+A01054,P0136,SL03041,Sốt nhẹ,confirmed,2026-06-04 15:00:00,yes
+A01055,P0121,SL03043,Khám sức khỏe định kỳ,confirmed,2026-06-10 13:15:00,yes
+A01056,P0318,SL03045,Khám sức khỏe định kỳ,confirmed,2026-06-08 03:45:00,yes
+A01057,P0104,SL03046,Tư vấn tổng quát,cancelled,2026-06-04 06:00:00,no
+A01058,P0442,SL03047,Khám sức khỏe định kỳ,confirmed,2026-06-11 06:15:00,no
+A01059,P0124,SL03048,Sốt nhẹ,rescheduled,2026-06-09 05:30:00,yes
+A01060,P0203,SL03050,Tư vấn tổng quát,confirmed,2026-06-12 08:45:00,yes
+A01061,P0113,SL03051,Sốt nhẹ,confirmed,2026-06-04 09:45:00,yes
+A01062,P0112,SL03054,Sốt nhẹ,confirmed,2026-06-08 09:30:00,yes
+A01063,P0413,SL03055,Mệt mỏi,no_show,2026-06-12 13:15:00,yes
+A01064,P0304,SL03058,Tư vấn tổng quát,rescheduled,2026-06-14 02:30:00,yes
+A01065,P0479,SL03059,Sốt nhẹ,confirmed,2026-06-04 07:00:00,yes
+A01066,P0315,SL03063,Mệt mỏi,confirmed,2026-06-14 08:45:00,yes
+A01067,P0110,SL03066,Khám sức khỏe định kỳ,cancelled,2026-06-13 10:45:00,yes
+A01068,P0043,SL03069,Rối loạn kinh nguyệt,completed,2026-06-09 00:30:00,yes
+A01069,P0383,SL03070,Rối loạn kinh nguyệt,completed,2026-06-05 03:15:00,no
+A01070,P0253,SL03071,Rối loạn kinh nguyệt,no_show,2026-06-03 09:00:00,yes
+A01071,P0424,SL03073,Đau bụng dưới,no_show,2026-06-11 06:45:00,yes
+A01072,P0274,SL03075,Khám phụ khoa,rescheduled,2026-06-13 13:15:00,no
+A01073,P0002,SL03079,Khám phụ khoa,completed,2026-06-07 12:30:00,yes
+A01074,P0313,SL03083,Khám thai định kỳ,confirmed,2026-06-03 02:15:00,no
+A01075,P0456,SL03087,Đau bụng dưới,confirmed,2026-06-03 09:15:00,yes
+A01076,P0212,SL03088,Khám thai định kỳ,rescheduled,2026-06-09 11:15:00,yes
+A01077,P0455,SL03089,Rối loạn kinh nguyệt,cancelled,2026-06-11 08:30:00,yes
+A01078,P0413,SL03091,Đau lưng,rescheduled,2026-06-10 06:45:00,no
+A01079,P0299,SL03093,Tê tay chân,cancelled,2026-06-05 06:15:00,yes
+A01080,P0096,SL03097,Tê tay chân,confirmed,2026-06-09 04:30:00,no
+A01081,P0260,SL03098,Đau vai gáy,confirmed,2026-06-14 05:30:00,yes
+A01082,P0441,SL03099,Đau lưng,cancelled,2026-06-05 06:45:00,yes
+A01083,P0139,SL03100,Đau vai gáy,confirmed,2026-06-05 04:00:00,yes
+A01084,P0325,SL03101,Tê tay chân,confirmed,2026-06-08 04:00:00,yes
+A01085,P0043,SL03102,Đau vai gáy,confirmed,2026-06-12 08:30:00,yes
+A01086,P0025,SL03103,Đau vai gáy,completed,2026-06-05 06:30:00,yes
+A01087,P0089,SL03104,Tê tay chân,confirmed,2026-06-12 00:30:00,yes
+A01088,P0050,SL03105,Tê tay chân,confirmed,2026-06-13 02:15:00,yes
+A01089,P0191,SL03106,Tê tay chân,confirmed,2026-06-09 02:45:00,yes
+A01090,P0253,SL03110,Đau vai gáy,completed,2026-06-11 03:00:00,yes
+A01091,P0107,SL03115,Kiểm tra đường huyết,confirmed,2026-06-04 14:45:00,yes
+A01092,P0188,SL03116,Kiểm tra đường huyết,confirmed,2026-06-08 07:30:00,yes
+A01093,P0248,SL03117,Sụt cân không rõ nguyên nhân,confirmed,2026-06-05 11:45:00,yes
+A01094,P0396,SL03118,Tư vấn tuyến giáp,confirmed,2026-06-07 00:15:00,no
+A01095,P0226,SL03122,Sụt cân không rõ nguyên nhân,confirmed,2026-06-12 08:45:00,yes
+A01096,P0373,SL03123,Tư vấn tuyến giáp,rescheduled,2026-06-06 07:15:00,yes
+A01097,P0345,SL03129,Mất ngủ,confirmed,2026-06-03 04:45:00,yes
+A01098,P0374,SL03130,Tê bì tay chân,confirmed,2026-06-11 03:00:00,yes
+A01099,P0308,SL03133,Chóng mặt,completed,2026-06-11 07:45:00,yes
+A01100,P0436,SL03134,Tê bì tay chân,no_show,2026-06-13 05:00:00,yes
+A01101,P0321,SL03137,Mất ngủ,confirmed,2026-06-13 10:15:00,yes
+A01102,P0274,SL03139,Chóng mặt,completed,2026-06-12 03:00:00,yes
+A01103,P0054,SL03142,Chóng mặt,cancelled,2026-06-06 06:15:00,yes
+A01104,P0492,SL03143,Đau đầu,completed,2026-06-12 07:30:00,yes
+A01105,P0290,SL03144,Tê bì tay chân,confirmed,2026-06-12 06:45:00,yes
+A01106,P0020,SL03146,Tê bì tay chân,no_show,2026-06-03 02:45:00,no
+A01107,P0034,SL03148,Tê bì tay chân,no_show,2026-06-11 03:15:00,yes
+A01108,P0093,SL03149,Chóng mặt,confirmed,2026-06-14 04:45:00,no
+A01109,P0213,SL03150,Tê bì tay chân,confirmed,2026-06-07 10:00:00,yes
+A01110,P0419,SL03153,Chóng mặt,confirmed,2026-06-13 11:45:00,yes
+A01111,P0369,SL03154,Đau đầu,completed,2026-06-06 14:45:00,no
+A01112,P0412,SL03158,Đo thị lực,confirmed,2026-06-07 23:45:00,no
+A01113,P0442,SL03159,Đo thị lực,completed,2026-06-04 00:00:00,yes
+A01114,P0150,SL03160,Mờ mắt,confirmed,2026-06-07 05:00:00,no
+A01115,P0231,SL03164,Đỏ mắt,confirmed,2026-06-05 05:30:00,yes
+A01116,P0381,SL03165,Khô mắt,confirmed,2026-06-05 06:30:00,yes
+A01117,P0494,SL03166,Mờ mắt,confirmed,2026-06-05 04:45:00,no
+A01118,P0480,SL03168,Đo thị lực,confirmed,2026-06-12 07:45:00,yes
+A01119,P0283,SL03170,Khô mắt,confirmed,2026-06-11 07:30:00,yes
+A01120,P0218,SL03172,Đo thị lực,no_show,2026-06-13 05:45:00,yes
+A01121,P0257,SL03175,Khô mắt,confirmed,2026-06-14 05:15:00,yes
+A01122,P0457,SL03178,Khô mắt,cancelled,2026-06-03 05:00:00,yes
+A01123,P0050,SL03181,Đo thị lực,no_show,2026-06-10 09:00:00,yes
+A01124,P0408,SL03183,Đo thị lực,no_show,2026-06-08 11:00:00,yes
+A01125,P0301,SL03187,Đỏ mắt,confirmed,2026-06-13 07:00:00,yes
+A01126,P0389,SL03189,Khô mắt,cancelled,2026-06-06 02:45:00,yes
+A01127,P0420,SL03190,Đỏ mắt,no_show,2026-06-11 08:15:00,yes
+A01128,P0319,SL03193,Viêm lợi,cancelled,2026-06-11 05:45:00,yes
+A01129,P0011,SL03194,Đau răng,confirmed,2026-06-12 03:15:00,yes
+A01130,P0198,SL03195,Đau răng,confirmed,2026-06-03 08:30:00,no
+A01131,P0130,SL03202,Sâu răng,rescheduled,2026-06-09 09:45:00,yes
+A01132,P0208,SL03203,Đau răng,confirmed,2026-06-04 07:15:00,yes
+A01133,P0422,SL03204,Sâu răng,confirmed,2026-06-05 11:45:00,yes
+A01134,P0306,SL03206,Viêm lợi,rescheduled,2026-06-03 03:45:00,no
+A01135,P0438,SL03207,Sâu răng,confirmed,2026-06-11 07:15:00,yes
+A01136,P0462,SL03208,Sâu răng,no_show,2026-06-13 04:30:00,yes
+A01137,P0343,SL03213,Đau răng,confirmed,2026-06-03 06:45:00,yes
+A01138,P0375,SL03215,Đau răng,completed,2026-06-11 14:45:00,yes
+A01139,P0283,SL03216,Sâu răng,confirmed,2026-06-08 05:30:00,no
+A01140,P0119,SL03221,Đau răng,confirmed,2026-06-09 14:15:00,no
+A01141,P0284,SL03226,Đau răng,rescheduled,2026-06-03 14:15:00,yes

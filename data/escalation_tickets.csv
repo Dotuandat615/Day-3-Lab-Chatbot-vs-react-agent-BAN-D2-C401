@@ -1,0 +1,121 @@
+﻿ticket_id,user_query,reason,status,created_at
+T0001,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,resolved,2026-06-15 12:30:00
+T0002,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-04 15:30:00
+T0003,LLM output sai định dạng JSON action.,PARSER_ERROR,resolved,2026-06-14 15:30:00
+T0004,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-09 13:00:00
+T0005,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,resolved,2026-06-08 15:45:00
+T0006,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-11 11:30:00
+T0007,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,resolved,2026-06-02 12:30:00
+T0008,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-12 11:15:00
+T0009,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-14 15:15:00
+T0010,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-10 12:45:00
+T0011,LLM output sai định dạng JSON action.,PARSER_ERROR,resolved,2026-06-04 09:30:00
+T0012,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,resolved,2026-06-05 09:00:00
+T0013,LLM output sai định dạng JSON action.,PARSER_ERROR,resolved,2026-06-11 15:45:00
+T0014,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,resolved,2026-06-05 17:45:00
+T0015,LLM output sai định dạng JSON action.,PARSER_ERROR,resolved,2026-06-02 13:00:00
+T0016,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-10 16:30:00
+T0017,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-06 16:15:00
+T0018,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-15 08:30:00
+T0019,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,in_progress,2026-06-05 11:15:00
+T0020,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,open,2026-06-12 15:45:00
+T0021,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-03 11:30:00
+T0022,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,open,2026-06-09 10:00:00
+T0023,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,open,2026-06-08 15:00:00
+T0024,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,in_progress,2026-06-05 13:30:00
+T0025,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-15 13:00:00
+T0026,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-09 10:45:00
+T0027,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,in_progress,2026-06-10 16:45:00
+T0028,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-11 08:45:00
+T0029,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,open,2026-06-14 14:00:00
+T0030,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-14 09:30:00
+T0031,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,open,2026-06-14 08:15:00
+T0032,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,open,2026-06-15 15:15:00
+T0033,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,in_progress,2026-06-04 15:45:00
+T0034,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,resolved,2026-06-03 13:30:00
+T0035,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,resolved,2026-06-10 09:15:00
+T0036,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-08 13:15:00
+T0037,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,open,2026-06-07 12:30:00
+T0038,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,open,2026-06-14 10:15:00
+T0039,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,open,2026-06-09 09:45:00
+T0040,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-06 12:15:00
+T0041,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,in_progress,2026-06-03 17:45:00
+T0042,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,open,2026-06-12 16:30:00
+T0043,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,open,2026-06-15 14:45:00
+T0044,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,in_progress,2026-06-14 13:15:00
+T0045,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,open,2026-06-11 14:45:00
+T0046,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,in_progress,2026-06-09 08:00:00
+T0047,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-15 13:30:00
+T0048,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,resolved,2026-06-11 12:15:00
+T0049,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,open,2026-06-03 11:30:00
+T0050,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,resolved,2026-06-09 12:00:00
+T0051,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,open,2026-06-03 15:15:00
+T0052,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,open,2026-06-04 10:00:00
+T0053,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,resolved,2026-06-10 09:45:00
+T0054,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-13 10:15:00
+T0055,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,in_progress,2026-06-13 10:15:00
+T0056,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-04 11:15:00
+T0057,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,in_progress,2026-06-07 14:00:00
+T0058,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,resolved,2026-06-02 12:00:00
+T0059,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-12 14:45:00
+T0060,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,in_progress,2026-06-12 16:30:00
+T0061,LLM output sai định dạng JSON action.,PARSER_ERROR,in_progress,2026-06-11 14:15:00
+T0062,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,in_progress,2026-06-15 16:00:00
+T0063,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-08 10:00:00
+T0064,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,open,2026-06-11 08:30:00
+T0065,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-03 15:15:00
+T0066,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,resolved,2026-06-09 16:30:00
+T0067,LLM output sai định dạng JSON action.,PARSER_ERROR,open,2026-06-08 15:00:00
+T0068,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,resolved,2026-06-05 15:15:00
+T0069,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-15 12:45:00
+T0070,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-08 14:30:00
+T0071,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-15 09:15:00
+T0072,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,resolved,2026-06-07 10:15:00
+T0073,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,open,2026-06-04 08:30:00
+T0074,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,in_progress,2026-06-04 17:45:00
+T0075,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-07 10:00:00
+T0076,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,resolved,2026-06-12 13:45:00
+T0077,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,resolved,2026-06-05 13:45:00
+T0078,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,open,2026-06-04 08:15:00
+T0079,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,resolved,2026-06-03 10:15:00
+T0080,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,open,2026-06-05 12:30:00
+T0081,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-10 11:30:00
+T0082,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-12 14:00:00
+T0083,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,open,2026-06-12 17:30:00
+T0084,LLM output sai định dạng JSON action.,PARSER_ERROR,in_progress,2026-06-03 08:00:00
+T0085,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,open,2026-06-08 09:45:00
+T0086,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,resolved,2026-06-06 14:15:00
+T0087,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,open,2026-06-04 12:00:00
+T0088,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,resolved,2026-06-03 13:15:00
+T0089,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,resolved,2026-06-12 11:15:00
+T0090,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,in_progress,2026-06-08 08:00:00
+T0091,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,resolved,2026-06-03 09:45:00
+T0092,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-13 11:00:00
+T0093,LLM output sai định dạng JSON action.,PARSER_ERROR,open,2026-06-13 16:30:00
+T0094,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,open,2026-06-02 12:45:00
+T0095,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-11 10:45:00
+T0096,LLM output sai định dạng JSON action.,PARSER_ERROR,resolved,2026-06-02 16:15:00
+T0097,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,resolved,2026-06-05 11:15:00
+T0098,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-07 08:45:00
+T0099,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-09 16:00:00
+T0100,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,resolved,2026-06-05 13:30:00
+T0101,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,open,2026-06-13 14:45:00
+T0102,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,open,2026-06-02 16:45:00
+T0103,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,resolved,2026-06-15 10:45:00
+T0104,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,resolved,2026-06-13 13:00:00
+T0105,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,resolved,2026-06-08 10:30:00
+T0106,Tôi đau ngực dữ dội và khó thở nặng.,EMERGENCY_SYMPTOM,resolved,2026-06-13 12:15:00
+T0107,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,resolved,2026-06-08 08:00:00
+T0108,"Tôi thấy khó chịu trong người, không biết khám gì.",AMBIGUOUS_SYMPTOM,resolved,2026-06-03 13:45:00
+T0109,"Tôi chỉ muốn bác sĩ nữ nói tiếng Anh, online, dưới 20 phút chờ.",NO_SLOT_FOUND,resolved,2026-06-08 14:00:00
+T0110,LLM output sai định dạng JSON action.,PARSER_ERROR,resolved,2026-06-06 14:45:00
+T0111,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,in_progress,2026-06-06 17:15:00
+T0112,Bảo hiểm tư của tôi có chi trả bao nhiêu phần trăm?,PAYMENT_COVERAGE_DETAIL,resolved,2026-06-03 12:00:00
+T0113,LLM output sai định dạng JSON action.,PARSER_ERROR,open,2026-06-07 12:30:00
+T0114,Agent vượt quá số vòng xử lý trong demo.,MAX_STEPS_EXCEEDED,open,2026-06-10 10:15:00
+T0115,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,resolved,2026-06-10 17:15:00
+T0116,Tôi muốn gặp điều phối viên.,HUMAN_REQUESTED,resolved,2026-06-02 09:45:00
+T0117,Tôi muốn đặt lịch càng sớm càng tốt nhưng chưa rõ chuyên khoa.,MISSING_INFORMATION,resolved,2026-06-15 14:45:00
+T0118,LLM output sai định dạng JSON action.,PARSER_ERROR,in_progress,2026-06-15 16:00:00
+T0119,Lỗi truy vấn database khi đặt lịch.,TOOL_RUNTIME_ERROR,resolved,2026-06-14 12:00:00
+T0120,Tool search_available_slots phản hồi quá lâu.,TIMEOUT,open,2026-06-15 08:00:00
