@@ -1,6 +1,29 @@
+# Secrets & local config
 .env
+
+# Virtual environments
+.venv
+venv/
+
+# Logs & runtime output
 logs/
-__pycache__/
 *.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Editor configs (personal, not shared)
+.vscode/
+.idea/
+
+# Large model files (download separately via scripts/download_model.py)
 models/
+
+# Generated database (rebuild via scripts/build_database.py)
+data/hospital.db

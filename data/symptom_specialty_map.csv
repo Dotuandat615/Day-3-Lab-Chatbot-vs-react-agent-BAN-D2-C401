@@ -1,0 +1,70 @@
+﻿symptom_id,symptom_keyword,suggested_specialty_id,urgency_level,note
+SYM001,đau ngực,S001,urgent,"Gợi ý Tim mạch. Nếu đau dữ dội, lan tay trái, vã mồ hôi hoặc khó thở, nên đi cấp cứu."
+SYM002,khó thở,S001,urgent,Gợi ý Tim mạch; nếu khó thở nặng cần hỗ trợ khẩn cấp.
+SYM003,hồi hộp,S001,normal,Gợi ý Tim mạch.
+SYM004,tăng huyết áp,S001,normal,Gợi ý Tim mạch.
+SYM005,mệt khi gắng sức,S001,normal,Gợi ý Tim mạch.
+SYM006,đau tức ngực,S001,urgent,Gợi ý Tim mạch; cần đánh giá sớm.
+SYM007,mụn,S002,normal,Gợi ý Da liễu.
+SYM008,ngứa,S002,normal,Gợi ý Da liễu.
+SYM009,nổi mẩn đỏ,S002,normal,Gợi ý Da liễu.
+SYM010,phát ban,S002,normal,Gợi ý Da liễu.
+SYM011,viêm da,S002,normal,Gợi ý Da liễu.
+SYM012,rụng tóc,S002,normal,Gợi ý Da liễu.
+SYM013,nấm da,S002,normal,Gợi ý Da liễu.
+SYM014,sốt trẻ em,S003,normal,Gợi ý Nhi khoa.
+SYM015,ho trẻ em,S003,normal,Gợi ý Nhi khoa.
+SYM016,tiêu chảy trẻ em,S003,normal,Gợi ý Nhi khoa.
+SYM017,bé bỏ bú,S003,urgent,Gợi ý Nhi khoa; nếu trẻ li bì hoặc khó thở cần đi cấp cứu.
+SYM018,trẻ phát ban,S003,normal,Gợi ý Nhi khoa.
+SYM019,trẻ sốt cao co giật,S003,emergency,Không nên đặt lịch thường; cần hỗ trợ cấp cứu.
+SYM020,đau họng,S004,normal,Gợi ý Tai Mũi Họng.
+SYM021,nghẹt mũi,S004,normal,Gợi ý Tai Mũi Họng.
+SYM022,ù tai,S004,normal,Gợi ý Tai Mũi Họng.
+SYM023,viêm xoang,S004,normal,Gợi ý Tai Mũi Họng.
+SYM024,ho kéo dài,S004,normal,Gợi ý Tai Mũi Họng.
+SYM025,mất tiếng,S004,normal,Gợi ý Tai Mũi Họng.
+SYM026,đau bụng,S005,normal,Gợi ý Tiêu hóa.
+SYM027,đau dạ dày,S005,normal,Gợi ý Tiêu hóa.
+SYM028,ợ nóng,S005,normal,Gợi ý Tiêu hóa.
+SYM029,buồn nôn,S005,normal,Gợi ý Tiêu hóa.
+SYM030,tiêu chảy,S005,normal,Gợi ý Tiêu hóa.
+SYM031,táo bón,S005,normal,Gợi ý Tiêu hóa.
+SYM032,đi ngoài ra máu,S005,urgent,Gợi ý Tiêu hóa; nếu ra máu nhiều cần đi cấp cứu.
+SYM033,vàng da,S005,urgent,Gợi ý Tiêu hóa/Gan mật; nên khám sớm.
+SYM034,mệt mỏi,S006,normal,Gợi ý Tổng quát nếu chưa rõ chuyên khoa.
+SYM035,khám định kỳ,S006,normal,Gợi ý Tổng quát.
+SYM036,sốt nhẹ,S006,normal,Gợi ý Tổng quát nếu không có dấu hiệu nặng.
+SYM037,đau đầu nhẹ,S006,normal,Gợi ý Tổng quát hoặc Thần kinh tùy mức độ.
+SYM038,kiểm tra sức khỏe,S006,normal,Gợi ý Tổng quát.
+SYM039,đau bụng dưới,S007,normal,Gợi ý Sản phụ khoa.
+SYM040,rối loạn kinh nguyệt,S007,normal,Gợi ý Sản phụ khoa.
+SYM041,khám thai,S007,normal,Gợi ý Sản phụ khoa.
+SYM042,viêm phụ khoa,S007,normal,Gợi ý Sản phụ khoa.
+SYM043,ra khí hư bất thường,S007,normal,Gợi ý Sản phụ khoa.
+SYM044,đau lưng,S008,normal,Gợi ý Cơ xương khớp.
+SYM045,đau gối,S008,normal,Gợi ý Cơ xương khớp.
+SYM046,đau vai gáy,S008,normal,Gợi ý Cơ xương khớp.
+SYM047,tê tay chân,S008,normal,Gợi ý Cơ xương khớp hoặc Thần kinh.
+SYM048,bong gân,S008,normal,Gợi ý Cơ xương khớp.
+SYM049,đau khớp,S008,normal,Gợi ý Cơ xương khớp.
+SYM050,khát nước nhiều,S009,normal,Gợi ý Nội tiết.
+SYM051,sụt cân,S009,normal,Gợi ý Nội tiết hoặc Tổng quát tùy triệu chứng đi kèm.
+SYM052,bướu cổ,S009,normal,Gợi ý Nội tiết.
+SYM053,run tay,S009,normal,Gợi ý Nội tiết hoặc Thần kinh.
+SYM054,đường huyết cao,S009,normal,Gợi ý Nội tiết.
+SYM055,đau đầu dữ dội,S010,urgent,Gợi ý Thần kinh; nếu đột ngột dữ dội cần hỗ trợ khẩn cấp.
+SYM056,chóng mặt,S010,normal,Gợi ý Thần kinh hoặc Tổng quát.
+SYM057,mất ngủ,S010,normal,Gợi ý Thần kinh.
+SYM058,yếu liệt nửa người,S010,emergency,Không nên đặt lịch thường; cần gọi cấp cứu hoặc đến cấp cứu ngay.
+SYM059,tê bì,S010,normal,Gợi ý Thần kinh.
+SYM060,mờ mắt,S011,normal,Gợi ý Mắt.
+SYM061,đỏ mắt,S011,normal,Gợi ý Mắt.
+SYM062,đau mắt,S011,normal,Gợi ý Mắt.
+SYM063,khô mắt,S011,normal,Gợi ý Mắt.
+SYM064,chảy nước mắt,S011,normal,Gợi ý Mắt.
+SYM065,đau răng,S012,normal,Gợi ý Răng Hàm Mặt.
+SYM066,chảy máu chân răng,S012,normal,Gợi ý Răng Hàm Mặt.
+SYM067,sâu răng,S012,normal,Gợi ý Răng Hàm Mặt.
+SYM068,viêm lợi,S012,normal,Gợi ý Răng Hàm Mặt.
+SYM069,lệch khớp cắn,S012,normal,Gợi ý Răng Hàm Mặt.
