@@ -351,6 +351,10 @@ def run_agent(query: str, llm, version: str = "agent_v1") -> Dict[str, Any]:
                 fallback_used = True
                 fallback_res = run_tool("escalate_to_human", {"reason": "Lỗi parse JSON output của model", "user_query": query})
                 answer = fallback_res.get("message", "Đã chuyển tiếp tới bộ phận hỗ trợ khách hàng.")
+        elif "timeout: maximum execution time" in answer.lower():
+            final_status = "error"
+            error_code = "TIMEOUT"
+            answer = "⏱️ **Hết thời gian xử lý (Timeout 45s)**\n\nYêu cầu của bạn mất nhiều thời gian hơn dự kiến (hơn 45 giây). Hệ thống đã tạm dừng để tránh chờ đợi lâu. Vui lòng kiểm tra lại kết nối hoặc thử lại với mô hình khác."
         elif "llm error" in answer.lower() and any(kw in answer.lower() for kw in ["connection", "connect", "timeout", "dns", "gaierror", "socket", "unreachable"]):
             final_status = "error"
             error_code = "CONNECTION_ERROR"
@@ -499,6 +503,13 @@ def main():
                     "1. Kiểm tra lại đường truyền internet trên thiết bị của bạn.\n"
                     "2. Hoặc cấu hình chạy mô hình cục bộ **Local Model Offline (Llama 3.2)** trong tệp `.env` để tiếp tục sử dụng mà không cần kết nối mạng."
                 )
+            elif last_msg.get("role") == "assistant" and last_msg.get("metrics", {}).get("error_code") == "TIMEOUT":
+                st.error(
+                    "⏱️ **Hết thời gian xử lý (Timeout 45s)**\n\n"
+                    "Yêu cầu của bạn mất nhiều thời gian hơn dự kiến (hơn 45 giây). Hệ thống đã tạm dừng để tránh chờ đợi lâu. Vui lòng:\n"
+                    "1. Kiểm tra lại chất lượng đường truyền internet.\n"
+                    "2. Nếu đang chạy mô hình cục bộ offline (Local Model), hãy kiểm tra xem tài nguyên CPU/RAM trên máy tính của bạn có bị quá tải không."
+                )
 
         # Hiển thị các tin nhắn trong lịch sử chat
         for msg in st.session_state.messages:
@@ -526,13 +537,48 @@ def main():
 
             with st.spinner(f"Đang xử lý bằng {mode}..."):
                 try:
-                    if llm is None:
-                        # Chạy demo mode khi không có API key
-                        result = run_demo_mode(query, mode)
-                    elif mode == "chatbot":
-                        result = run_chatbot(query, llm)
+                    import threading
+                    from datetime import datetime
+
+                    res_container = {}
+                    def thread_worker():
+                        try:
+                            if llm is None:
+                                res_container["result"] = run_demo_mode(query, mode)
+                            elif mode == "chatbot":
+                                res_container["result"] = run_chatbot(query, llm)
+                            else:
+                                res_container["result"] = run_agent(query, llm, version=mode)
+                        except Exception as thread_exc:
+                            res_container["error"] = thread_exc
+
+                    t = threading.Thread(target=thread_worker)
+                    t.daemon = True
+                    t.start()
+                    t.join(timeout=45.0)
+
+                    if t.is_alive():
+                        # Timeout occurred!
+                        start_time = datetime.utcnow().isoformat()
+                        result = {
+                            "answer": "⏱️ **Hết thời gian xử lý (Timeout 45s)**\n\nYêu cầu của bạn mất nhiều thời gian hơn dự kiến (hơn 45 giây). Hệ thống đã tạm dừng để tránh chờ đợi lâu. Vui lòng kiểm tra lại chất lượng đường truyền hoặc thử lại.",
+                            "trace": [],
+                            "loop_count": 0,
+                            "tools_called": [],
+                            "final_status": "error",
+                            "error_code": "TIMEOUT",
+                            "fallback_used": False,
+                            "token_prompt_estimate": 0,
+                            "token_completion_estimate": 0,
+                            "latency": 45.0,
+                            "user_query": query,
+                            "start_time": start_time,
+                            "end_time": datetime.utcnow().isoformat(),
+                        }
+                    elif "error" in res_container:
+                        raise res_container["error"]
                     else:
-                        result = run_agent(query, llm, version=mode)
+                        result = res_container["result"]
 
                     # Lưu log
                     run_id = app_logger.save_run_log(
