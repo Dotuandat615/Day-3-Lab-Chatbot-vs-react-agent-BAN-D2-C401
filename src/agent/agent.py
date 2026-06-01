@@ -391,8 +391,9 @@ def dummy_tool(message: str) -> str:
 # Main
 # ============================================================
 
-def main():
+from src.agent.guardrail import guardrail
 
+def main():
     load_dotenv()
 
     agent = ReActAgent(
@@ -412,11 +413,16 @@ def main():
         ],
     )
 
-    response = agent.run(
-        "Please use the dummy tool to echo 'Hello, World!'"
-    )
+    user_input = "Tôi muốn đặt lịch khám với bác sĩ A vào ngày mai"
+    if not guardrail(user_input, agent.llm):
+        print("I can only assist with appointment")
+        return (
+            "I can only assist with appointment "
+            "scheduling services."
+        )
 
-    print("Agent Response:", response)
+    print(agent.run(user_input))
+
 
 
 if __name__ == "__main__":
