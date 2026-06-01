@@ -64,14 +64,14 @@ TOOL_REGISTRY: Dict[str, ToolSpec] = {
         name="search_available_slots",
         func=T.search_available_slots,
         input_schema=SearchSlotInput,
-        description="Tìm các slot khám CÒN TRỐNG theo chuyên khoa và ngày (có thể lọc theo buổi).",
+        description="Tìm các slot khám CÒN TRỐNG theo chuyên khoa và ngày. YÊU CẦU: 'specialty' PHẢI là tiếng Việt có dấu (ví dụ 'Tim mạch', 'Da liễu'), và 'date' PHẢI ở định dạng YYYY-MM-DD (ví dụ '2026-06-09').",
         when_to_use="Khi đã biết chuyên khoa + ngày và cần xem còn lịch trống nào. Thường là bước đầu tiên.",
     ),
     "estimate_wait_time": ToolSpec(
         name="estimate_wait_time",
         func=T.estimate_wait_time,
         input_schema=EstimateWaitTimeInput,
-        description="Tra thời gian chờ dự kiến (phút) của một slot cụ thể (theo bác sĩ + ngày + giờ).",
+        description="Tra thời gian chờ dự kiến (phút) của một slot cụ thể. YÊU CẦU: 'date' PHẢI ở định dạng YYYY-MM-DD (ví dụ '2026-06-09').",
         when_to_use="Khi cần xác nhận lại wait_time của một slot trước khi tư vấn cho người dùng.",
     ),
     "rank_slots": ToolSpec(
@@ -92,7 +92,7 @@ TOOL_REGISTRY: Dict[str, ToolSpec] = {
         name="suggest_alternative_dates",
         func=T.suggest_alternative_dates,
         input_schema=SuggestAlternativeDatesInput,
-        description="Gợi ý các ngày khác còn slot trống khi ngày mong muốn đã hết.",
+        description="Gợi ý các ngày khác còn slot trống khi ngày mong muốn đã hết. YÊU CẦU: 'specialty' PHẢI là tiếng Việt có dấu, và 'from_date' PHẢI ở định dạng YYYY-MM-DD (ví dụ '2026-06-09').",
         when_to_use="Khi search_available_slots trả về NO_SLOT_FOUND cho ngày người dùng muốn.",
     ),
     "escalate_to_human": ToolSpec(

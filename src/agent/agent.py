@@ -186,6 +186,8 @@ Do not return:
     # --------------------------------------------------------
 
     def run(self, user_input: str) -> str:
+        import time
+        start_time = time.time()
 
         logger.log_event(
             "AGENT_START",
@@ -198,6 +200,15 @@ Do not return:
         current_prompt = user_input
 
         for step_idx in range(self.max_steps):
+            if time.time() - start_time > 45.0:
+                logger.log_event(
+                    "TIMEOUT",
+                    {
+                        "step": step_idx,
+                        "elapsed_time": time.time() - start_time,
+                    },
+                )
+                return "Timeout: Maximum execution time of 45 seconds exceeded."
 
             try:
 
