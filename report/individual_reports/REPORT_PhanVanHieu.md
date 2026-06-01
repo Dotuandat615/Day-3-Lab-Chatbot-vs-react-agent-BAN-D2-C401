@@ -67,7 +67,7 @@ JSON thứ hai chứa final_answer
      ```
 - **Diagnosis**: Nguyên nhân không nằm ở tool mà đến từ hành vi của LLM. Mặc dù system prompt đã yêu cầu "Return EXACTLY ONE JSON object", mô hình vẫn cố gắng thực hiện cả hai bước suy luận trong một lần phản hồi: vừa gọi tool vừa tự tạo luôn câu trả lời cuối cùng.
 Điều này cho thấy chỉ dựa vào prompt là chưa đủ để đảm bảo mô hình luôn tuân thủ định dạng đầu ra mong muốn.
-- **Solution**: Để khắc phục, tôi bổ sung cơ chế parsing mạnh hơn thông qua hàm _extract_first_json(), sử dụng JSONDecoder.raw_decode() để chỉ lấy JSON object đầu tiên hợp lệ từ phản hồi của mô hình. Đồng thời, system prompt được chỉnh sửa để nhấn mạnh rằng mỗi lần phản hồi chỉ được phép thực hiện một bước suy luận duy nhất.
+- **Solution**: Để khắc phục, bổ sung cơ chế parsing mạnh hơn thông qua hàm _extract_first_json(), sử dụng JSONDecoder.raw_decode() để chỉ lấy JSON object đầu tiên hợp lệ từ phản hồi của mô hình. Đồng thời, system prompt được chỉnh sửa để nhấn mạnh rằng mỗi lần phản hồi chỉ được phép thực hiện một bước suy luận duy nhất.
 Sau khi sửa, agent đã thực hiện đúng quy trình ReAct:
 Thought → Action → Observation → Final Answer
 và hoàn thành yêu cầu thành công mà không còn gặp lỗi validation.
