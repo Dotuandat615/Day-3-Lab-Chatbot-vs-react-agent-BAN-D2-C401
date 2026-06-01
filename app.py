@@ -204,9 +204,55 @@ def run_demo_mode(query: str, mode: str) -> Dict[str, Any]:
 # ─────────────────────────────────────────────────────────────────
 def run_chatbot(query: str, llm) -> Dict[str, Any]:
     """Chạy chatbot baseline."""
+    from src.agent.guardrail import guardrail
+    from datetime import datetime
+    
+    # Check guardrail
+    if not guardrail(query, llm):
+        start_time = datetime.utcnow().isoformat()
+        return {
+            "answer": "Xin lỗi, tôi là trợ lý chuyên tư vấn và đặt lịch khám tại Bệnh viện VinCare. Tôi chỉ có thể trả lời các câu hỏi liên quan đến dịch vụ y tế và đặt lịch khám bệnh.",
+            "trace": [],
+            "loop_count": 0,
+            "tools_called": [],
+            "final_status": "success",
+            "error_code": "OFF_TOPIC",
+            "fallback_used": False,
+            "token_prompt_estimate": 0,
+            "token_completion_estimate": 0,
+            "latency": 0.0,
+            "user_query": query,
+            "start_time": start_time,
+            "end_time": datetime.utcnow().isoformat(),
+        }
+
     from src.chatbot.baseline_chatbot import BaselineChatbot
     chatbot = BaselineChatbot(llm=llm, log_dir="logs")
-    result = chatbot.chat(query)
+    
+    start_time = datetime.utcnow().isoformat()
+    import time
+    start = time.time()
+    
+    try:
+        result = chatbot.chat(query)
+    except Exception as e:
+        err_str = str(e).lower()
+        is_net = any(kw in err_str for kw in ["connection", "connect", "timeout", "dns", "gaierror", "socket", "unreachable"])
+        result = {
+            "answer": "❌ Mất kết nối mạng. Không thể truy cập máy chủ API đám mây.",
+            "trace": [],
+            "loop_count": 0,
+            "tools_called": [],
+            "final_status": "error",
+            "error_code": "CONNECTION_ERROR" if is_net else "CHATBOT_ERROR",
+            "fallback_used": False,
+            "token_prompt_estimate": 0,
+            "token_completion_estimate": 0,
+            "latency": time.time() - start,
+            "user_query": query,
+            "start_time": start_time,
+            "end_time": datetime.utcnow().isoformat(),
+        }
     
     # Cập nhật tracker của Người 5 để hiển thị lên bảng so sánh
     tracker.track_request(
@@ -224,12 +270,33 @@ def run_agent(query: str, llm, version: str = "agent_v1") -> Dict[str, Any]:
     """
     Chạy ReAct Agent (v1 hoặc v2).
     """
+    from src.agent.guardrail import guardrail
+    from datetime import datetime
+    
+    # Check guardrail
+    if not guardrail(query, llm):
+        start_time = datetime.utcnow().isoformat()
+        return {
+            "answer": "Xin lỗi, tôi là trợ lý chuyên tư vấn và đặt lịch khám tại Bệnh viện VinCare. Tôi chỉ có thể trả lời các câu hỏi liên quan đến dịch vụ y tế và đặt lịch khám bệnh.",
+            "trace": [],
+            "loop_count": 0,
+            "tools_called": [],
+            "final_status": "success",
+            "error_code": "OFF_TOPIC",
+            "fallback_used": False,
+            "token_prompt_estimate": 0,
+            "token_completion_estimate": 0,
+            "latency": 0.0,
+            "user_query": query,
+            "start_time": start_time,
+            "end_time": datetime.utcnow().isoformat(),
+        }
+
     from src.agent.agent import ReActAgent
     from src.tools.tool_registry import TOOL_REGISTRY, run_tool
     from src.telemetry.logger import logger as global_logger
     import json
     import time
-    from datetime import datetime
 
     # 1) Thiết lập danh sách tools thực tế với function wrapper gọi run_tool
     tools = []
@@ -284,11 +351,17 @@ def run_agent(query: str, llm, version: str = "agent_v1") -> Dict[str, Any]:
                 fallback_used = True
                 fallback_res = run_tool("escalate_to_human", {"reason": "Lỗi parse JSON output của model", "user_query": query})
                 answer = fallback_res.get("message", "Đã chuyển tiếp tới bộ phận hỗ trợ khách hàng.")
+        elif "llm error" in answer.lower() and any(kw in answer.lower() for kw in ["connection", "connect", "timeout", "dns", "gaierror", "socket", "unreachable"]):
+            final_status = "error"
+            error_code = "CONNECTION_ERROR"
+            answer = "❌ Mất kết nối mạng. Không thể kết nối tới máy chủ API đám mây. Vui lòng kiểm tra internet hoặc chuyển sang Local Model offline."
     except Exception as e:
+        err_str = str(e).lower()
+        is_net = any(kw in err_str for kw in ["connection", "connect", "timeout", "dns", "gaierror", "socket", "unreachable"])
         final_status = "error"
-        error_code = "TOOL_RUNTIME_ERROR"
-        answer = f"Lỗi hệ thống: {e}"
-        if version == "agent_v2":
+        error_code = "CONNECTION_ERROR" if is_net else "TOOL_RUNTIME_ERROR"
+        answer = "❌ Mất kết nối mạng. Không thể truy cập máy chủ API đám mây." if is_net else f"Lỗi hệ thống: {e}"
+        if version == "agent_v2" and not is_net:
             fallback_used = True
             fallback_res = run_tool("escalate_to_human", {"reason": f"Lỗi runtime: {e}", "user_query": query})
             answer = fallback_res.get("message", "Đã chuyển tiếp tới bộ phận hỗ trợ khách hàng.")
@@ -416,6 +489,16 @@ def main():
         # Hiển thị welcome screen nếu chưa có tin nhắn
         if not st.session_state.messages:
             render_welcome_screen()
+        else:
+            # Hiển thị cảnh báo mất mạng nếu tin nhắn gần nhất bị lỗi kết nối
+            last_msg = st.session_state.messages[-1]
+            if last_msg.get("role") == "assistant" and last_msg.get("metrics", {}).get("error_code") == "CONNECTION_ERROR":
+                st.error(
+                    "🌐 **Mất kết nối mạng (Internet Connection Offline)**\n\n"
+                    "Hệ thống không thể kết nối tới máy chủ API đám mây (OpenAI/Gemini). Vui lòng:\n"
+                    "1. Kiểm tra lại đường truyền internet trên thiết bị của bạn.\n"
+                    "2. Hoặc cấu hình chạy mô hình cục bộ **Local Model Offline (Llama 3.2)** trong tệp `.env` để tiếp tục sử dụng mà không cần kết nối mạng."
+                )
 
         # Hiển thị các tin nhắn trong lịch sử chat
         for msg in st.session_state.messages:
@@ -507,7 +590,40 @@ def main():
                         st.experimental_rerun()
 
                 except Exception as e:
-                    st.error(f"❌ Lỗi hệ thống: {e}")
+                    err_str = str(e).lower()
+                    is_net = any(kw in err_str for kw in ["connection", "connect", "timeout", "dns", "gaierror", "socket", "unreachable"]) or any(kw in e.__class__.__name__.lower() for kw in ["connection", "timeout", "gaierror", "http"])
+                    
+                    if is_net:
+                        # Append a clean connection error message in the chat logs
+                        st.session_state.messages.append({
+                            "role": "assistant",
+                            "content": "❌ Mất kết nối mạng. Không thể truy cập máy chủ API đám mây. Vui lòng kiểm tra lại kết nối internet trên thiết bị của bạn hoặc chuyển sang chế độ Local Model offline.",
+                            "mode": mode,
+                            "trace": [],
+                            "metrics": {
+                                "latency_seconds": 0,
+                                "loop_count": 0,
+                                "token_prompt_estimate": 0,
+                                "token_completion_estimate": 0,
+                                "final_status": "error",
+                                "tools_called": [],
+                                "error_code": "CONNECTION_ERROR",
+                                "fallback_used": False,
+                                "version": mode
+                            }
+                        })
+                        st.error(
+                            "🌐 **Mất kết nối mạng (Internet Connection Offline)**\n\n"
+                            "Hệ thống không thể kết nối tới máy chủ API đám mây (OpenAI/Gemini). Vui lòng:\n"
+                            "1. Kiểm tra lại đường truyền internet trên thiết bị của bạn.\n"
+                            "2. Hoặc cấu hình chạy mô hình cục bộ **Local Model Offline (Llama 3.2)** trong tệp `.env` để tiếp tục sử dụng mà không cần kết nối mạng."
+                        )
+                        if hasattr(st, "rerun"):
+                            st.rerun()
+                        else:
+                            st.experimental_rerun()
+                    else:
+                        st.error(f"❌ Lỗi hệ thống: {e}")
                     app_logger.error(f"App error: {e}")
 
     # ── TAB 2: HISTORY & LOGS ──────────────────────────────────

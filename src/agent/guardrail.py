@@ -69,7 +69,6 @@ def guardrail(user_input: str, llm) -> bool:
     # -------------------------
 
     try:
-
         raw = llm.generate(
             text,
             system_prompt="""
@@ -91,7 +90,8 @@ unknown
 """
         )
 
-        intent = raw.strip()
+        # Fix: raw is a dict, extract 'content' first
+        intent = raw.get("content", "").strip() if isinstance(raw, dict) else str(raw).strip()
 
         return intent in ALLOWED_INTENTS
 
