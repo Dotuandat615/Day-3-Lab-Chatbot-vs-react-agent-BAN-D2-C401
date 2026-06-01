@@ -23,22 +23,39 @@ INTENT_KEYWORDS = {
         "đặt lịch",
         "đăng ký khám",
         "book lịch",
-        "hẹn khám"
+        "hẹn khám",
+        "muốn khám",
+        "cần khám",
+        "xin đặt",
+        "đặt hẹn",
     ],
     "reschedule_appointment": [
         "đổi lịch",
         "dời lịch",
-        "reschedule"
+        "reschedule",
+        "thay đổi lịch",
     ],
     "cancel_appointment": [
         "hủy lịch",
-        "cancel lịch"
+        "cancel lịch",
+        "hủy hẹn",
+        "không đến được",
     ],
     "check_availability": [
         "còn lịch",
         "lịch trống",
         "bác sĩ nào rảnh",
-        "available"
+        "available",
+        "khám",
+        "chuyên khoa",
+        "triệu chứng",
+        "tư vấn",
+        "nên khám",
+        "khám gì",
+        "bị đau",
+        "bệnh",
+        "phòng khám",
+        "bác sĩ",
     ]
 }
 

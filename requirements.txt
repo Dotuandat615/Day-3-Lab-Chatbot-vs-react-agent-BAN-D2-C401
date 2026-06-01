@@ -1,10 +1,26 @@
-openai>=1.0.0
-google-generativeai>=0.5.0
-python-dotenv>=1.0.0
-pydantic>=2.0.0
-requests>=2.31.0
-pytest>=7.4.0
-# Pin llama-cpp-python to 0.2.90 - confirmed working on Windows CPU (avoids AVX512 crash in newer versions)
+# ── LLM Providers ──────────────────────────────────────────────────────────
+openai>=1.0.0                  # OpenAI + custom base_url (ckey.vn gateway)
+# google-generativeai is the OLD SDK; gemini_provider.py uses `from google import genai`
+# which requires the NEW google-genai package instead.
+google-genai>=1.0.0            # Gemini provider: `from google import genai`
+
+# ── Core Framework ──────────────────────────────────────────────────────────
+streamlit>=1.28.0              # Main UI framework
+python-dotenv>=1.0.0           # Load .env config
+pydantic>=2.0.0                # Input schema validation (tool_registry, tool_schema)
+
+# ── Data & Evaluation ───────────────────────────────────────────────────────
+pandas>=2.0.0                  # Comparison tables in Streamlit UI (tab_comparison)
+tabulate>=0.9.0                # Console table output in tests/run_evaluation.py
+
+# ── HTTP & Networking ───────────────────────────────────────────────────────
+requests>=2.31.0               # Used by google-genai SDK and general HTTP calls
+httpx>=0.25.0                  # Required by openai and google-genai SDKs
+tenacity>=8.0.0                # Retry logic used internally by google-genai SDK
+
+# ── Local Model (Optional — only needed if DEFAULT_PROVIDER=local) ──────────
+# Pin to 0.2.90 — confirmed working on Windows CPU (avoids AVX512 crash in newer versions)
 llama-cpp-python==0.2.90
-streamlit>=1.28.0
-pandas>=2.0.0
+
+# ── Testing ─────────────────────────────────────────────────────────────────
+pytest>=7.4.0                  # Unit tests
