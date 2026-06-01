@@ -204,76 +204,45 @@ def run_demo_mode(query: str, mode: str) -> Dict[str, Any]:
 # ─────────────────────────────────────────────────────────────────
 def run_chatbot(query: str, llm) -> Dict[str, Any]:
     """Chạy chatbot baseline."""
-    from dotenv import load_dotenv
-    load_dotenv()
-
-    start = time.time()
-    start_time = datetime.utcnow().isoformat()
-
-    system_prompt = (
-        "Bạn là trợ lý tư vấn đặt lịch khám bệnh. "
-        "Trả lời câu hỏi của người dùng một cách thân thiện và ngắn gọn. "
-        "LƯU Ý: Bạn không có khả năng truy vấn database, hãy nói rõ điều này nếu được hỏi về lịch cụ thể."
-    )
-
-    result = llm.generate(query, system_prompt=system_prompt)
-    latency = time.time() - start
-
+    from src.chatbot.baseline_chatbot import BaselineChatbot
+    chatbot = BaselineChatbot(llm=llm, log_dir="logs")
+    result = chatbot.chat(query)
+    
+    # Cập nhật tracker của Người 5 để hiển thị lên bảng so sánh
     tracker.track_request(
-        provider=result.get("provider", "unknown"),
+        provider=llm.model_name,
         model=llm.model_name,
-        usage=result.get("usage", {}),
-        latency_ms=int(latency * 1000),
+        usage={"prompt_tokens": result.get("token_prompt_estimate", 0), "completion_tokens": result.get("token_completion_estimate", 0), "total_tokens": result.get("token_prompt_estimate", 0) + result.get("token_completion_estimate", 0)},
+        latency_ms=int(result.get("latency", 0) * 1000),
         version="chatbot",
     )
-
-    return {
-        "answer": result.get("content", ""),
-        "trace": [],
-        "loop_count": 0,
-        "tools_called": [],
-        "final_status": "success",
-        "error_code": None,
-        "fallback_used": False,
-        "token_prompt_estimate": result.get("usage", {}).get("prompt_tokens", 0),
-        "token_completion_estimate": result.get("usage", {}).get("completion_tokens", 0),
-        "latency": latency,
-        "user_query": query,
-        "start_time": start_time,
-        "end_time": datetime.utcnow().isoformat(),
-    }
+    
+    return result
 
 
 def run_agent(query: str, llm, version: str = "agent_v1") -> Dict[str, Any]:
     """
     Chạy ReAct Agent (v1 hoặc v2).
-    Stub — được thay thế bởi src/agent/react_agent.py khi Người 4 hoàn thiện.
     """
     from src.agent.agent import ReActAgent
+    from src.tools.tool_registry import TOOL_REGISTRY, run_tool
+    from src.telemetry.logger import logger as global_logger
+    import json
+    import time
+    from datetime import datetime
 
-    # Tool stubs (thay bằng tools thật của Người 3)
-    tools = [
-        {
-            "name": "search_available_slots",
-            "description": "Tìm các slot khám còn trống theo chuyên khoa, ngày và buổi. Input: {specialty, date, preferred_time?}",
-        },
-        {
-            "name": "rank_slots",
-            "description": "Xếp hạng danh sách slot theo tiêu chí (lowest_wait_time). Input: {slots, criteria}",
-        },
-        {
-            "name": "book_appointment",
-            "description": "Đặt lịch khám sau khi người dùng xác nhận. Input: {patient_name, phone, slot_id}",
-        },
-        {
-            "name": "suggest_alternative_dates",
-            "description": "Gợi ý ngày khám thay thế khi ngày mong muốn hết slot. Input: {specialty, from_date}",
-        },
-        {
-            "name": "escalate_to_human",
-            "description": "Chuyển sang điều phối viên khi agent không thể xử lý. Input: {reason, user_query}",
-        },
-    ]
+    # 1) Thiết lập danh sách tools thực tế với function wrapper gọi run_tool
+    tools = []
+    for name, spec in TOOL_REGISTRY.items():
+        def make_wrapper(tool_name):
+            # Hàm wrapper gọi qua registry để tận dụng validate/error handling chuẩn hóa
+            return lambda **kwargs: run_tool(tool_name, kwargs)
+        
+        tools.append({
+            "name": name,
+            "description": spec.description,
+            "function": make_wrapper(name)
+        })
 
     max_steps = 5 if version == "agent_v2" else 10
     agent = ReActAgent(llm=llm, tools=tools, max_steps=max_steps)
@@ -281,24 +250,148 @@ def run_agent(query: str, llm, version: str = "agent_v1") -> Dict[str, Any]:
     start = time.time()
     start_time = datetime.utcnow().isoformat()
 
-    answer = agent.run(query)
+    # 2) Đăng ký custom handler để hứng tất cả log event trong quá trình ReAct suy nghĩ
+    events = []
+    original_log_event = global_logger.log_event
+
+    def custom_log_event(event_type, data):
+        events.append({"event": event_type, "data": data})
+        original_log_event(event_type, data)
+
+    global_logger.log_event = custom_log_event
+
+    answer = "Xin lỗi, không có phản hồi từ Agent."
+    final_status = "success"
+    error_code = None
+    fallback_used = False
+
+    try:
+        answer = agent.run(query)
+        # Nếu Agent vượt quá số bước tối đa
+        if "Maximum reasoning steps reached" in answer:
+            final_status = "error"
+            error_code = "MAX_STEPS_EXCEEDED"
+            # Trong agent_v2, tự động fallback sang escalate_to_human
+            if version == "agent_v2":
+                fallback_used = True
+                # Gọi escalate_to_human trực tiếp để lấy câu trả lời an toàn
+                fallback_res = run_tool("escalate_to_human", {"reason": "Vượt số bước suy nghĩ cho phép", "user_query": query})
+                answer = fallback_res.get("message", "Đã chuyển tiếp tới bộ phận hỗ trợ khách hàng.")
+        elif "invalid structured output" in answer.lower():
+            final_status = "error"
+            error_code = "PARSER_ERROR"
+            if version == "agent_v2":
+                fallback_used = True
+                fallback_res = run_tool("escalate_to_human", {"reason": "Lỗi parse JSON output của model", "user_query": query})
+                answer = fallback_res.get("message", "Đã chuyển tiếp tới bộ phận hỗ trợ khách hàng.")
+    except Exception as e:
+        final_status = "error"
+        error_code = "TOOL_RUNTIME_ERROR"
+        answer = f"Lỗi hệ thống: {e}"
+        if version == "agent_v2":
+            fallback_used = True
+            fallback_res = run_tool("escalate_to_human", {"reason": f"Lỗi runtime: {e}", "user_query": query})
+            answer = fallback_res.get("message", "Đã chuyển tiếp tới bộ phận hỗ trợ khách hàng.")
+    finally:
+        global_logger.log_event = original_log_event
+
     latency = time.time() - start
+
+    # 3) Phân tích các sự kiện thu được để cấu trúc lại trace và tính toán token estimate
+    trace = []
+    steps_data = {}
+    tools_called = []
+    token_prompt_estimate = 0
+    token_completion_estimate = 0
+
+    for ev in events:
+        evt = ev["event"]
+        d = ev["data"]
+        
+        # Đếm token tích lũy từ các cuộc gọi LLM trong ReAct loop
+        if evt == "LLM_RESPONSE":
+            resp = d.get("response", {})
+            usage = resp.get("usage", {})
+            token_prompt_estimate += usage.get("prompt_tokens", 0)
+            token_completion_estimate += usage.get("completion_tokens", 0)
+
+        step_idx = d.get("step")
+        if step_idx is not None:
+            if step_idx not in steps_data:
+                steps_data[step_idx] = {
+                    "step": step_idx + 1,
+                    "thought": "",
+                    "action": None,
+                    "action_input": None,
+                    "observation": None
+                }
+            if evt == "THOUGHT":
+                steps_data[step_idx]["thought"] = d.get("thought", "")
+            elif evt == "TOOL_CALL":
+                tool_name = d.get("tool")
+                steps_data[step_idx]["action"] = tool_name
+                steps_data[step_idx]["action_input"] = d.get("arguments")
+                if tool_name not in tools_called:
+                    tools_called.append(tool_name)
+            elif evt == "OBSERVATION":
+                obs = d.get("observation")
+                if isinstance(obs, dict):
+                    if obs.get("status") == "success":
+                        if "slots" in obs:
+                            steps_data[step_idx]["observation"] = f"Tìm thấy {len(obs['slots'])} slot trống."
+                        elif "appointment_id" in obs:
+                            steps_data[step_idx]["observation"] = f"Đặt lịch thành công! Mã cuộc hẹn: {obs.get('appointment_id')}."
+                        elif "best_slot" in obs:
+                            best = obs["best_slot"]
+                            steps_data[step_idx]["observation"] = f"Slot tốt nhất: {best.get('slot_id')} (Bác sĩ: {best.get('doctor_name')}, Ước tính chờ: {best.get('estimated_wait_time')} phút)."
+                        elif "alternatives" in obs:
+                            steps_data[step_idx]["observation"] = f"Tìm thấy {len(obs['alternatives'])} lịch thay thế."
+                        else:
+                            steps_data[step_idx]["observation"] = json.dumps(obs, ensure_ascii=False)
+                    else:
+                        steps_data[step_idx]["observation"] = f"Lỗi ({obs.get('error_code')}): {obs.get('message')}"
+                        # Nếu có lỗi khi chạy tool, lưu error_code cho lượt chạy
+                        if not error_code:
+                            error_code = obs.get("error_code")
+                            final_status = "error"
+                else:
+                    steps_data[step_idx]["observation"] = str(obs)
+
+    # Đưa các bước vào trace có thứ tự tăng dần
+    for step_idx in sorted(steps_data.keys()):
+        trace.append(steps_data[step_idx])
+
+    # Nếu không đếm được token qua API (ví dụ local), ta fallback tính xấp xỉ chiều dài chữ
+    if token_prompt_estimate == 0:
+        token_prompt_estimate = max(1, int(len(query) / 3.5))
+    if token_completion_estimate == 0:
+        token_completion_estimate = max(1, int(len(answer) / 3.5))
+
+    # Cập nhật tracker của Người 5 để Monitoring dashboard cập nhật chính xác
+    tracker.track_request(
+        provider=llm.model_name,
+        model=llm.model_name,
+        usage={"prompt_tokens": token_prompt_estimate, "completion_tokens": token_completion_estimate, "total_tokens": token_prompt_estimate + token_completion_estimate},
+        latency_ms=int(latency * 1000),
+        version=version,
+    )
 
     return {
         "answer": answer,
-        "trace": [],
-        "loop_count": 0,
-        "tools_called": [],
-        "final_status": "success",
-        "error_code": None,
-        "fallback_used": False,
-        "token_prompt_estimate": 0,
-        "token_completion_estimate": 0,
+        "trace": trace,
+        "loop_count": len(trace),
+        "tools_called": tools_called,
+        "final_status": final_status,
+        "error_code": error_code,
+        "fallback_used": fallback_used,
+        "token_prompt_estimate": token_prompt_estimate,
+        "token_completion_estimate": token_completion_estimate,
         "latency": latency,
         "user_query": query,
         "start_time": start_time,
         "end_time": datetime.utcnow().isoformat(),
     }
+
 
 
 # ─────────────────────────────────────────────────────────────────
