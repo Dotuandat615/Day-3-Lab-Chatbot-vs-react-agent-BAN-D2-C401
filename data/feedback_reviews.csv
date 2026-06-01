@@ -1,0 +1,351 @@
+﻿review_id,appointment_id,rating,wait_satisfaction,comment,created_at
+FB00001,A00871,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-07 07:15:00
+FB00002,A00309,5,high,Đặt lịch online thuận tiện.,2026-05-31 02:00:00
+FB00003,A00558,5,high,Đặt lịch online thuận tiện.,2026-05-31 05:30:00
+FB00004,A00151,5,high,Bác sĩ tư vấn rõ ràng.,2026-05-26 05:15:00
+FB00005,A00213,5,high,Muốn có thêm slot buổi chiều.,2026-06-05 06:00:00
+FB00006,A00260,4,low,Muốn có thêm slot buổi chiều.,2026-05-27 02:00:00
+FB00007,A00200,4,high,Nhân viên hỗ trợ tốt.,2026-06-03 12:30:00
+FB00008,A00804,3,medium,Đặt lịch online thuận tiện.,2026-06-09 04:45:00
+FB00009,A00521,5,high,Phòng khám sạch sẽ.,2026-05-29 07:30:00
+FB00010,A01109,4,medium,Nhân viên hỗ trợ tốt.,2026-06-11 10:00:00
+FB00011,A00044,4,high,Muốn có thêm slot buổi chiều.,2026-05-28 07:00:00
+FB00012,A00071,5,medium,Phòng khám sạch sẽ.,2026-05-24 11:45:00
+FB00013,A00522,4,medium,Cần cải thiện khâu check-in.,2026-06-07 11:00:00
+FB00014,A01066,5,medium,Nhân viên hỗ trợ tốt.,2026-06-17 08:45:00
+FB00015,A00606,4,high,Nhân viên hỗ trợ tốt.,2026-06-10 05:15:00
+FB00016,A00794,5,high,Muốn có thêm slot buổi chiều.,2026-06-04 14:30:00
+FB00017,A00372,4,medium,Đặt lịch online thuận tiện.,2026-06-07 11:00:00
+FB00018,A00592,5,low,Phòng khám sạch sẽ.,2026-06-03 03:30:00
+FB00019,A00317,4,high,Đặt lịch online thuận tiện.,2026-05-27 03:45:00
+FB00020,A00991,4,medium,Bác sĩ tư vấn rõ ràng.,2026-06-11 10:30:00
+FB00021,A00762,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-06 00:15:00
+FB00022,A00561,5,low,Bác sĩ tư vấn rõ ràng.,2026-06-02 15:15:00
+FB00023,A01028,5,medium,Cần cải thiện khâu check-in.,2026-06-15 09:45:00
+FB00024,A00739,5,low,Nhân viên hỗ trợ tốt.,2026-06-01 09:15:00
+FB00025,A01032,5,high,Nhân viên hỗ trợ tốt.,2026-06-11 14:45:00
+FB00026,A00416,4,high,Đặt lịch online thuận tiện.,2026-05-28 07:30:00
+FB00027,A00168,5,high,Cần cải thiện khâu check-in.,2026-05-30 13:00:00
+FB00028,A01108,5,medium,Muốn có thêm slot buổi chiều.,2026-06-17 04:45:00
+FB00029,A00448,3,medium,Phòng khám sạch sẽ.,2026-06-03 05:45:00
+FB00030,A00153,5,medium,Phòng khám sạch sẽ.,2026-05-28 05:30:00
+FB00031,A00424,5,high,Thời gian chờ hợp lý.,2026-06-09 07:30:00
+FB00032,A00880,5,medium,Cần cải thiện khâu check-in.,2026-06-05 12:00:00
+FB00033,A00745,5,low,Bác sĩ tư vấn rõ ràng.,2026-06-09 02:00:00
+FB00034,A00015,4,high,Muốn có thêm slot buổi chiều.,2026-05-30 11:15:00
+FB00035,A00612,4,medium,Cần cải thiện khâu check-in.,2026-06-03 11:30:00
+FB00036,A01088,5,medium,Phòng khám sạch sẽ.,2026-06-14 02:15:00
+FB00037,A00718,4,high,Bác sĩ tư vấn rõ ràng.,2026-06-07 13:45:00
+FB00038,A00090,3,low,Bác sĩ tư vấn rõ ràng.,2026-05-29 13:00:00
+FB00039,A00405,5,medium,Đặt lịch online thuận tiện.,2026-06-07 10:45:00
+FB00040,A00892,5,medium,Cần cải thiện khâu check-in.,2026-06-13 09:15:00
+FB00041,A00245,5,medium,Thời gian chờ hợp lý.,2026-06-03 07:30:00
+FB00042,A01030,5,high,Cần cải thiện khâu check-in.,2026-06-08 08:00:00
+FB00043,A00374,4,high,Phòng khám sạch sẽ.,2026-06-03 10:00:00
+FB00044,A00272,4,high,Thời gian chờ hợp lý.,2026-06-04 12:15:00
+FB00045,A00921,5,medium,Bác sĩ tư vấn rõ ràng.,2026-06-04 10:45:00
+FB00046,A01018,5,high,Thời gian chờ hợp lý.,2026-06-17 08:15:00
+FB00047,A00311,4,high,Nhân viên hỗ trợ tốt.,2026-05-27 06:45:00
+FB00048,A00916,4,medium,Cần cải thiện khâu check-in.,2026-06-11 07:45:00
+FB00049,A00472,5,medium,Đặt lịch online thuận tiện.,2026-06-05 04:15:00
+FB00050,A00765,5,low,Bác sĩ tư vấn rõ ràng.,2026-06-11 07:00:00
+FB00051,A00729,4,medium,Cần cải thiện khâu check-in.,2026-06-09 01:30:00
+FB00052,A00490,5,high,Cần cải thiện khâu check-in.,2026-06-04 06:15:00
+FB00053,A00903,4,low,Thời gian chờ hợp lý.,2026-06-06 07:45:00
+FB00054,A00895,4,high,Thời gian chờ hợp lý.,2026-06-12 02:45:00
+FB00055,A01060,5,medium,Thời gian chờ hợp lý.,2026-06-15 08:45:00
+FB00056,A00610,3,high,Phòng khám sạch sẽ.,2026-06-03 06:30:00
+FB00057,A00685,4,high,Cần cải thiện khâu check-in.,2026-06-07 12:30:00
+FB00058,A00890,4,low,Cần cải thiện khâu check-in.,2026-06-06 10:30:00
+FB00059,A00975,5,medium,Thời gian chờ hợp lý.,2026-06-07 10:00:00
+FB00060,A00089,4,high,Đặt lịch online thuận tiện.,2026-05-27 13:15:00
+FB00061,A01011,5,medium,Nhân viên hỗ trợ tốt.,2026-06-08 03:00:00
+FB00062,A00716,5,high,Đặt lịch online thuận tiện.,2026-06-09 07:30:00
+FB00063,A00285,4,high,Bác sĩ tư vấn rõ ràng.,2026-05-31 10:15:00
+FB00064,A00188,4,medium,Nhân viên hỗ trợ tốt.,2026-06-03 12:15:00
+FB00065,A00714,3,medium,Muốn có thêm slot buổi chiều.,2026-06-02 05:45:00
+FB00066,A00384,5,medium,Đặt lịch online thuận tiện.,2026-06-08 10:00:00
+FB00067,A00811,5,medium,Thời gian chờ hợp lý.,2026-06-07 09:00:00
+FB00068,A00312,5,medium,Đặt lịch online thuận tiện.,2026-06-03 01:30:00
+FB00069,A00031,5,medium,Cần cải thiện khâu check-in.,2026-06-02 07:30:00
+FB00070,A00982,5,low,Thời gian chờ hợp lý.,2026-06-15 07:30:00
+FB00071,A00527,5,high,Cần cải thiện khâu check-in.,2026-06-05 01:45:00
+FB00072,A00557,4,medium,Cần cải thiện khâu check-in.,2026-06-12 01:15:00
+FB00073,A01129,4,medium,Thời gian chờ hợp lý.,2026-06-16 03:15:00
+FB00074,A01021,5,high,Phòng khám sạch sẽ.,2026-06-15 07:30:00
+FB00075,A00909,4,medium,Nhân viên hỗ trợ tốt.,2026-06-10 11:30:00
+FB00076,A00059,5,medium,Phòng khám sạch sẽ.,2026-05-29 12:15:00
+FB00077,A00693,3,high,Bác sĩ tư vấn rõ ràng.,2026-06-08 08:30:00
+FB00078,A01012,5,medium,Thời gian chờ hợp lý.,2026-06-04 05:00:00
+FB00079,A00721,5,medium,Thời gian chờ hợp lý.,2026-06-03 07:15:00
+FB00080,A00964,4,high,Nhân viên hỗ trợ tốt.,2026-06-04 08:45:00
+FB00081,A00294,5,low,Nhân viên hỗ trợ tốt.,2026-05-31 08:15:00
+FB00082,A00835,5,medium,Thời gian chờ hợp lý.,2026-06-06 06:30:00
+FB00083,A00847,4,high,Cần cải thiện khâu check-in.,2026-06-13 02:00:00
+FB00084,A00756,5,medium,Phòng khám sạch sẽ.,2026-05-31 07:30:00
+FB00085,A00450,5,low,Thời gian chờ hợp lý.,2026-05-30 09:45:00
+FB00086,A00619,5,high,Cần cải thiện khâu check-in.,2026-06-09 02:15:00
+FB00087,A00868,5,low,Nhân viên hỗ trợ tốt.,2026-06-02 12:45:00
+FB00088,A00710,3,medium,Nhân viên hỗ trợ tốt.,2026-06-08 07:15:00
+FB00089,A00955,5,high,Đặt lịch online thuận tiện.,2026-06-11 06:45:00
+FB00090,A00300,4,medium,Muốn có thêm slot buổi chiều.,2026-06-02 14:45:00
+FB00091,A01001,4,high,Cần cải thiện khâu check-in.,2026-06-11 13:00:00
+FB00092,A01047,5,high,Muốn có thêm slot buổi chiều.,2026-06-12 08:15:00
+FB00093,A00533,5,low,Bác sĩ tư vấn rõ ràng.,2026-05-29 00:45:00
+FB00094,A01132,5,high,Muốn có thêm slot buổi chiều.,2026-06-09 07:15:00
+FB00095,A00288,5,medium,Phòng khám sạch sẽ.,2026-05-29 16:00:00
+FB00096,A00492,5,low,Thời gian chờ hợp lý.,2026-06-04 12:45:00
+FB00097,A01098,5,high,Muốn có thêm slot buổi chiều.,2026-06-14 03:00:00
+FB00098,A00437,5,high,Đặt lịch online thuận tiện.,2026-06-07 10:15:00
+FB00099,A00967,4,high,Thời gian chờ hợp lý.,2026-06-05 11:45:00
+FB00100,A00791,5,low,Đặt lịch online thuận tiện.,2026-06-03 07:45:00
+FB00101,A00772,5,high,Muốn có thêm slot buổi chiều.,2026-06-05 06:15:00
+FB00102,A01102,4,high,Đặt lịch online thuận tiện.,2026-06-15 03:00:00
+FB00103,A00738,5,medium,Muốn có thêm slot buổi chiều.,2026-06-08 07:00:00
+FB00104,A00973,4,high,Nhân viên hỗ trợ tốt.,2026-06-10 13:30:00
+FB00105,A00555,5,high,Đặt lịch online thuận tiện.,2026-06-08 08:00:00
+FB00106,A00578,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-11 05:15:00
+FB00107,A00262,3,high,Phòng khám sạch sẽ.,2026-05-27 03:00:00
+FB00108,A00690,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-05 10:30:00
+FB00109,A00120,5,high,Phòng khám sạch sẽ.,2026-05-27 11:15:00
+FB00110,A00922,5,high,Thời gian chờ hợp lý.,2026-06-07 04:15:00
+FB00111,A00931,4,high,Bác sĩ tư vấn rõ ràng.,2026-06-14 01:30:00
+FB00112,A00580,4,high,Nhân viên hỗ trợ tốt.,2026-06-07 07:00:00
+FB00113,A00849,4,medium,Đặt lịch online thuận tiện.,2026-06-03 13:15:00
+FB00114,A00329,3,high,Đặt lịch online thuận tiện.,2026-05-27 06:15:00
+FB00115,A00109,4,high,Thời gian chờ hợp lý.,2026-05-31 06:45:00
+FB00116,A00838,4,medium,Phòng khám sạch sẽ.,2026-06-05 10:00:00
+FB00117,A00265,5,high,Thời gian chờ hợp lý.,2026-05-28 10:45:00
+FB00118,A00905,5,high,Nhân viên hỗ trợ tốt.,2026-06-04 08:15:00
+FB00119,A00648,5,high,Thời gian chờ hợp lý.,2026-06-01 07:30:00
+FB00120,A01051,4,high,Thời gian chờ hợp lý.,2026-06-12 09:30:00
+FB00121,A00782,4,high,Nhân viên hỗ trợ tốt.,2026-06-04 07:00:00
+FB00122,A00393,5,low,Phòng khám sạch sẽ.,2026-06-03 06:15:00
+FB00123,A00184,5,high,Bác sĩ tư vấn rõ ràng.,2026-05-26 14:00:00
+FB00124,A00832,5,high,Phòng khám sạch sẽ.,2026-06-07 04:00:00
+FB00125,A00210,3,medium,Cần cải thiện khâu check-in.,2026-06-02 14:15:00
+FB00126,A00933,4,medium,Thời gian chờ hợp lý.,2026-06-13 04:15:00
+FB00127,A00655,5,medium,Thời gian chờ hợp lý.,2026-06-08 09:30:00
+FB00128,A00248,5,high,Đặt lịch online thuận tiện.,2026-05-29 01:30:00
+FB00129,A00556,5,medium,Nhân viên hỗ trợ tốt.,2026-06-10 01:00:00
+FB00130,A00101,5,high,Nhân viên hỗ trợ tốt.,2026-05-28 10:45:00
+FB00131,A00045,5,medium,Phòng khám sạch sẽ.,2026-06-02 08:30:00
+FB00132,A00284,4,low,Phòng khám sạch sẽ.,2026-05-27 04:30:00
+FB00133,A00355,3,medium,Cần cải thiện khâu check-in.,2026-06-02 03:00:00
+FB00134,A00788,4,high,Nhân viên hỗ trợ tốt.,2026-06-08 10:30:00
+FB00135,A00807,3,high,Nhân viên hỗ trợ tốt.,2026-06-08 07:30:00
+FB00136,A01114,5,low,Thời gian chờ hợp lý.,2026-06-09 05:00:00
+FB00137,A00290,5,medium,Phòng khám sạch sẽ.,2026-06-07 06:15:00
+FB00138,A00503,5,low,Thời gian chờ hợp lý.,2026-06-06 12:00:00
+FB00139,A00834,3,high,Cần cải thiện khâu check-in.,2026-06-15 07:00:00
+FB00140,A00680,4,high,Thời gian chờ hợp lý.,2026-06-09 13:30:00
+FB00141,A00310,5,high,Cần cải thiện khâu check-in.,2026-06-04 03:45:00
+FB00142,A00540,4,low,Phòng khám sạch sẽ.,2026-06-03 02:15:00
+FB00143,A00205,5,high,Thời gian chờ hợp lý.,2026-05-30 06:00:00
+FB00144,A00674,5,low,Muốn có thêm slot buổi chiều.,2026-06-05 03:30:00
+FB00145,A00263,5,medium,Muốn có thêm slot buổi chiều.,2026-05-31 07:30:00
+FB00146,A01038,4,medium,Phòng khám sạch sẽ.,2026-06-09 07:15:00
+FB00147,A00482,5,medium,Thời gian chờ hợp lý.,2026-06-02 06:45:00
+FB00148,A00620,5,high,Muốn có thêm slot buổi chiều.,2026-05-31 04:30:00
+FB00149,A00404,3,medium,Phòng khám sạch sẽ.,2026-05-27 07:30:00
+FB00150,A01074,4,high,Muốn có thêm slot buổi chiều.,2026-06-04 02:15:00
+FB00151,A00726,5,high,Nhân viên hỗ trợ tốt.,2026-06-10 07:45:00
+FB00152,A00700,4,high,Cần cải thiện khâu check-in.,2026-06-14 07:30:00
+FB00153,A00908,5,high,Thời gian chờ hợp lý.,2026-06-07 11:45:00
+FB00154,A00149,4,medium,Đặt lịch online thuận tiện.,2026-05-26 02:30:00
+FB00155,A00947,4,high,Đặt lịch online thuận tiện.,2026-06-12 04:00:00
+FB00156,A00879,5,high,Muốn có thêm slot buổi chiều.,2026-06-08 10:45:00
+FB00157,A01065,4,low,Cần cải thiện khâu check-in.,2026-06-08 07:00:00
+FB00158,A00039,5,medium,Phòng khám sạch sẽ.,2026-06-02 09:15:00
+FB00159,A00885,5,high,Muốn có thêm slot buổi chiều.,2026-06-07 09:00:00
+FB00160,A00352,5,high,Cần cải thiện khâu check-in.,2026-05-28 08:30:00
+FB00161,A00670,5,low,Đặt lịch online thuận tiện.,2026-06-02 01:00:00
+FB00162,A00784,5,low,Phòng khám sạch sẽ.,2026-06-12 04:45:00
+FB00163,A01007,4,medium,Phòng khám sạch sẽ.,2026-06-14 10:45:00
+FB00164,A00368,4,low,Bác sĩ tư vấn rõ ràng.,2026-05-28 11:45:00
+FB00165,A00481,4,medium,Đặt lịch online thuận tiện.,2026-05-30 06:15:00
+FB00166,A00051,5,high,Thời gian chờ hợp lý.,2026-05-25 09:15:00
+FB00167,A00194,4,medium,Cần cải thiện khâu check-in.,2026-06-05 06:15:00
+FB00168,A00906,4,medium,Đặt lịch online thuận tiện.,2026-06-11 05:15:00
+FB00169,A00243,5,medium,Cần cải thiện khâu check-in.,2026-06-02 07:15:00
+FB00170,A00202,4,medium,Phòng khám sạch sẽ.,2026-06-03 03:30:00
+FB00171,A00085,5,high,Đặt lịch online thuận tiện.,2026-06-03 04:00:00
+FB00172,A00504,5,low,Phòng khám sạch sẽ.,2026-06-03 09:15:00
+FB00173,A00024,5,medium,Nhân viên hỗ trợ tốt.,2026-05-31 08:00:00
+FB00174,A01093,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-07 11:45:00
+FB00175,A00937,5,high,Phòng khám sạch sẽ.,2026-06-04 01:15:00
+FB00176,A00076,5,high,Thời gian chờ hợp lý.,2026-06-02 10:45:00
+FB00177,A00781,5,medium,Cần cải thiện khâu check-in.,2026-06-03 06:00:00
+FB00178,A00935,5,medium,Đặt lịch online thuận tiện.,2026-06-13 06:00:00
+FB00179,A00731,4,medium,Phòng khám sạch sẽ.,2026-06-06 10:15:00
+FB00180,A00314,5,medium,Muốn có thêm slot buổi chiều.,2026-05-30 05:15:00
+FB00181,A00573,4,low,Thời gian chờ hợp lý.,2026-06-05 10:00:00
+FB00182,A00114,4,high,Thời gian chờ hợp lý.,2026-06-06 09:00:00
+FB00183,A00735,5,high,Phòng khám sạch sẽ.,2026-06-04 03:30:00
+FB00184,A00708,3,high,Muốn có thêm slot buổi chiều.,2026-06-07 07:00:00
+FB00185,A01095,4,high,Muốn có thêm slot buổi chiều.,2026-06-17 08:45:00
+FB00186,A00896,4,high,Muốn có thêm slot buổi chiều.,2026-06-08 06:30:00
+FB00187,A00508,5,high,Phòng khám sạch sẽ.,2026-06-01 02:00:00
+FB00188,A00723,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-05 01:30:00
+FB00189,A00436,5,high,Cần cải thiện khâu check-in.,2026-06-05 09:00:00
+FB00190,A00550,5,low,Muốn có thêm slot buổi chiều.,2026-06-02 08:00:00
+FB00191,A00803,5,medium,Bác sĩ tư vấn rõ ràng.,2026-06-10 09:00:00
+FB00192,A01139,4,high,Thời gian chờ hợp lý.,2026-06-12 05:30:00
+FB00193,A00888,5,high,Thời gian chờ hợp lý.,2026-06-09 03:00:00
+FB00194,A00963,5,high,Nhân viên hỗ trợ tốt.,2026-06-09 00:45:00
+FB00195,A00666,5,medium,Nhân viên hỗ trợ tốt.,2026-06-08 04:45:00
+FB00196,A00988,3,high,Muốn có thêm slot buổi chiều.,2026-06-03 16:15:00
+FB00197,A00795,5,low,Muốn có thêm slot buổi chiều.,2026-06-09 05:45:00
+FB00198,A00993,3,low,Muốn có thêm slot buổi chiều.,2026-06-05 09:00:00
+FB00199,A00360,5,low,Thời gian chờ hợp lý.,2026-05-30 01:30:00
+FB00200,A00154,4,low,Muốn có thêm slot buổi chiều.,2026-05-25 04:15:00
+FB00201,A00072,5,high,Phòng khám sạch sẽ.,2026-05-23 10:45:00
+FB00202,A00304,5,high,Bác sĩ tư vấn rõ ràng.,2026-05-31 08:15:00
+FB00203,A00042,5,medium,Thời gian chờ hợp lý.,2026-05-30 09:45:00
+FB00204,A00429,5,medium,Đặt lịch online thuận tiện.,2026-05-29 06:30:00
+FB00205,A00502,4,high,Muốn có thêm slot buổi chiều.,2026-05-28 06:30:00
+FB00206,A00774,3,high,Muốn có thêm slot buổi chiều.,2026-06-08 05:45:00
+FB00207,A00065,5,high,Cần cải thiện khâu check-in.,2026-05-24 08:15:00
+FB00208,A00346,5,medium,Đặt lịch online thuận tiện.,2026-06-06 13:15:00
+FB00209,A00295,5,medium,Muốn có thêm slot buổi chiều.,2026-06-08 13:45:00
+FB00210,A01024,4,medium,Cần cải thiện khâu check-in.,2026-06-08 07:45:00
+FB00211,A01121,5,high,Muốn có thêm slot buổi chiều.,2026-06-15 05:15:00
+FB00212,A00115,5,high,Muốn có thêm slot buổi chiều.,2026-05-25 07:30:00
+FB00213,A00812,4,medium,Bác sĩ tư vấn rõ ràng.,2026-06-03 07:30:00
+FB00214,A00313,5,medium,Đặt lịch online thuận tiện.,2026-06-06 08:00:00
+FB00215,A00459,5,medium,Nhân viên hỗ trợ tốt.,2026-06-11 04:15:00
+FB00216,A00407,5,high,Bác sĩ tư vấn rõ ràng.,2026-05-31 15:15:00
+FB00217,A00913,4,medium,Phòng khám sạch sẽ.,2026-06-07 14:00:00
+FB00218,A00829,3,high,Nhân viên hỗ trợ tốt.,2026-06-10 10:30:00
+FB00219,A00759,4,high,Cần cải thiện khâu check-in.,2026-06-09 07:00:00
+FB00220,A00698,5,high,Đặt lịch online thuận tiện.,2026-06-11 01:00:00
+FB00221,A00125,4,high,Cần cải thiện khâu check-in.,2026-05-30 07:00:00
+FB00222,A00622,4,medium,Muốn có thêm slot buổi chiều.,2026-06-09 07:45:00
+FB00223,A01069,5,high,Phòng khám sạch sẽ.,2026-06-09 03:15:00
+FB00224,A00025,5,high,Cần cải thiện khâu check-in.,2026-06-03 04:15:00
+FB00225,A00053,5,high,Đặt lịch online thuận tiện.,2026-05-31 02:30:00
+FB00226,A01075,4,low,Đặt lịch online thuận tiện.,2026-06-04 09:15:00
+FB00227,A01026,5,high,Phòng khám sạch sẽ.,2026-06-12 14:00:00
+FB00228,A00169,3,medium,Bác sĩ tư vấn rõ ràng.,2026-06-02 04:45:00
+FB00229,A00246,4,medium,Phòng khám sạch sẽ.,2026-06-03 02:30:00
+FB00230,A00959,5,high,Thời gian chờ hợp lý.,2026-06-13 05:15:00
+FB00231,A00725,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-01 07:45:00
+FB00232,A00515,5,high,Muốn có thêm slot buổi chiều.,2026-06-09 12:45:00
+FB00233,A00878,5,medium,Phòng khám sạch sẽ.,2026-06-16 06:00:00
+FB00234,A00770,4,high,Bác sĩ tư vấn rõ ràng.,2026-06-05 09:00:00
+FB00235,A00229,5,high,Thời gian chờ hợp lý.,2026-06-06 07:30:00
+FB00236,A00108,5,high,Bác sĩ tư vấn rõ ràng.,2026-05-28 08:30:00
+FB00237,A01138,5,low,Đặt lịch online thuận tiện.,2026-06-12 14:45:00
+FB00238,A00299,5,medium,Cần cải thiện khâu check-in.,2026-06-02 06:30:00
+FB00239,A00345,4,medium,Nhân viên hỗ trợ tốt.,2026-05-26 08:30:00
+FB00240,A00443,5,medium,Thời gian chờ hợp lý.,2026-06-04 03:30:00
+FB00241,A00358,4,low,Nhân viên hỗ trợ tốt.,2026-05-31 06:00:00
+FB00242,A00907,4,high,Bác sĩ tư vấn rõ ràng.,2026-06-04 03:45:00
+FB00243,A00761,5,medium,Thời gian chờ hợp lý.,2026-06-10 08:15:00
+FB00244,A00082,4,medium,Bác sĩ tư vấn rõ ràng.,2026-06-03 10:30:00
+FB00245,A00539,5,high,Nhân viên hỗ trợ tốt.,2026-06-06 07:45:00
+FB00246,A00009,5,high,Muốn có thêm slot buổi chiều.,2026-05-27 11:00:00
+FB00247,A00818,3,medium,Đặt lịch online thuận tiện.,2026-06-04 01:00:00
+FB00248,A00224,3,high,Đặt lịch online thuận tiện.,2026-05-29 08:45:00
+FB00249,A00454,5,high,Thời gian chờ hợp lý.,2026-06-11 05:45:00
+FB00250,A00867,3,medium,Bác sĩ tư vấn rõ ràng.,2026-06-10 02:30:00
+FB00251,A00513,4,high,Thời gian chờ hợp lý.,2026-06-10 04:00:00
+FB00252,A01135,4,medium,Cần cải thiện khâu check-in.,2026-06-15 07:15:00
+FB00253,A00644,5,high,Phòng khám sạch sẽ.,2026-06-07 08:15:00
+FB00254,A01039,4,high,Thời gian chờ hợp lý.,2026-06-15 01:15:00
+FB00255,A00011,5,medium,Bác sĩ tư vấn rõ ràng.,2026-06-02 08:30:00
+FB00256,A00225,5,high,Nhân viên hỗ trợ tốt.,2026-06-03 04:00:00
+FB00257,A00308,5,medium,Cần cải thiện khâu check-in.,2026-05-31 06:00:00
+FB00258,A00856,4,high,Muốn có thêm slot buổi chiều.,2026-06-12 02:30:00
+FB00259,A00724,5,low,Cần cải thiện khâu check-in.,2026-06-04 07:30:00
+FB00260,A00787,4,medium,Thời gian chờ hợp lý.,2026-06-03 10:15:00
+FB00261,A00713,5,medium,Đặt lịch online thuận tiện.,2026-06-05 16:15:00
+FB00262,A00484,3,high,Cần cải thiện khâu check-in.,2026-06-11 13:45:00
+FB00263,A00386,4,medium,Nhân viên hỗ trợ tốt.,2026-06-02 02:15:00
+FB00264,A00046,5,medium,Phòng khám sạch sẽ.,2026-05-27 11:30:00
+FB00265,A00208,5,low,Muốn có thêm slot buổi chiều.,2026-06-06 08:15:00
+FB00266,A00056,5,medium,Phòng khám sạch sẽ.,2026-05-27 03:45:00
+FB00267,A00833,4,medium,Phòng khám sạch sẽ.,2026-05-31 08:00:00
+FB00268,A00158,4,medium,Bác sĩ tư vấn rõ ràng.,2026-05-28 06:15:00
+FB00269,A00814,5,medium,Đặt lịch online thuận tiện.,2026-06-02 06:30:00
+FB00270,A01118,5,medium,Cần cải thiện khâu check-in.,2026-06-16 07:45:00
+FB00271,A01017,4,high,Bác sĩ tư vấn rõ ràng.,2026-06-14 09:00:00
+FB00272,A00483,5,high,Đặt lịch online thuận tiện.,2026-06-07 13:45:00
+FB00273,A00601,4,medium,Nhân viên hỗ trợ tốt.,2026-06-11 01:30:00
+FB00274,A00061,5,low,Cần cải thiện khâu check-in.,2026-05-22 15:30:00
+FB00275,A00805,5,high,Phòng khám sạch sẽ.,2026-06-12 07:30:00
+FB00276,A00996,4,low,Đặt lịch online thuận tiện.,2026-06-12 11:15:00
+FB00277,A01058,5,low,Muốn có thêm slot buổi chiều.,2026-06-12 06:15:00
+FB00278,A00087,5,high,Phòng khám sạch sẽ.,2026-06-01 06:00:00
+FB00279,A00743,4,high,Nhân viên hỗ trợ tốt.,2026-06-07 07:15:00
+FB00280,A01044,5,medium,Đặt lịch online thuận tiện.,2026-06-09 05:00:00
+FB00281,A00953,5,medium,Đặt lịch online thuận tiện.,2026-06-11 08:45:00
+FB00282,A00624,4,high,Muốn có thêm slot buổi chiều.,2026-05-31 02:00:00
+FB00283,A00929,5,high,Muốn có thêm slot buổi chiều.,2026-06-15 08:30:00
+FB00284,A01041,4,high,Nhân viên hỗ trợ tốt.,2026-06-12 03:15:00
+FB00285,A00831,5,low,Thời gian chờ hợp lý.,2026-06-04 02:45:00
+FB00286,A00603,5,medium,Muốn có thêm slot buổi chiều.,2026-06-10 05:30:00
+FB00287,A00489,4,medium,Nhân viên hỗ trợ tốt.,2026-06-08 02:30:00
+FB00288,A00303,5,high,Bác sĩ tư vấn rõ ràng.,2026-05-29 13:30:00
+FB00289,A00413,5,high,Đặt lịch online thuận tiện.,2026-06-01 10:30:00
+FB00290,A01020,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-12 11:00:00
+FB00291,A00201,5,high,Thời gian chờ hợp lý.,2026-06-01 05:30:00
+FB00292,A00132,5,low,Nhân viên hỗ trợ tốt.,2026-05-31 08:30:00
+FB00293,A00911,5,high,Muốn có thêm slot buổi chiều.,2026-06-12 08:45:00
+FB00294,A00430,5,low,Thời gian chờ hợp lý.,2026-06-11 02:15:00
+FB00295,A01137,3,medium,Bác sĩ tư vấn rõ ràng.,2026-06-08 06:45:00
+FB00296,A00825,5,high,Nhân viên hỗ trợ tốt.,2026-06-09 02:45:00
+FB00297,A01116,5,high,Muốn có thêm slot buổi chiều.,2026-06-08 06:30:00
+FB00298,A00997,4,medium,Cần cải thiện khâu check-in.,2026-06-09 07:15:00
+FB00299,A00349,4,medium,Đặt lịch online thuận tiện.,2026-05-28 02:00:00
+FB00300,A00123,5,medium,Bác sĩ tư vấn rõ ràng.,2026-06-04 07:45:00
+FB00301,A00292,4,low,Thời gian chờ hợp lý.,2026-06-01 08:15:00
+FB00302,A01133,4,medium,Bác sĩ tư vấn rõ ràng.,2026-06-10 11:45:00
+FB00303,A00914,5,high,Muốn có thêm slot buổi chiều.,2026-06-15 04:00:00
+FB00304,A00181,3,high,Thời gian chờ hợp lý.,2026-05-29 03:15:00
+FB00305,A01081,5,medium,Bác sĩ tư vấn rõ ràng.,2026-06-16 05:30:00
+FB00306,A00195,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-03 12:00:00
+FB00307,A00234,3,low,Thời gian chờ hợp lý.,2026-06-01 03:30:00
+FB00308,A00589,3,high,Cần cải thiện khâu check-in.,2026-06-06 05:45:00
+FB00309,A00054,4,medium,Muốn có thêm slot buổi chiều.,2026-05-26 04:15:00
+FB00310,A00257,4,high,Bác sĩ tư vấn rõ ràng.,2026-05-29 10:30:00
+FB00311,A00474,5,high,Nhân viên hỗ trợ tốt.,2026-06-05 13:30:00
+FB00312,A01140,5,high,Nhân viên hỗ trợ tốt.,2026-06-13 14:15:00
+FB00313,A00127,5,medium,Phòng khám sạch sẽ.,2026-05-31 07:30:00
+FB00314,A00506,5,high,Thời gian chờ hợp lý.,2026-05-31 01:45:00
+FB00315,A00699,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-06 05:00:00
+FB00316,A00035,4,medium,Thời gian chờ hợp lý.,2026-06-02 12:15:00
+FB00317,A01009,5,high,Đặt lịch online thuận tiện.,2026-06-05 12:00:00
+FB00318,A00576,4,medium,Cần cải thiện khâu check-in.,2026-06-04 08:45:00
+FB00319,A00645,4,medium,Bác sĩ tư vấn rõ ràng.,2026-05-29 02:45:00
+FB00320,A00639,5,high,Nhân viên hỗ trợ tốt.,2026-06-08 02:00:00
+FB00321,A00348,4,low,Phòng khám sạch sẽ.,2026-05-29 09:15:00
+FB00322,A00239,5,high,Cần cải thiện khâu check-in.,2026-05-31 08:15:00
+FB00323,A00694,5,high,Cần cải thiện khâu check-in.,2026-06-03 12:45:00
+FB00324,A00379,5,high,Cần cải thiện khâu check-in.,2026-06-01 12:00:00
+FB00325,A01113,5,high,Bác sĩ tư vấn rõ ràng.,2026-06-07 00:00:00
+FB00326,A00027,4,high,Bác sĩ tư vấn rõ ràng.,2026-06-01 08:00:00
+FB00327,A00683,5,medium,Nhân viên hỗ trợ tốt.,2026-06-03 05:30:00
+FB00328,A00408,5,high,Muốn có thêm slot buổi chiều.,2026-06-10 03:00:00
+FB00329,A01068,5,low,Đặt lịch online thuận tiện.,2026-06-12 00:30:00
+FB00330,A01130,5,high,Phòng khám sạch sẽ.,2026-06-05 08:30:00
+FB00331,A00584,5,high,Nhân viên hỗ trợ tốt.,2026-06-09 07:00:00
+FB00332,A01049,5,high,Nhân viên hỗ trợ tốt.,2026-06-12 13:15:00
+FB00333,A00547,4,medium,Nhân viên hỗ trợ tốt.,2026-06-10 07:45:00
+FB00334,A00013,5,medium,Nhân viên hỗ trợ tốt.,2026-05-25 10:30:00
+FB00335,A00763,5,medium,Bác sĩ tư vấn rõ ràng.,2026-06-01 02:00:00
+FB00336,A00479,4,high,Bác sĩ tư vấn rõ ràng.,2026-06-09 08:45:00
+FB00337,A00985,5,high,Đặt lịch online thuận tiện.,2026-06-07 01:15:00
+FB00338,A00826,4,high,Phòng khám sạch sẽ.,2026-06-03 09:30:00
+FB00339,A00875,4,medium,Bác sĩ tư vấn rõ ràng.,2026-05-31 11:45:00
+FB00340,A00062,5,low,Cần cải thiện khâu check-in.,2026-05-29 02:15:00
+FB00341,A00102,5,low,Phòng khám sạch sẽ.,2026-05-30 07:00:00
+FB00342,A00659,5,medium,Đặt lịch online thuận tiện.,2026-06-01 06:15:00
+FB00343,A01003,5,high,Thời gian chờ hợp lý.,2026-06-08 02:45:00
+FB00344,A00780,5,medium,Cần cải thiện khâu check-in.,2026-06-01 01:45:00
+FB00345,A00786,4,high,Phòng khám sạch sẽ.,2026-06-04 11:30:00
+FB00346,A00595,4,high,Phòng khám sạch sẽ.,2026-06-06 14:00:00
+FB00347,A00477,4,medium,Đặt lịch online thuận tiện.,2026-06-07 02:30:00
+FB00348,A00614,4,high,Phòng khám sạch sẽ.,2026-06-11 16:00:00
+FB00349,A00491,4,high,Phòng khám sạch sẽ.,2026-06-04 07:45:00
+FB00350,A00124,5,high,Đặt lịch online thuận tiện.,2026-06-02 08:00:00

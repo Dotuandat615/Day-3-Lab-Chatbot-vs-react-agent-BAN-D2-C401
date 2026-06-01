@@ -1,0 +1,2 @@
+﻿hospital_id,hospital_name,address,city,opening_time,closing_time,weekend_available,parking_available,hotline,emergency_note
+H001,VinCare Demo Hospital,"458 Minh Khai, Hai Bà Trưng, Hà Nội",Hà Nội,07:30,17:30,yes,yes,1900 565656,"Nếu đau ngực dữ dội, khó thở nặng, yếu liệt nửa người, ngất, chảy máu nhiều hoặc sốt cao co giật, hãy gọi cấp cứu hoặc đến khoa Cấp cứu gần nhất."

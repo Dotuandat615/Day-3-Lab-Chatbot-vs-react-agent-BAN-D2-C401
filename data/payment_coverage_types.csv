@@ -1,0 +1,4 @@
+﻿coverage_type_id,coverage_name,description,required_documents,note
+COV001,BHYT,Bảo hiểm y tế nhà nước.,Thẻ BHYT; CCCD; giấy chuyển tuyến nếu có yêu cầu.,"Mức hưởng phụ thuộc tuyến khám, giấy tờ hợp lệ và quy định hiện hành."
+COV002,PRIVATE_INSURANCE,Bảo hiểm tư nhân hoặc bảo lãnh viện phí.,Thẻ bảo hiểm tư nhân; CCCD; thông tin hợp đồng hoặc app bảo hiểm nếu có.,Quyền lợi bảo lãnh cần quầy bảo hiểm kiểm tra theo từng hợp đồng.
+COV003,SELF_PAY,Người bệnh tự thanh toán.,CCCD hoặc giấy tờ tùy thân.,"Có thể thanh toán bằng tiền mặt, thẻ hoặc chuyển khoản theo chính sách bệnh viện."
