@@ -1,7 +1,7 @@
 # Individual Report: Lab 3 - Chatbot vs ReAct Agent
 
-- **Student Name**: Duc Anh Do
-- **Student ID**: [Your ID Here]
+- **Student Name**: Đỗ Đức Anh
+- **Student ID**: 2A202600976
 - **Date**: 01/06/2026
 
 ---
